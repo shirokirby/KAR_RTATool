@@ -10,7 +10,7 @@ First, calculate the initial seed. This may take several minutes. By performing 
 ![https://github.com/shirokirby/KAR_RTATool/blob/main/images/5.jpg](https://github.com/shirokirby/KAR_RTATool/blob/main/images/5.jpg)
 ![https://github.com/shirokirby/KAR_RTATool/blob/main/images/6.jpg](https://github.com/shirokirby/KAR_RTATool/blob/main/images/6.jpg)
 
-エアグライダーを出してみましょう。まず、ゲーム設定でスタジアムをポイントストライクにします。そして、スタジアムモードを4回選択してください。これは、スタジアムの履歴をポイントストライクで埋めています。
+エアグライダーを出してみましょう。まず、ゲーム設定でスタジアムをポイントストライクにします。そして、スタジアムモードを4回選択してください。これは、スタジアムの履歴をポイントストライクで埋めています。  
 Let's take out the Air Glider. First, make the stadium "Target Flight" in the game settings. Then select stadium mode 4 times. This fills the history of the stadium with Target Flight. If you're not sure, try "select stadium mode 4 times while in Target Flight" and do this each time.  
 
 ![https://github.com/shirokirby/KAR_RTATool/blob/main/images/7.jpg](https://github.com/shirokirby/KAR_RTATool/blob/main/images/7.jpg)
