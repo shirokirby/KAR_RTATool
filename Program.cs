@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace KarChecklistChecker
+namespace KAR_RTATool
 {
     static class Program
     {

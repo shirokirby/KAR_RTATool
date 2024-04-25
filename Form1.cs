@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using OpenCvSharp;
 using System.Collections.Generic;
 
-namespace KarChecklistChecker
+namespace KAR_RTATool
 {
     public partial class Form1 : Form
     {
@@ -3192,11 +3192,71 @@ namespace KarChecklistChecker
             {
                 this.toolStripMenuItem5.Checked = true;
                 this.toolStripMenuItem6.Checked = false;
+                this.checkBoxStadium1.Text = "ゼロヨンアタック1";
+                this.checkBoxStadium2.Text = "ゼロヨンアタック2";
+                this.checkBoxStadium3.Text = "ゼロヨンアタック3";
+                this.checkBoxStadium4.Text = "ゼロヨンアタック4";
+                this.checkBoxStadium5.Text = "エアグライダー";
+                this.checkBoxStadium6.Text = "ポイントストライク";
+                this.checkBoxStadium7.Text = "ハイジャンプ";
+                this.checkBoxStadium8.Text = "バトルロイヤル1";
+                this.checkBoxStadium9.Text = "バトルロイヤル2";
+                this.checkBoxStadium10.Text = "デスマッチ1";
+                this.checkBoxStadium11.Text = "デスマッチ2";
+                this.checkBoxStadium12.Text = "デスマッチ3";
+                this.checkBoxStadium13.Text = "デスマッチ4";
+                this.checkBoxStadium14.Text = "デスマッチ5";
+                this.checkBoxStadium15.Text = "プランテス";
+                this.checkBoxStadium16.Text = "マグヒート";
+                this.checkBoxStadium17.Text = "サンドーラ";
+                this.checkBoxStadium18.Text = "コルダ";
+                this.checkBoxStadium19.Text = "アイルーン";
+                this.checkBoxStadium20.Text = "ヴァレリオン";
+                this.checkBoxStadium21.Text = "スチールオーガン";
+                this.checkBoxStadium22.Text = "チェックナイト";
+                this.checkBoxStadium23.Text = "ギャラックス";
+                this.checkBoxStadium24.Text = "VSデデデ";
+                this.buttonStadiumDr.Text = "ゼロヨン";
+                this.buttonStadiumDd.Text = "デスマッチ";
+                this.buttonStadiumKm.Text = "バトロイ";
+                this.button6.Text = "初期Seed計算";
+                this.button3.Text = "Seed計算";
+                this.button4.Text = "スタジアム変更して表示";
             }
             else if (toolStripMenuItem.Text == "English")
             {
                 this.toolStripMenuItem5.Checked = false;
                 this.toolStripMenuItem6.Checked = true;
+                this.checkBoxStadium1.Text = "Drag Race 1";
+                this.checkBoxStadium2.Text = "Drag Race 2";
+                this.checkBoxStadium3.Text = "Drag Race 3";
+                this.checkBoxStadium4.Text = "Drag Race 4";
+                this.checkBoxStadium5.Text = "Air Glider";
+                this.checkBoxStadium6.Text = "Target Flight";
+                this.checkBoxStadium7.Text = "High Jump";
+                this.checkBoxStadium8.Text = "Kirby Melee 1";
+                this.checkBoxStadium9.Text = "Kirby Melee 2";
+                this.checkBoxStadium10.Text = "Destruction Derby 1";
+                this.checkBoxStadium11.Text = "Destruction Derby 2";
+                this.checkBoxStadium12.Text = "Destruction Derby 3";
+                this.checkBoxStadium13.Text = "Destruction Derby 4";
+                this.checkBoxStadium14.Text = "Destruction Derby 5";
+                this.checkBoxStadium15.Text = "Fantasy Meadows";
+                this.checkBoxStadium16.Text = "Magma Flows";
+                this.checkBoxStadium17.Text = "Sky Sands";
+                this.checkBoxStadium18.Text = "Frozen Hillside";
+                this.checkBoxStadium19.Text = "Beanstalk Park";
+                this.checkBoxStadium20.Text = "Celestial Valley";
+                this.checkBoxStadium21.Text = "Machine Passage";
+                this.checkBoxStadium22.Text = "Checker Knights";
+                this.checkBoxStadium23.Text = "Nebula Belt";
+                this.checkBoxStadium24.Text = "VS. King Dedede";
+                this.buttonStadiumDr.Text = "DR";
+                this.buttonStadiumDd.Text = "DD";
+                this.buttonStadiumKm.Text = "KM";
+                this.button6.Text = "Setup Seed";
+                this.button3.Text = "Seed Detect";
+                this.button4.Text = "Chenged Stadium and Show";
             }
             return;
         }
@@ -3380,6 +3440,7 @@ namespace KarChecklistChecker
             return;
         }
 
+        /*
         private void InitialDetectSeed(object sender, EventArgs e)
         {
             DetectMachineId();
@@ -3393,27 +3454,17 @@ namespace KarChecklistChecker
             }
             return;
         }
+        */
 
+        /*
         private void KarStadiumPrediction(object sender, EventArgs e)
         {
-            /*
-            long r0 = 0;
-            long r1 = 0;
-            for (long i = 0; i < 4294967308; i++)
-            {
-                r1 = (r0 * 214013 + 2531011) % 4294967296;
-                if (r1 == 572719104)
-                {
-                    this.listBox1.Items.Add(r0);
-                    break;
-                }
-                r0 = r1;
-            }
-            */
             StadiumPrediction();
             return;
         }
+        */
 
+        /*
         private void StadiumPrediction()
         {
             DetectMachineId();
@@ -3427,6 +3478,7 @@ namespace KarChecklistChecker
             }
             return;
         }
+        */
 
         private void DetectMachineId()
         {
@@ -3506,7 +3558,7 @@ namespace KarChecklistChecker
                 mat3.Dispose();
                 matOrig.Dispose();
             }
-            this.textBox2.Text = machines_id;
+            this.Machine_id.Text = machines_id;
 
             foreach (string pathFrom in System.IO.Directory.EnumerateFiles(@".\pic", "*.png"))
             {
@@ -3546,64 +3598,9 @@ namespace KarChecklistChecker
             return stadium;
         }
 
-        /*
-        private long DetectSeed(char[] machine_id)
-        {
-            var tasks = new List<Task>();
-            var seeds = new List<long>();
-            long seed = 0;
-            for (int i = 0; i < 8; i++)
-            {
-                Task task = Task.Run(() => seeds.Add(ParallelDetectSeed(i, machine_id)));
-                tasks.Add(task);
-            }
-            Task t = Task.WhenAll(tasks);
-            try
-            {
-                t.Wait();
-            }
-            catch { }
-            seed = seeds.Find(n => n >= 0);
-            for (int i = 0; i < seeds.Count; i++)
-            {
-                this.listBox1.Items.Add(seeds[i]);
-            }
-            return seed;
-        }
-        */
-
         private long DetectSeed(char[] machine_id, long calculate, int id_number)
         {
             long r0 = Convert.ToInt64(this.label8.Text, 16);
-            /*
-            switch (task_number)
-            {
-                case 0:
-                    r0 = 0;
-                    break;
-                case 1:
-                    r0 = 536870912;
-                    break;
-                case 2:
-                    r0 = 1073741824;
-                    break;
-                case 3:
-                    r0 = 1610612736;
-                    break;
-                case 4:
-                    r0 = 2147483648;
-                    break;
-                case 5:
-                    r0 = 2684354560;
-                    break;
-                case 6:
-                    r0 = 3221225472;
-                    break;
-                case 7:
-                    r0 = 3758096384;
-                    break;
-            }
-            */
             long r1 = 0;
             long rr0 = r0;
             long rr1 = 0;
@@ -3730,133 +3727,293 @@ namespace KarChecklistChecker
                         break;
                     }
                 }
-                switch (stadium_number)
+                if (this.toolStripMenuItem5.Checked == true)
                 {
-                    case 0:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tゼロヨンアタック1");
-                        break;
-                    case 1:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tゼロヨンアタック2");
-                        break;
-                    case 2:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tゼロヨンアタック3");
-                        break;
-                    case 3:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tゼロヨンアタック4");
-                        break;
-                    case 4:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tエアグライダー");
-                        break;
-                    case 5:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tポイントストライク");
-                        break;
-                    case 6:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tハイジャンプ");
-                        break;
-                    case 7:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tバトルロイヤル1");
-                        break;
-                    case 8:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tバトルロイヤル2");
-                        break;
-                    case 9:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tデスマッチ1");
-                        break;
-                    case 10:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tデスマッチ2");
-                        break;
-                    case 11:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tデスマッチ3");
-                        break;
-                    case 12:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tデスマッチ4");
-                        break;
-                    case 13:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tデスマッチ5");
-                        break;
-                    case 14:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tプランテス");
-                        break;
-                    case 15:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tマグヒート");
-                        break;
-                    case 16:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tサンドーラ");
-                        break;
-                    case 17:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tコルダ");
-                        break;
-                    case 18:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tアイルーン");
-                        break;
-                    case 19:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tヴァレリオン");
-                        break;
-                    case 20:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tスチールオーガン");
-                        break;
-                    case 21:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tチェックナイト");
-                        break;
-                    case 22:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tギャラックス");
-                        break;
-                    default:
-                        this.listBox1.Items.Add(i + "\t" + (stadium_number + 1) + "\tVSデデデ");
-                        break;
+                    switch (stadium_number)
+                    {
+                        case 0:
+                            this.listBox1.Items.Add(i + "\tゼロヨンアタック1");
+                            break;
+                        case 1:
+                            this.listBox1.Items.Add(i + "\tゼロヨンアタック2");
+                            break;
+                        case 2:
+                            this.listBox1.Items.Add(i + "\tゼロヨンアタック3");
+                            break;
+                        case 3:
+                            this.listBox1.Items.Add(i + "\tゼロヨンアタック4");
+                            break;
+                        case 4:
+                            this.listBox1.Items.Add(i + "\tエアグライダー");
+                            break;
+                        case 5:
+                            this.listBox1.Items.Add(i + "\tポイントストライク");
+                            break;
+                        case 6:
+                            this.listBox1.Items.Add(i + "\tハイジャンプ");
+                            break;
+                        case 7:
+                            this.listBox1.Items.Add(i + "\tバトルロイヤル1");
+                            break;
+                        case 8:
+                            this.listBox1.Items.Add(i + "\tバトルロイヤル2");
+                            break;
+                        case 9:
+                            this.listBox1.Items.Add(i + "\tデスマッチ1");
+                            break;
+                        case 10:
+                            this.listBox1.Items.Add(i + "\tデスマッチ2");
+                            break;
+                        case 11:
+                            this.listBox1.Items.Add(i + "\tデスマッチ3");
+                            break;
+                        case 12:
+                            this.listBox1.Items.Add(i + "\tデスマッチ4");
+                            break;
+                        case 13:
+                            this.listBox1.Items.Add(i + "\tデスマッチ5");
+                            break;
+                        case 14:
+                            this.listBox1.Items.Add(i + "\tプランテス");
+                            break;
+                        case 15:
+                            this.listBox1.Items.Add(i + "\tマグヒート");
+                            break;
+                        case 16:
+                            this.listBox1.Items.Add(i + "\tサンドーラ");
+                            break;
+                        case 17:
+                            this.listBox1.Items.Add(i + "\tコルダ");
+                            break;
+                        case 18:
+                            this.listBox1.Items.Add(i + "\tアイルーン");
+                            break;
+                        case 19:
+                            this.listBox1.Items.Add(i + "\tヴァレリオン");
+                            break;
+                        case 20:
+                            this.listBox1.Items.Add(i + "\tスチールオーガン");
+                            break;
+                        case 21:
+                            this.listBox1.Items.Add(i + "\tチェックナイト");
+                            break;
+                        case 22:
+                            this.listBox1.Items.Add(i + "\tギャラックス");
+                            break;
+                        default:
+                            this.listBox1.Items.Add(i + "\tVSデデデ");
+                            break;
+                    }
+                }
+                else if (this.toolStripMenuItem6.Checked == true)
+                {
+                    switch (stadium_number)
+                    {
+                        case 0:
+                            this.listBox1.Items.Add(i + "\tDrag Race 1");
+                            break;
+                        case 1:
+                            this.listBox1.Items.Add(i + "\tDrag Race 2");
+                            break;
+                        case 2:
+                            this.listBox1.Items.Add(i + "\tDrag Race 3");
+                            break;
+                        case 3:
+                            this.listBox1.Items.Add(i + "\tDrag Race 4");
+                            break;
+                        case 4:
+                            this.listBox1.Items.Add(i + "\tAir Glider");
+                            break;
+                        case 5:
+                            this.listBox1.Items.Add(i + "\tTarget Flight");
+                            break;
+                        case 6:
+                            this.listBox1.Items.Add(i + "\tHigh Jump");
+                            break;
+                        case 7:
+                            this.listBox1.Items.Add(i + "\tKirby Malee 1");
+                            break;
+                        case 8:
+                            this.listBox1.Items.Add(i + "\tKirby Melee 2");
+                            break;
+                        case 9:
+                            this.listBox1.Items.Add(i + "\tDestruction Derby 1");
+                            break;
+                        case 10:
+                            this.listBox1.Items.Add(i + "\tDestruction Derby 2");
+                            break;
+                        case 11:
+                            this.listBox1.Items.Add(i + "\tDestruction Derby 3");
+                            break;
+                        case 12:
+                            this.listBox1.Items.Add(i + "\tDestruction Derby 4");
+                            break;
+                        case 13:
+                            this.listBox1.Items.Add(i + "\tDestruction Derby 5");
+                            break;
+                        case 14:
+                            this.listBox1.Items.Add(i + "\tFantasy Meadows");
+                            break;
+                        case 15:
+                            this.listBox1.Items.Add(i + "\tMagma Flows");
+                            break;
+                        case 16:
+                            this.listBox1.Items.Add(i + "\tSky Sands");
+                            break;
+                        case 17:
+                            this.listBox1.Items.Add(i + "\tFrozen Hillside");
+                            break;
+                        case 18:
+                            this.listBox1.Items.Add(i + "\tBeanstalk Park");
+                            break;
+                        case 19:
+                            this.listBox1.Items.Add(i + "\tCelestial Valley");
+                            break;
+                        case 20:
+                            this.listBox1.Items.Add(i + "\tMachine Passage");
+                            break;
+                        case 21:
+                            this.listBox1.Items.Add(i + "\tChecker Knights");
+                            break;
+                        case 22:
+                            this.listBox1.Items.Add(i + "\tNebula Belt");
+                            break;
+                        default:
+                            this.listBox1.Items.Add(i + "\tVS. King Dedede");
+                            break;
+                    }
                 }
                 r0 = r1;
-
-                /*
-                r1 = (r0 * 214013 + 2531011) % 4294967296;
-                stadium_threshold = (int)(r1 / threshold);
-                for (int j = 0; j < 24; j++)
-                {
-
-                    if (stadium_threshold - stadium[j] >= 0)
-                    {
-                        stadium_threshold -= (int)stadium[j];
-                        //乱数値の剰余を処理
-                        if (stadium[j] > 0) stadium_last = (uint)j;
-                        if (j == 23) stadium_number = stadium_last;
-                    }
-                    else
-                    {
-                        stadium_number = (uint)j;
-                        break;
-                    }
-                */
             }
             return;
         }
 
         private void MachineIdToPrediction(object sender, EventArgs e)
         {
-            if (this.textBox2.Text.Length >= 10)
+            if (this.Machine_id.Text.Length >= 9)
             {
-                char[] machine_id = this.textBox2.Text.ToCharArray();
-                long seed = DetectSeed(machine_id, 42949672, this.textBox2.Text.Length);
-                this.textBox3.Text = seed.ToString("X");
+                char[] machine_id = this.Machine_id.Text.ToCharArray();
+                long seed = DetectSeed(machine_id, 42949672, this.Machine_id.Text.Length);
+                this.Seed.Text = seed.ToString("X");
                 if (seed >= 0) this.label8.Text = seed.ToString("X");
                 PrintStadium(seed);
             }
+            return;
         }
 
         private void InitialMachineIdToPrediction(object sender, EventArgs e)
         {
-            if (this.textBox2.Text.Length >= 10)
+            if (this.Machine_id.Text.Length >= 10)
             {
-                char[] machine_id = this.textBox2.Text.ToCharArray();
-                long seed = DetectSeed(machine_id, 4294967308, this.textBox2.Text.Length);
-                this.textBox3.Text = seed.ToString("X");
+                char[] machine_id = this.Machine_id.Text.ToCharArray();
+                long seed = DetectSeed(machine_id, 4294967308, this.Machine_id.Text.Length);
+                this.Seed.Text = seed.ToString("X");
                 if (seed >= 0) this.label8.Text = seed.ToString("X");
                 PrintStadium(seed);
             }
+            return;
         }
 
         private void SeedToPrediction(object sender, EventArgs e)
         {
-            PrintStadium(Convert.ToInt64(this.textBox3.Text, 16));
+            PrintStadium(Convert.ToInt64(this.label8.Text, 16));
+            return;
+        }
+
+        private void Jet_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '1';
+            return;
+        }
+
+        private void Formula_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '2';
+            return;
+        }
+
+        private void Winged_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '3';
+            return;
+        }
+
+        private void Warp_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '4';
+            return;
+        }
+
+        private void Compact_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '5';
+            return;
+        }
+
+        private void Shadow_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '6';
+            return;
+        }
+
+        private void Wagon_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '7';
+            return;
+        }
+
+        private void Swerve_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += '8';
+            return;
+        }
+
+        private void Rocket_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'A';
+            return;
+        }
+
+        private void Turbo_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'B';
+            return;
+        }
+
+        private void Bulk_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'C';
+            return;
+        }
+
+        private void Slick_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'D';
+            return;
+        }
+
+        private void Bike_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'E';
+            return;
+        }
+
+        private void Scooter_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'F';
+            return;
+        }
+
+        private void Rex_MouseDown(object sender, MouseEventArgs e)
+        {
+            this.Machine_id.Text += 'G';
+            return;
+        }
+
+        private void ClearMachine_id_Click(object sender, EventArgs e)
+        {
+            this.Machine_id.Text = "";
+            return;
         }
     }
 }

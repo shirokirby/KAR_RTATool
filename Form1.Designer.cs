@@ -1,5 +1,5 @@
 ﻿
-namespace KarChecklistChecker
+namespace KAR_RTATool
 {
     partial class Form1
     {
@@ -186,21 +186,33 @@ namespace KarChecklistChecker
             this.checkBoxCt9 = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.Rex = new System.Windows.Forms.PictureBox();
+            this.Scooter = new System.Windows.Forms.PictureBox();
+            this.Bike = new System.Windows.Forms.PictureBox();
+            this.Slick = new System.Windows.Forms.PictureBox();
+            this.Bulk = new System.Windows.Forms.PictureBox();
+            this.Turbo = new System.Windows.Forms.PictureBox();
+            this.Rocket = new System.Windows.Forms.PictureBox();
+            this.Swerve = new System.Windows.Forms.PictureBox();
+            this.Wagon = new System.Windows.Forms.PictureBox();
+            this.Shadow = new System.Windows.Forms.PictureBox();
+            this.Compact = new System.Windows.Forms.PictureBox();
+            this.Warp = new System.Windows.Forms.PictureBox();
+            this.Winged = new System.Windows.Forms.PictureBox();
+            this.Formula = new System.Windows.Forms.PictureBox();
+            this.Jet = new System.Windows.Forms.PictureBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.buttonStadiumSr = new System.Windows.Forms.Button();
             this.buttonStadiumKm = new System.Windows.Forms.Button();
             this.buttonStadiumDd = new System.Windows.Forms.Button();
             this.buttonStadiumDr = new System.Windows.Forms.Button();
-            this.buttonStadiumPrediction = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Seed = new System.Windows.Forms.TextBox();
+            this.Machine_id = new System.Windows.Forms.TextBox();
             this.buttonStadiumReset = new System.Windows.Forms.Button();
             this.checkBoxStadium24 = new System.Windows.Forms.CheckBox();
             this.checkBoxStadium16 = new System.Windows.Forms.CheckBox();
@@ -226,6 +238,7 @@ namespace KarChecklistChecker
             this.checkBoxStadium9 = new System.Windows.Forms.CheckBox();
             this.checkBoxStadium2 = new System.Windows.Forms.CheckBox();
             this.checkBoxStadium1 = new System.Windows.Forms.CheckBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -241,6 +254,7 @@ namespace KarChecklistChecker
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.ClearMachine_id = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -273,6 +287,21 @@ namespace KarChecklistChecker
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Rex)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Scooter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bike)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Slick)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bulk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Turbo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rocket)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Swerve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Wagon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Shadow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Compact)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Warp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Winged)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Formula)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Jet)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -1944,21 +1973,34 @@ namespace KarChecklistChecker
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.ClearMachine_id);
+            this.tabPage4.Controls.Add(this.Rex);
+            this.tabPage4.Controls.Add(this.Scooter);
+            this.tabPage4.Controls.Add(this.Bike);
+            this.tabPage4.Controls.Add(this.Slick);
+            this.tabPage4.Controls.Add(this.Bulk);
+            this.tabPage4.Controls.Add(this.Turbo);
+            this.tabPage4.Controls.Add(this.Rocket);
+            this.tabPage4.Controls.Add(this.Swerve);
+            this.tabPage4.Controls.Add(this.Wagon);
+            this.tabPage4.Controls.Add(this.Shadow);
+            this.tabPage4.Controls.Add(this.Compact);
+            this.tabPage4.Controls.Add(this.Warp);
+            this.tabPage4.Controls.Add(this.Winged);
+            this.tabPage4.Controls.Add(this.Formula);
+            this.tabPage4.Controls.Add(this.Jet);
             this.tabPage4.Controls.Add(this.button6);
-            this.tabPage4.Controls.Add(this.label8);
-            this.tabPage4.Controls.Add(this.button5);
             this.tabPage4.Controls.Add(this.button4);
             this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Controls.Add(this.buttonStadiumSr);
             this.tabPage4.Controls.Add(this.buttonStadiumKm);
             this.tabPage4.Controls.Add(this.buttonStadiumDd);
             this.tabPage4.Controls.Add(this.buttonStadiumDr);
-            this.tabPage4.Controls.Add(this.buttonStadiumPrediction);
             this.tabPage4.Controls.Add(this.label7);
             this.tabPage4.Controls.Add(this.label6);
             this.tabPage4.Controls.Add(this.listBox1);
-            this.tabPage4.Controls.Add(this.textBox3);
-            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.Seed);
+            this.tabPage4.Controls.Add(this.Machine_id);
             this.tabPage4.Controls.Add(this.buttonStadiumReset);
             this.tabPage4.Controls.Add(this.checkBoxStadium24);
             this.tabPage4.Controls.Add(this.checkBoxStadium16);
@@ -1984,6 +2026,7 @@ namespace KarChecklistChecker
             this.tabPage4.Controls.Add(this.checkBoxStadium9);
             this.tabPage4.Controls.Add(this.checkBoxStadium2);
             this.tabPage4.Controls.Add(this.checkBoxStadium1);
+            this.tabPage4.Controls.Add(this.label8);
             this.tabPage4.Location = new System.Drawing.Point(4, 24);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -1992,52 +2035,183 @@ namespace KarChecklistChecker
             this.tabPage4.Text = "RNG manip";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // Rex
+            // 
+            this.Rex.Image = ((System.Drawing.Image)(resources.GetObject("Rex.Image")));
+            this.Rex.Location = new System.Drawing.Point(368, 80);
+            this.Rex.Name = "Rex";
+            this.Rex.Size = new System.Drawing.Size(46, 46);
+            this.Rex.TabIndex = 31;
+            this.Rex.TabStop = false;
+            this.Rex.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Rex_MouseDown);
+            // 
+            // Scooter
+            // 
+            this.Scooter.Image = ((System.Drawing.Image)(resources.GetObject("Scooter.Image")));
+            this.Scooter.Location = new System.Drawing.Point(316, 80);
+            this.Scooter.Name = "Scooter";
+            this.Scooter.Size = new System.Drawing.Size(46, 46);
+            this.Scooter.TabIndex = 30;
+            this.Scooter.TabStop = false;
+            this.Scooter.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Scooter_MouseDown);
+            // 
+            // Bike
+            // 
+            this.Bike.Image = ((System.Drawing.Image)(resources.GetObject("Bike.Image")));
+            this.Bike.Location = new System.Drawing.Point(264, 80);
+            this.Bike.Name = "Bike";
+            this.Bike.Size = new System.Drawing.Size(46, 46);
+            this.Bike.TabIndex = 29;
+            this.Bike.TabStop = false;
+            this.Bike.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Bike_MouseDown);
+            // 
+            // Slick
+            // 
+            this.Slick.Image = ((System.Drawing.Image)(resources.GetObject("Slick.Image")));
+            this.Slick.Location = new System.Drawing.Point(212, 80);
+            this.Slick.Name = "Slick";
+            this.Slick.Size = new System.Drawing.Size(46, 46);
+            this.Slick.TabIndex = 28;
+            this.Slick.TabStop = false;
+            this.Slick.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Slick_MouseDown);
+            // 
+            // Bulk
+            // 
+            this.Bulk.Image = ((System.Drawing.Image)(resources.GetObject("Bulk.Image")));
+            this.Bulk.Location = new System.Drawing.Point(160, 80);
+            this.Bulk.Name = "Bulk";
+            this.Bulk.Size = new System.Drawing.Size(46, 46);
+            this.Bulk.TabIndex = 27;
+            this.Bulk.TabStop = false;
+            this.Bulk.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Bulk_MouseDown);
+            // 
+            // Turbo
+            // 
+            this.Turbo.Image = ((System.Drawing.Image)(resources.GetObject("Turbo.Image")));
+            this.Turbo.Location = new System.Drawing.Point(108, 80);
+            this.Turbo.Name = "Turbo";
+            this.Turbo.Size = new System.Drawing.Size(46, 46);
+            this.Turbo.TabIndex = 26;
+            this.Turbo.TabStop = false;
+            this.Turbo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Turbo_MouseDown);
+            // 
+            // Rocket
+            // 
+            this.Rocket.Image = ((System.Drawing.Image)(resources.GetObject("Rocket.Image")));
+            this.Rocket.Location = new System.Drawing.Point(56, 80);
+            this.Rocket.Name = "Rocket";
+            this.Rocket.Size = new System.Drawing.Size(46, 46);
+            this.Rocket.TabIndex = 25;
+            this.Rocket.TabStop = false;
+            this.Rocket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Rocket_MouseDown);
+            // 
+            // Swerve
+            // 
+            this.Swerve.Image = ((System.Drawing.Image)(resources.GetObject("Swerve.Image")));
+            this.Swerve.Location = new System.Drawing.Point(394, 28);
+            this.Swerve.Name = "Swerve";
+            this.Swerve.Size = new System.Drawing.Size(46, 46);
+            this.Swerve.TabIndex = 24;
+            this.Swerve.TabStop = false;
+            this.Swerve.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Swerve_MouseDown);
+            // 
+            // Wagon
+            // 
+            this.Wagon.Image = ((System.Drawing.Image)(resources.GetObject("Wagon.Image")));
+            this.Wagon.Location = new System.Drawing.Point(342, 28);
+            this.Wagon.Name = "Wagon";
+            this.Wagon.Size = new System.Drawing.Size(46, 46);
+            this.Wagon.TabIndex = 23;
+            this.Wagon.TabStop = false;
+            this.Wagon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Wagon_MouseDown);
+            // 
+            // Shadow
+            // 
+            this.Shadow.Image = ((System.Drawing.Image)(resources.GetObject("Shadow.Image")));
+            this.Shadow.Location = new System.Drawing.Point(290, 28);
+            this.Shadow.Name = "Shadow";
+            this.Shadow.Size = new System.Drawing.Size(46, 46);
+            this.Shadow.TabIndex = 22;
+            this.Shadow.TabStop = false;
+            this.Shadow.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Shadow_MouseDown);
+            // 
+            // Compact
+            // 
+            this.Compact.Image = ((System.Drawing.Image)(resources.GetObject("Compact.Image")));
+            this.Compact.Location = new System.Drawing.Point(238, 28);
+            this.Compact.Name = "Compact";
+            this.Compact.Size = new System.Drawing.Size(46, 46);
+            this.Compact.TabIndex = 21;
+            this.Compact.TabStop = false;
+            this.Compact.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Compact_MouseDown);
+            // 
+            // Warp
+            // 
+            this.Warp.Image = ((System.Drawing.Image)(resources.GetObject("Warp.Image")));
+            this.Warp.Location = new System.Drawing.Point(186, 28);
+            this.Warp.Name = "Warp";
+            this.Warp.Size = new System.Drawing.Size(46, 46);
+            this.Warp.TabIndex = 20;
+            this.Warp.TabStop = false;
+            this.Warp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Warp_MouseDown);
+            // 
+            // Winged
+            // 
+            this.Winged.Image = ((System.Drawing.Image)(resources.GetObject("Winged.Image")));
+            this.Winged.Location = new System.Drawing.Point(134, 28);
+            this.Winged.Name = "Winged";
+            this.Winged.Size = new System.Drawing.Size(46, 46);
+            this.Winged.TabIndex = 19;
+            this.Winged.TabStop = false;
+            this.Winged.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Winged_MouseDown);
+            // 
+            // Formula
+            // 
+            this.Formula.Image = ((System.Drawing.Image)(resources.GetObject("Formula.Image")));
+            this.Formula.Location = new System.Drawing.Point(82, 28);
+            this.Formula.Name = "Formula";
+            this.Formula.Size = new System.Drawing.Size(46, 46);
+            this.Formula.TabIndex = 18;
+            this.Formula.TabStop = false;
+            this.Formula.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Formula_MouseDown);
+            // 
+            // Jet
+            // 
+            this.Jet.Image = ((System.Drawing.Image)(resources.GetObject("Jet.Image")));
+            this.Jet.Location = new System.Drawing.Point(30, 28);
+            this.Jet.Name = "Jet";
+            this.Jet.Size = new System.Drawing.Size(46, 46);
+            this.Jet.TabIndex = 17;
+            this.Jet.TabStop = false;
+            this.Jet.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Jet_MouseDown);
+            // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(292, 50);
+            this.button6.Location = new System.Drawing.Point(174, 188);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(154, 23);
+            this.button6.Size = new System.Drawing.Size(96, 23);
             this.button6.TabIndex = 16;
-            this.button6.Text = "マシンIDから初期Seed計算";
+            this.button6.Text = "初期Seed計算";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.InitialMachineIdToPrediction);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(174, 86);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(13, 15);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "0";
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(174, 50);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(102, 23);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "初期Seed計算";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.InitialDetectSeed);
-            // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(409, 218);
+            this.button4.Location = new System.Drawing.Point(174, 804);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(63, 23);
+            this.button4.Size = new System.Drawing.Size(228, 23);
             this.button4.TabIndex = 13;
-            this.button4.Text = "Seedから";
+            this.button4.Text = "スタジアム変更して表示";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.SeedToPrediction);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(408, 188);
+            this.button3.Location = new System.Drawing.Point(276, 188);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 23);
+            this.button3.Size = new System.Drawing.Size(126, 23);
             this.button3.TabIndex = 12;
-            this.button3.Text = "IDから";
+            this.button3.Text = "Seed計算";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.MachineIdToPrediction);
             // 
@@ -2081,57 +2255,47 @@ namespace KarChecklistChecker
             this.buttonStadiumDr.UseVisualStyleBackColor = true;
             this.buttonStadiumDr.Click += new System.EventHandler(this.StadiumDr);
             // 
-            // buttonStadiumPrediction
-            // 
-            this.buttonStadiumPrediction.Location = new System.Drawing.Point(174, 146);
-            this.buttonStadiumPrediction.Name = "buttonStadiumPrediction";
-            this.buttonStadiumPrediction.Size = new System.Drawing.Size(228, 23);
-            this.buttonStadiumPrediction.TabIndex = 7;
-            this.buttonStadiumPrediction.Text = "実行";
-            this.buttonStadiumPrediction.UseVisualStyleBackColor = true;
-            this.buttonStadiumPrediction.Click += new System.EventHandler(this.KarStadiumPrediction);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(170, 221);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 15);
+            this.label7.Size = new System.Drawing.Size(32, 15);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Seed値";
+            this.label7.Text = "Seed";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(168, 192);
+            this.label6.Location = new System.Drawing.Point(170, 162);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 15);
+            this.label6.Size = new System.Drawing.Size(67, 15);
             this.label6.TabIndex = 5;
-            this.label6.Text = "マシンID";
+            this.label6.Text = "Machine ID";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(174, 251);
+            this.listBox1.Location = new System.Drawing.Point(174, 246);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(228, 574);
+            this.listBox1.Size = new System.Drawing.Size(228, 544);
             this.listBox1.TabIndex = 4;
             // 
-            // textBox3
+            // Seed
             // 
-            this.textBox3.Location = new System.Drawing.Point(220, 217);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(182, 23);
-            this.textBox3.TabIndex = 3;
-            this.textBox3.Text = "0";
+            this.Seed.Location = new System.Drawing.Point(208, 217);
+            this.Seed.Name = "Seed";
+            this.Seed.Size = new System.Drawing.Size(194, 23);
+            this.Seed.TabIndex = 3;
+            this.Seed.Text = "0";
             // 
-            // textBox2
+            // Machine_id
             // 
-            this.textBox2.Location = new System.Drawing.Point(220, 188);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(182, 23);
-            this.textBox2.TabIndex = 2;
+            this.Machine_id.Location = new System.Drawing.Point(243, 159);
+            this.Machine_id.Name = "Machine_id";
+            this.Machine_id.Size = new System.Drawing.Size(108, 23);
+            this.Machine_id.TabIndex = 2;
             // 
             // buttonStadiumReset
             // 
@@ -2419,6 +2583,15 @@ namespace KarChecklistChecker
             this.checkBoxStadium1.Text = "ゼロヨンアタック1";
             this.checkBoxStadium1.UseVisualStyleBackColor = true;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(231, 220);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(13, 15);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "0";
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(16, 27);
@@ -2551,6 +2724,16 @@ namespace KarChecklistChecker
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Check);
             // 
+            // ClearMachine_id
+            // 
+            this.ClearMachine_id.Location = new System.Drawing.Point(357, 159);
+            this.ClearMachine_id.Name = "ClearMachine_id";
+            this.ClearMachine_id.Size = new System.Drawing.Size(45, 23);
+            this.ClearMachine_id.TabIndex = 32;
+            this.ClearMachine_id.Text = "Clear";
+            this.ClearMachine_id.UseVisualStyleBackColor = true;
+            this.ClearMachine_id.Click += new System.EventHandler(this.ClearMachine_id_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -2603,6 +2786,21 @@ namespace KarChecklistChecker
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Rex)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Scooter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bike)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Slick)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Bulk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Turbo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rocket)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Swerve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Wagon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Shadow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Compact)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Warp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Winged)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Formula)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Jet)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -2810,12 +3008,11 @@ namespace KarChecklistChecker
         private System.Windows.Forms.CheckBox checkBoxStadium9;
         private System.Windows.Forms.CheckBox checkBoxStadium2;
         private System.Windows.Forms.CheckBox checkBoxStadium1;
-        private System.Windows.Forms.Button buttonStadiumPrediction;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Seed;
+        private System.Windows.Forms.TextBox Machine_id;
         private System.Windows.Forms.Button buttonStadiumSr;
         private System.Windows.Forms.Button buttonStadiumKm;
         private System.Windows.Forms.Button buttonStadiumDd;
@@ -2823,8 +3020,23 @@ namespace KarChecklistChecker
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox Rex;
+        private System.Windows.Forms.PictureBox Scooter;
+        private System.Windows.Forms.PictureBox Bike;
+        private System.Windows.Forms.PictureBox Slick;
+        private System.Windows.Forms.PictureBox Bulk;
+        private System.Windows.Forms.PictureBox Turbo;
+        private System.Windows.Forms.PictureBox Rocket;
+        private System.Windows.Forms.PictureBox Swerve;
+        private System.Windows.Forms.PictureBox Wagon;
+        private System.Windows.Forms.PictureBox Shadow;
+        private System.Windows.Forms.PictureBox Compact;
+        private System.Windows.Forms.PictureBox Warp;
+        private System.Windows.Forms.PictureBox Winged;
+        private System.Windows.Forms.PictureBox Formula;
+        private System.Windows.Forms.PictureBox Jet;
+        private System.Windows.Forms.Button ClearMachine_id;
     }
 }
 
