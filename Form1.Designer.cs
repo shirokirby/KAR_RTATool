@@ -31,2781 +31,3009 @@ namespace KAR_RTATool
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.checkBoxAr79 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr78 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr55 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr34 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr35 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr33 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr22 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr21 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr57 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr96 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr102 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr101 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr100 = new System.Windows.Forms.CheckBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.checkBoxAr99 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr98 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr95 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr94 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr93 = new System.Windows.Forms.CheckBox();
-            this.checkBoxAr92 = new System.Windows.Forms.CheckBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.checkBoxTr27 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr100 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr63 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr114 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr115 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr113 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr116 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr118 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr106 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr110 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr111 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr109 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr12 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr78 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr77 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr112 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr96 = new System.Windows.Forms.CheckBox();
-            this.checkBoxTr11 = new System.Windows.Forms.CheckBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt105 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt108 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt109 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt106 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBoxCt68 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt65 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt86 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt81 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt80 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt84 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt83 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt95 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt96 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt3 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt22 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt94 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt41 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt39 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt40 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt30 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt29 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt1 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt2 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt5 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt24 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt23 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt25 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt21 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt20 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt8 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt7 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt6 = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt28 = new System.Windows.Forms.CheckBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt26 = new System.Windows.Forms.CheckBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt27 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt98 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt43 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt44 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt47 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt97 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt46 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt45 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt99 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt104 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt103 = new System.Windows.Forms.CheckBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt100 = new System.Windows.Forms.CheckBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt42 = new System.Windows.Forms.CheckBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt37 = new System.Windows.Forms.CheckBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt36 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt38 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt35 = new System.Windows.Forms.CheckBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt33 = new System.Windows.Forms.CheckBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt34 = new System.Windows.Forms.CheckBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt32 = new System.Windows.Forms.CheckBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt31 = new System.Windows.Forms.CheckBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBoxCt19 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt18 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt17 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt16 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt14 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt15 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt13 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt12 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt11 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt10 = new System.Windows.Forms.CheckBox();
-            this.checkBoxCt9 = new System.Windows.Forms.CheckBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.Rex = new System.Windows.Forms.PictureBox();
-            this.Scooter = new System.Windows.Forms.PictureBox();
-            this.Bike = new System.Windows.Forms.PictureBox();
-            this.Slick = new System.Windows.Forms.PictureBox();
-            this.Bulk = new System.Windows.Forms.PictureBox();
-            this.Turbo = new System.Windows.Forms.PictureBox();
-            this.Rocket = new System.Windows.Forms.PictureBox();
-            this.Swerve = new System.Windows.Forms.PictureBox();
-            this.Wagon = new System.Windows.Forms.PictureBox();
-            this.Shadow = new System.Windows.Forms.PictureBox();
-            this.Compact = new System.Windows.Forms.PictureBox();
-            this.Warp = new System.Windows.Forms.PictureBox();
-            this.Winged = new System.Windows.Forms.PictureBox();
-            this.Formula = new System.Windows.Forms.PictureBox();
-            this.Jet = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.buttonStadiumSr = new System.Windows.Forms.Button();
-            this.buttonStadiumKm = new System.Windows.Forms.Button();
-            this.buttonStadiumDd = new System.Windows.Forms.Button();
-            this.buttonStadiumDr = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.Seed = new System.Windows.Forms.TextBox();
-            this.Machine_id = new System.Windows.Forms.TextBox();
-            this.buttonStadiumReset = new System.Windows.Forms.Button();
-            this.checkBoxStadium24 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium16 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium8 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium23 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium15 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium7 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium22 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium14 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium21 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium13 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium6 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium20 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium12 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium5 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium19 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium11 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium4 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium18 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium10 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium3 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium17 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium9 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium2 = new System.Windows.Forms.CheckBox();
-            this.checkBoxStadium1 = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.ClearMachine_id = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Rex)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Scooter)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bike)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Slick)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bulk)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Turbo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Rocket)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Swerve)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Wagon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Shadow)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Compact)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Warp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Winged)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Formula)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jet)).BeginInit();
-            this.menuStrip1.SuspendLayout();
-            this.SuspendLayout();
+            tabControl1 = new System.Windows.Forms.TabControl();
+            tabPage1 = new System.Windows.Forms.TabPage();
+            checkBoxAr79 = new System.Windows.Forms.CheckBox();
+            checkBoxAr78 = new System.Windows.Forms.CheckBox();
+            checkBoxAr55 = new System.Windows.Forms.CheckBox();
+            checkBoxAr34 = new System.Windows.Forms.CheckBox();
+            checkBoxAr35 = new System.Windows.Forms.CheckBox();
+            checkBoxAr33 = new System.Windows.Forms.CheckBox();
+            checkBoxAr22 = new System.Windows.Forms.CheckBox();
+            checkBoxAr21 = new System.Windows.Forms.CheckBox();
+            checkBoxAr57 = new System.Windows.Forms.CheckBox();
+            checkBoxAr96 = new System.Windows.Forms.CheckBox();
+            checkBoxAr102 = new System.Windows.Forms.CheckBox();
+            checkBoxAr101 = new System.Windows.Forms.CheckBox();
+            checkBoxAr100 = new System.Windows.Forms.CheckBox();
+            label1 = new System.Windows.Forms.Label();
+            checkBoxAr99 = new System.Windows.Forms.CheckBox();
+            checkBoxAr98 = new System.Windows.Forms.CheckBox();
+            checkBoxAr95 = new System.Windows.Forms.CheckBox();
+            checkBoxAr94 = new System.Windows.Forms.CheckBox();
+            checkBoxAr93 = new System.Windows.Forms.CheckBox();
+            checkBoxAr92 = new System.Windows.Forms.CheckBox();
+            tabPage2 = new System.Windows.Forms.TabPage();
+            checkBoxTr27 = new System.Windows.Forms.CheckBox();
+            checkBoxTr100 = new System.Windows.Forms.CheckBox();
+            checkBoxTr63 = new System.Windows.Forms.CheckBox();
+            checkBoxTr114 = new System.Windows.Forms.CheckBox();
+            checkBoxTr115 = new System.Windows.Forms.CheckBox();
+            checkBoxTr113 = new System.Windows.Forms.CheckBox();
+            checkBoxTr116 = new System.Windows.Forms.CheckBox();
+            checkBoxTr118 = new System.Windows.Forms.CheckBox();
+            checkBoxTr106 = new System.Windows.Forms.CheckBox();
+            checkBoxTr110 = new System.Windows.Forms.CheckBox();
+            checkBoxTr111 = new System.Windows.Forms.CheckBox();
+            checkBoxTr109 = new System.Windows.Forms.CheckBox();
+            checkBoxTr12 = new System.Windows.Forms.CheckBox();
+            checkBoxTr78 = new System.Windows.Forms.CheckBox();
+            checkBoxTr77 = new System.Windows.Forms.CheckBox();
+            checkBoxTr112 = new System.Windows.Forms.CheckBox();
+            checkBoxTr96 = new System.Windows.Forms.CheckBox();
+            checkBoxTr11 = new System.Windows.Forms.CheckBox();
+            label2 = new System.Windows.Forms.Label();
+            tabPage3 = new System.Windows.Forms.TabPage();
+            button7 = new System.Windows.Forms.Button();
+            button5 = new System.Windows.Forms.Button();
+            numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            pictureBox27 = new System.Windows.Forms.PictureBox();
+            checkBoxCt105 = new System.Windows.Forms.CheckBox();
+            checkBoxCt108 = new System.Windows.Forms.CheckBox();
+            checkBoxCt109 = new System.Windows.Forms.CheckBox();
+            checkBoxCt106 = new System.Windows.Forms.CheckBox();
+            checkBox15 = new System.Windows.Forms.CheckBox();
+            checkBox14 = new System.Windows.Forms.CheckBox();
+            checkBox13 = new System.Windows.Forms.CheckBox();
+            checkBox12 = new System.Windows.Forms.CheckBox();
+            checkBox11 = new System.Windows.Forms.CheckBox();
+            checkBox10 = new System.Windows.Forms.CheckBox();
+            checkBox9 = new System.Windows.Forms.CheckBox();
+            checkBox8 = new System.Windows.Forms.CheckBox();
+            label5 = new System.Windows.Forms.Label();
+            checkBoxCt68 = new System.Windows.Forms.CheckBox();
+            checkBoxCt65 = new System.Windows.Forms.CheckBox();
+            checkBoxCt86 = new System.Windows.Forms.CheckBox();
+            checkBoxCt81 = new System.Windows.Forms.CheckBox();
+            checkBoxCt80 = new System.Windows.Forms.CheckBox();
+            checkBoxCt84 = new System.Windows.Forms.CheckBox();
+            checkBoxCt83 = new System.Windows.Forms.CheckBox();
+            checkBoxCt95 = new System.Windows.Forms.CheckBox();
+            checkBoxCt96 = new System.Windows.Forms.CheckBox();
+            checkBoxCt3 = new System.Windows.Forms.CheckBox();
+            checkBoxCt22 = new System.Windows.Forms.CheckBox();
+            checkBoxCt94 = new System.Windows.Forms.CheckBox();
+            checkBoxCt41 = new System.Windows.Forms.CheckBox();
+            checkBoxCt39 = new System.Windows.Forms.CheckBox();
+            checkBoxCt40 = new System.Windows.Forms.CheckBox();
+            checkBoxCt30 = new System.Windows.Forms.CheckBox();
+            checkBoxCt29 = new System.Windows.Forms.CheckBox();
+            checkBoxCt1 = new System.Windows.Forms.CheckBox();
+            checkBoxCt2 = new System.Windows.Forms.CheckBox();
+            checkBoxCt5 = new System.Windows.Forms.CheckBox();
+            checkBoxCt24 = new System.Windows.Forms.CheckBox();
+            checkBoxCt23 = new System.Windows.Forms.CheckBox();
+            checkBoxCt25 = new System.Windows.Forms.CheckBox();
+            checkBoxCt21 = new System.Windows.Forms.CheckBox();
+            checkBoxCt20 = new System.Windows.Forms.CheckBox();
+            checkBoxCt8 = new System.Windows.Forms.CheckBox();
+            checkBoxCt7 = new System.Windows.Forms.CheckBox();
+            checkBoxCt6 = new System.Windows.Forms.CheckBox();
+            label4 = new System.Windows.Forms.Label();
+            checkBox7 = new System.Windows.Forms.CheckBox();
+            checkBox6 = new System.Windows.Forms.CheckBox();
+            checkBox5 = new System.Windows.Forms.CheckBox();
+            checkBox4 = new System.Windows.Forms.CheckBox();
+            checkBox3 = new System.Windows.Forms.CheckBox();
+            checkBox2 = new System.Windows.Forms.CheckBox();
+            checkBox1 = new System.Windows.Forms.CheckBox();
+            pictureBox26 = new System.Windows.Forms.PictureBox();
+            checkBoxCt28 = new System.Windows.Forms.CheckBox();
+            pictureBox25 = new System.Windows.Forms.PictureBox();
+            checkBoxCt26 = new System.Windows.Forms.CheckBox();
+            pictureBox24 = new System.Windows.Forms.PictureBox();
+            checkBoxCt27 = new System.Windows.Forms.CheckBox();
+            checkBoxCt98 = new System.Windows.Forms.CheckBox();
+            checkBoxCt43 = new System.Windows.Forms.CheckBox();
+            checkBoxCt44 = new System.Windows.Forms.CheckBox();
+            checkBoxCt47 = new System.Windows.Forms.CheckBox();
+            checkBoxCt97 = new System.Windows.Forms.CheckBox();
+            checkBoxCt46 = new System.Windows.Forms.CheckBox();
+            checkBoxCt45 = new System.Windows.Forms.CheckBox();
+            checkBoxCt99 = new System.Windows.Forms.CheckBox();
+            checkBoxCt104 = new System.Windows.Forms.CheckBox();
+            checkBoxCt103 = new System.Windows.Forms.CheckBox();
+            pictureBox23 = new System.Windows.Forms.PictureBox();
+            checkBoxCt100 = new System.Windows.Forms.CheckBox();
+            pictureBox22 = new System.Windows.Forms.PictureBox();
+            pictureBox21 = new System.Windows.Forms.PictureBox();
+            checkBoxCt42 = new System.Windows.Forms.CheckBox();
+            pictureBox20 = new System.Windows.Forms.PictureBox();
+            checkBoxCt37 = new System.Windows.Forms.CheckBox();
+            pictureBox19 = new System.Windows.Forms.PictureBox();
+            checkBoxCt36 = new System.Windows.Forms.CheckBox();
+            checkBoxCt38 = new System.Windows.Forms.CheckBox();
+            checkBoxCt35 = new System.Windows.Forms.CheckBox();
+            pictureBox18 = new System.Windows.Forms.PictureBox();
+            pictureBox17 = new System.Windows.Forms.PictureBox();
+            checkBoxCt33 = new System.Windows.Forms.CheckBox();
+            pictureBox16 = new System.Windows.Forms.PictureBox();
+            checkBoxCt34 = new System.Windows.Forms.CheckBox();
+            pictureBox15 = new System.Windows.Forms.PictureBox();
+            checkBoxCt32 = new System.Windows.Forms.CheckBox();
+            pictureBox14 = new System.Windows.Forms.PictureBox();
+            pictureBox13 = new System.Windows.Forms.PictureBox();
+            checkBoxCt31 = new System.Windows.Forms.CheckBox();
+            pictureBox12 = new System.Windows.Forms.PictureBox();
+            pictureBox11 = new System.Windows.Forms.PictureBox();
+            pictureBox10 = new System.Windows.Forms.PictureBox();
+            pictureBox9 = new System.Windows.Forms.PictureBox();
+            pictureBox8 = new System.Windows.Forms.PictureBox();
+            pictureBox36 = new System.Windows.Forms.PictureBox();
+            pictureBox35 = new System.Windows.Forms.PictureBox();
+            pictureBox7 = new System.Windows.Forms.PictureBox();
+            pictureBox34 = new System.Windows.Forms.PictureBox();
+            pictureBox33 = new System.Windows.Forms.PictureBox();
+            pictureBox6 = new System.Windows.Forms.PictureBox();
+            pictureBox32 = new System.Windows.Forms.PictureBox();
+            pictureBox5 = new System.Windows.Forms.PictureBox();
+            pictureBox31 = new System.Windows.Forms.PictureBox();
+            pictureBox4 = new System.Windows.Forms.PictureBox();
+            pictureBox30 = new System.Windows.Forms.PictureBox();
+            pictureBox3 = new System.Windows.Forms.PictureBox();
+            pictureBox28 = new System.Windows.Forms.PictureBox();
+            pictureBox2 = new System.Windows.Forms.PictureBox();
+            pictureBox29 = new System.Windows.Forms.PictureBox();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            checkBoxCt19 = new System.Windows.Forms.CheckBox();
+            checkBoxCt18 = new System.Windows.Forms.CheckBox();
+            checkBoxCt17 = new System.Windows.Forms.CheckBox();
+            checkBoxCt16 = new System.Windows.Forms.CheckBox();
+            checkBoxCt14 = new System.Windows.Forms.CheckBox();
+            checkBoxCt15 = new System.Windows.Forms.CheckBox();
+            checkBoxCt13 = new System.Windows.Forms.CheckBox();
+            checkBoxCt12 = new System.Windows.Forms.CheckBox();
+            checkBoxCt11 = new System.Windows.Forms.CheckBox();
+            checkBoxCt10 = new System.Windows.Forms.CheckBox();
+            checkBoxCt9 = new System.Windows.Forms.CheckBox();
+            label3 = new System.Windows.Forms.Label();
+            tabPage4 = new System.Windows.Forms.TabPage();
+            ClearMachine_id = new System.Windows.Forms.Button();
+            Rex = new System.Windows.Forms.PictureBox();
+            Scooter = new System.Windows.Forms.PictureBox();
+            Bike = new System.Windows.Forms.PictureBox();
+            Slick = new System.Windows.Forms.PictureBox();
+            Bulk = new System.Windows.Forms.PictureBox();
+            Turbo = new System.Windows.Forms.PictureBox();
+            Rocket = new System.Windows.Forms.PictureBox();
+            Swerve = new System.Windows.Forms.PictureBox();
+            Wagon = new System.Windows.Forms.PictureBox();
+            Shadow = new System.Windows.Forms.PictureBox();
+            Compact = new System.Windows.Forms.PictureBox();
+            Warp = new System.Windows.Forms.PictureBox();
+            Winged = new System.Windows.Forms.PictureBox();
+            Formula = new System.Windows.Forms.PictureBox();
+            Jet = new System.Windows.Forms.PictureBox();
+            button6 = new System.Windows.Forms.Button();
+            button4 = new System.Windows.Forms.Button();
+            button3 = new System.Windows.Forms.Button();
+            buttonStadiumSr = new System.Windows.Forms.Button();
+            buttonStadiumKm = new System.Windows.Forms.Button();
+            buttonStadiumDd = new System.Windows.Forms.Button();
+            buttonStadiumDr = new System.Windows.Forms.Button();
+            label7 = new System.Windows.Forms.Label();
+            label6 = new System.Windows.Forms.Label();
+            listBox1 = new System.Windows.Forms.ListBox();
+            Seed = new System.Windows.Forms.TextBox();
+            Machine_id = new System.Windows.Forms.TextBox();
+            buttonStadiumReset = new System.Windows.Forms.Button();
+            checkBoxStadium24 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium16 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium8 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium23 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium15 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium7 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium22 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium14 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium21 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium13 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium6 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium20 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium12 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium5 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium19 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium11 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium4 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium18 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium10 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium3 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium17 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium9 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium2 = new System.Windows.Forms.CheckBox();
+            checkBoxStadium1 = new System.Windows.Forms.CheckBox();
+            label8 = new System.Windows.Forms.Label();
+            textBox1 = new System.Windows.Forms.TextBox();
+            menuStrip1 = new System.Windows.Forms.MenuStrip();
+            toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
+            button1 = new System.Windows.Forms.Button();
+            button2 = new System.Windows.Forms.Button();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox25).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Rex).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Scooter).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Bike).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Slick).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Bulk).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Turbo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Rocket).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Swerve).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Wagon).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Shadow).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Compact).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Warp).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Winged).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Formula).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Jet).BeginInit();
+            menuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 71);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(480, 880);
-            this.tabControl1.TabIndex = 0;
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
+            tabControl1.Controls.Add(tabPage4);
+            tabControl1.Location = new System.Drawing.Point(12, 71);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new System.Drawing.Size(480, 880);
+            tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.checkBoxAr79);
-            this.tabPage1.Controls.Add(this.checkBoxAr78);
-            this.tabPage1.Controls.Add(this.checkBoxAr55);
-            this.tabPage1.Controls.Add(this.checkBoxAr34);
-            this.tabPage1.Controls.Add(this.checkBoxAr35);
-            this.tabPage1.Controls.Add(this.checkBoxAr33);
-            this.tabPage1.Controls.Add(this.checkBoxAr22);
-            this.tabPage1.Controls.Add(this.checkBoxAr21);
-            this.tabPage1.Controls.Add(this.checkBoxAr57);
-            this.tabPage1.Controls.Add(this.checkBoxAr96);
-            this.tabPage1.Controls.Add(this.checkBoxAr102);
-            this.tabPage1.Controls.Add(this.checkBoxAr101);
-            this.tabPage1.Controls.Add(this.checkBoxAr100);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.checkBoxAr99);
-            this.tabPage1.Controls.Add(this.checkBoxAr98);
-            this.tabPage1.Controls.Add(this.checkBoxAr95);
-            this.tabPage1.Controls.Add(this.checkBoxAr94);
-            this.tabPage1.Controls.Add(this.checkBoxAr93);
-            this.tabPage1.Controls.Add(this.checkBoxAr92);
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(472, 852);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Air Ride";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            tabPage1.Controls.Add(checkBoxAr79);
+            tabPage1.Controls.Add(checkBoxAr78);
+            tabPage1.Controls.Add(checkBoxAr55);
+            tabPage1.Controls.Add(checkBoxAr34);
+            tabPage1.Controls.Add(checkBoxAr35);
+            tabPage1.Controls.Add(checkBoxAr33);
+            tabPage1.Controls.Add(checkBoxAr22);
+            tabPage1.Controls.Add(checkBoxAr21);
+            tabPage1.Controls.Add(checkBoxAr57);
+            tabPage1.Controls.Add(checkBoxAr96);
+            tabPage1.Controls.Add(checkBoxAr102);
+            tabPage1.Controls.Add(checkBoxAr101);
+            tabPage1.Controls.Add(checkBoxAr100);
+            tabPage1.Controls.Add(label1);
+            tabPage1.Controls.Add(checkBoxAr99);
+            tabPage1.Controls.Add(checkBoxAr98);
+            tabPage1.Controls.Add(checkBoxAr95);
+            tabPage1.Controls.Add(checkBoxAr94);
+            tabPage1.Controls.Add(checkBoxAr93);
+            tabPage1.Controls.Add(checkBoxAr92);
+            tabPage1.Location = new System.Drawing.Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            tabPage1.Size = new System.Drawing.Size(472, 852);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Air Ride";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr79
             // 
-            this.checkBoxAr79.AutoSize = true;
-            this.checkBoxAr79.Location = new System.Drawing.Point(219, 219);
-            this.checkBoxAr79.Name = "checkBoxAr79";
-            this.checkBoxAr79.Size = new System.Drawing.Size(101, 19);
-            this.checkBoxAr79.TabIndex = 140;
-            this.checkBoxAr79.Text = "カベにさわらない";
-            this.checkBoxAr79.UseVisualStyleBackColor = true;
+            checkBoxAr79.AutoSize = true;
+            checkBoxAr79.Location = new System.Drawing.Point(219, 219);
+            checkBoxAr79.Name = "checkBoxAr79";
+            checkBoxAr79.Size = new System.Drawing.Size(101, 19);
+            checkBoxAr79.TabIndex = 140;
+            checkBoxAr79.Text = "カベにさわらない";
+            checkBoxAr79.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr78
             // 
-            this.checkBoxAr78.AutoSize = true;
-            this.checkBoxAr78.Location = new System.Drawing.Point(122, 219);
-            this.checkBoxAr78.Name = "checkBoxAr78";
-            this.checkBoxAr78.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxAr78.TabIndex = 139;
-            this.checkBoxAr78.Text = "大砲";
-            this.checkBoxAr78.UseVisualStyleBackColor = true;
+            checkBoxAr78.AutoSize = true;
+            checkBoxAr78.Location = new System.Drawing.Point(122, 219);
+            checkBoxAr78.Name = "checkBoxAr78";
+            checkBoxAr78.Size = new System.Drawing.Size(50, 19);
+            checkBoxAr78.TabIndex = 139;
+            checkBoxAr78.Text = "大砲";
+            checkBoxAr78.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr55
             // 
-            this.checkBoxAr55.AutoSize = true;
-            this.checkBoxAr55.Location = new System.Drawing.Point(122, 193);
-            this.checkBoxAr55.Name = "checkBoxAr55";
-            this.checkBoxAr55.Size = new System.Drawing.Size(90, 19);
-            this.checkBoxAr55.TabIndex = 138;
-            this.checkBoxAr55.Text = "ダッシュパネル";
-            this.checkBoxAr55.UseVisualStyleBackColor = true;
+            checkBoxAr55.AutoSize = true;
+            checkBoxAr55.Location = new System.Drawing.Point(122, 193);
+            checkBoxAr55.Name = "checkBoxAr55";
+            checkBoxAr55.Size = new System.Drawing.Size(90, 19);
+            checkBoxAr55.TabIndex = 138;
+            checkBoxAr55.Text = "ダッシュパネル";
+            checkBoxAr55.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr34
             // 
-            this.checkBoxAr34.AutoSize = true;
-            this.checkBoxAr34.Location = new System.Drawing.Point(288, 167);
-            this.checkBoxAr34.Name = "checkBoxAr34";
-            this.checkBoxAr34.Size = new System.Drawing.Size(102, 19);
-            this.checkBoxAr34.TabIndex = 137;
-            this.checkBoxAr34.Text = "地下への入り口";
-            this.checkBoxAr34.UseVisualStyleBackColor = true;
+            checkBoxAr34.AutoSize = true;
+            checkBoxAr34.Location = new System.Drawing.Point(288, 167);
+            checkBoxAr34.Name = "checkBoxAr34";
+            checkBoxAr34.Size = new System.Drawing.Size(102, 19);
+            checkBoxAr34.TabIndex = 137;
+            checkBoxAr34.Text = "地下への入り口";
+            checkBoxAr34.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr35
             // 
-            this.checkBoxAr35.AutoSize = true;
-            this.checkBoxAr35.Location = new System.Drawing.Point(219, 167);
-            this.checkBoxAr35.Name = "checkBoxAr35";
-            this.checkBoxAr35.Size = new System.Drawing.Size(54, 19);
-            this.checkBoxAr35.TabIndex = 136;
-            this.checkBoxAr35.Text = "サンゴ";
-            this.checkBoxAr35.UseVisualStyleBackColor = true;
+            checkBoxAr35.AutoSize = true;
+            checkBoxAr35.Location = new System.Drawing.Point(219, 167);
+            checkBoxAr35.Name = "checkBoxAr35";
+            checkBoxAr35.Size = new System.Drawing.Size(54, 19);
+            checkBoxAr35.TabIndex = 136;
+            checkBoxAr35.Text = "サンゴ";
+            checkBoxAr35.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr33
             // 
-            this.checkBoxAr33.AutoSize = true;
-            this.checkBoxAr33.Location = new System.Drawing.Point(122, 167);
-            this.checkBoxAr33.Name = "checkBoxAr33";
-            this.checkBoxAr33.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxAr33.TabIndex = 135;
-            this.checkBoxAr33.Text = "流砂";
-            this.checkBoxAr33.UseVisualStyleBackColor = true;
+            checkBoxAr33.AutoSize = true;
+            checkBoxAr33.Location = new System.Drawing.Point(122, 167);
+            checkBoxAr33.Name = "checkBoxAr33";
+            checkBoxAr33.Size = new System.Drawing.Size(50, 19);
+            checkBoxAr33.TabIndex = 135;
+            checkBoxAr33.Text = "流砂";
+            checkBoxAr33.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr22
             // 
-            this.checkBoxAr22.AutoSize = true;
-            this.checkBoxAr22.Location = new System.Drawing.Point(219, 141);
-            this.checkBoxAr22.Name = "checkBoxAr22";
-            this.checkBoxAr22.Size = new System.Drawing.Size(69, 19);
-            this.checkBoxAr22.TabIndex = 134;
-            this.checkBoxAr22.Text = "ルーレット";
-            this.checkBoxAr22.UseVisualStyleBackColor = true;
+            checkBoxAr22.AutoSize = true;
+            checkBoxAr22.Location = new System.Drawing.Point(219, 141);
+            checkBoxAr22.Name = "checkBoxAr22";
+            checkBoxAr22.Size = new System.Drawing.Size(69, 19);
+            checkBoxAr22.TabIndex = 134;
+            checkBoxAr22.Text = "ルーレット";
+            checkBoxAr22.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr21
             // 
-            this.checkBoxAr21.AutoSize = true;
-            this.checkBoxAr21.Location = new System.Drawing.Point(122, 141);
-            this.checkBoxAr21.Name = "checkBoxAr21";
-            this.checkBoxAr21.Size = new System.Drawing.Size(56, 19);
-            this.checkBoxAr21.TabIndex = 133;
-            this.checkBoxAr21.Text = "手すり";
-            this.checkBoxAr21.UseVisualStyleBackColor = true;
+            checkBoxAr21.AutoSize = true;
+            checkBoxAr21.Location = new System.Drawing.Point(122, 141);
+            checkBoxAr21.Name = "checkBoxAr21";
+            checkBoxAr21.Size = new System.Drawing.Size(56, 19);
+            checkBoxAr21.TabIndex = 133;
+            checkBoxAr21.Text = "手すり";
+            checkBoxAr21.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr57
             // 
-            this.checkBoxAr57.AutoSize = true;
-            this.checkBoxAr57.Location = new System.Drawing.Point(219, 193);
-            this.checkBoxAr57.Name = "checkBoxAr57";
-            this.checkBoxAr57.Size = new System.Drawing.Size(62, 19);
-            this.checkBoxAr57.TabIndex = 132;
-            this.checkBoxAr57.Text = "火炎龍";
-            this.checkBoxAr57.UseVisualStyleBackColor = true;
+            checkBoxAr57.AutoSize = true;
+            checkBoxAr57.Location = new System.Drawing.Point(219, 193);
+            checkBoxAr57.Name = "checkBoxAr57";
+            checkBoxAr57.Size = new System.Drawing.Size(62, 19);
+            checkBoxAr57.TabIndex = 132;
+            checkBoxAr57.Text = "火炎龍";
+            checkBoxAr57.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr96
             // 
-            this.checkBoxAr96.AutoSize = true;
-            this.checkBoxAr96.Location = new System.Drawing.Point(6, 369);
-            this.checkBoxAr96.Name = "checkBoxAr96";
-            this.checkBoxAr96.Size = new System.Drawing.Size(83, 19);
-            this.checkBoxAr96.TabIndex = 131;
-            this.checkBoxAr96.Text = "ソード10振り";
-            this.checkBoxAr96.UseVisualStyleBackColor = true;
+            checkBoxAr96.AutoSize = true;
+            checkBoxAr96.Location = new System.Drawing.Point(6, 369);
+            checkBoxAr96.Name = "checkBoxAr96";
+            checkBoxAr96.Size = new System.Drawing.Size(83, 19);
+            checkBoxAr96.TabIndex = 131;
+            checkBoxAr96.Text = "ソード10振り";
+            checkBoxAr96.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr102
             // 
-            this.checkBoxAr102.AutoSize = true;
-            this.checkBoxAr102.Location = new System.Drawing.Point(6, 344);
-            this.checkBoxAr102.Name = "checkBoxAr102";
-            this.checkBoxAr102.Size = new System.Drawing.Size(62, 19);
-            this.checkBoxAr102.TabIndex = 130;
-            this.checkBoxAr102.Text = "スカ5連";
-            this.checkBoxAr102.UseVisualStyleBackColor = true;
+            checkBoxAr102.AutoSize = true;
+            checkBoxAr102.Location = new System.Drawing.Point(6, 344);
+            checkBoxAr102.Name = "checkBoxAr102";
+            checkBoxAr102.Size = new System.Drawing.Size(62, 19);
+            checkBoxAr102.TabIndex = 130;
+            checkBoxAr102.Text = "スカ5連";
+            checkBoxAr102.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr101
             // 
-            this.checkBoxAr101.AutoSize = true;
-            this.checkBoxAr101.Location = new System.Drawing.Point(6, 319);
-            this.checkBoxAr101.Name = "checkBoxAr101";
-            this.checkBoxAr101.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxAr101.TabIndex = 129;
-            this.checkBoxAr101.Text = "ウィリー3体";
-            this.checkBoxAr101.UseVisualStyleBackColor = true;
+            checkBoxAr101.AutoSize = true;
+            checkBoxAr101.Location = new System.Drawing.Point(6, 319);
+            checkBoxAr101.Name = "checkBoxAr101";
+            checkBoxAr101.Size = new System.Drawing.Size(76, 19);
+            checkBoxAr101.TabIndex = 129;
+            checkBoxAr101.Text = "ウィリー3体";
+            checkBoxAr101.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr100
             // 
-            this.checkBoxAr100.AutoSize = true;
-            this.checkBoxAr100.Location = new System.Drawing.Point(6, 294);
-            this.checkBoxAr100.Name = "checkBoxAr100";
-            this.checkBoxAr100.Size = new System.Drawing.Size(95, 19);
-            this.checkBoxAr100.TabIndex = 128;
-            this.checkBoxAr100.Text = "ソードナイト3体";
-            this.checkBoxAr100.UseVisualStyleBackColor = true;
+            checkBoxAr100.AutoSize = true;
+            checkBoxAr100.Location = new System.Drawing.Point(6, 294);
+            checkBoxAr100.Name = "checkBoxAr100";
+            checkBoxAr100.Size = new System.Drawing.Size(95, 19);
+            checkBoxAr100.TabIndex = 128;
+            checkBoxAr100.Text = "ソードナイト3体";
+            checkBoxAr100.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(433, 107);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "0";
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(433, 107);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(13, 15);
+            label1.TabIndex = 2;
+            label1.Text = "0";
             // 
             // checkBoxAr99
             // 
-            this.checkBoxAr99.AutoSize = true;
-            this.checkBoxAr99.Location = new System.Drawing.Point(6, 269);
-            this.checkBoxAr99.Name = "checkBoxAr99";
-            this.checkBoxAr99.Size = new System.Drawing.Size(113, 19);
-            this.checkBoxAr99.TabIndex = 127;
-            this.checkBoxAr99.Text = "プラズマウィスプ3体";
-            this.checkBoxAr99.UseVisualStyleBackColor = true;
+            checkBoxAr99.AutoSize = true;
+            checkBoxAr99.Location = new System.Drawing.Point(6, 269);
+            checkBoxAr99.Name = "checkBoxAr99";
+            checkBoxAr99.Size = new System.Drawing.Size(113, 19);
+            checkBoxAr99.TabIndex = 127;
+            checkBoxAr99.Text = "プラズマウィスプ3体";
+            checkBoxAr99.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr98
             // 
-            this.checkBoxAr98.AutoSize = true;
-            this.checkBoxAr98.Location = new System.Drawing.Point(6, 244);
-            this.checkBoxAr98.Name = "checkBoxAr98";
-            this.checkBoxAr98.Size = new System.Drawing.Size(69, 19);
-            this.checkBoxAr98.TabIndex = 126;
-            this.checkBoxAr98.Text = "チリー3体";
-            this.checkBoxAr98.UseVisualStyleBackColor = true;
+            checkBoxAr98.AutoSize = true;
+            checkBoxAr98.Location = new System.Drawing.Point(6, 244);
+            checkBoxAr98.Name = "checkBoxAr98";
+            checkBoxAr98.Size = new System.Drawing.Size(69, 19);
+            checkBoxAr98.TabIndex = 126;
+            checkBoxAr98.Text = "チリー3体";
+            checkBoxAr98.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr95
             // 
-            this.checkBoxAr95.AutoSize = true;
-            this.checkBoxAr95.Location = new System.Drawing.Point(6, 219);
-            this.checkBoxAr95.Name = "checkBoxAr95";
-            this.checkBoxAr95.Size = new System.Drawing.Size(87, 19);
-            this.checkBoxAr95.TabIndex = 124;
-            this.checkBoxAr95.Text = "ウィングゴール";
-            this.checkBoxAr95.UseVisualStyleBackColor = true;
+            checkBoxAr95.AutoSize = true;
+            checkBoxAr95.Location = new System.Drawing.Point(6, 219);
+            checkBoxAr95.Name = "checkBoxAr95";
+            checkBoxAr95.Size = new System.Drawing.Size(87, 19);
+            checkBoxAr95.TabIndex = 124;
+            checkBoxAr95.Text = "ウィングゴール";
+            checkBoxAr95.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr94
             // 
-            this.checkBoxAr94.AutoSize = true;
-            this.checkBoxAr94.Location = new System.Drawing.Point(6, 193);
-            this.checkBoxAr94.Name = "checkBoxAr94";
-            this.checkBoxAr94.Size = new System.Drawing.Size(88, 19);
-            this.checkBoxAr94.TabIndex = 123;
-            this.checkBoxAr94.Text = "ニードルゴール";
-            this.checkBoxAr94.UseVisualStyleBackColor = true;
+            checkBoxAr94.AutoSize = true;
+            checkBoxAr94.Location = new System.Drawing.Point(6, 193);
+            checkBoxAr94.Name = "checkBoxAr94";
+            checkBoxAr94.Size = new System.Drawing.Size(88, 19);
+            checkBoxAr94.TabIndex = 123;
+            checkBoxAr94.Text = "ニードルゴール";
+            checkBoxAr94.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr93
             // 
-            this.checkBoxAr93.AutoSize = true;
-            this.checkBoxAr93.Location = new System.Drawing.Point(6, 167);
-            this.checkBoxAr93.Name = "checkBoxAr93";
-            this.checkBoxAr93.Size = new System.Drawing.Size(86, 19);
-            this.checkBoxAr93.TabIndex = 122;
-            this.checkBoxAr93.Text = "ファイアゴール";
-            this.checkBoxAr93.UseVisualStyleBackColor = true;
+            checkBoxAr93.AutoSize = true;
+            checkBoxAr93.Location = new System.Drawing.Point(6, 167);
+            checkBoxAr93.Name = "checkBoxAr93";
+            checkBoxAr93.Size = new System.Drawing.Size(86, 19);
+            checkBoxAr93.TabIndex = 122;
+            checkBoxAr93.Text = "ファイアゴール";
+            checkBoxAr93.UseVisualStyleBackColor = true;
             // 
             // checkBoxAr92
             // 
-            this.checkBoxAr92.AutoSize = true;
-            this.checkBoxAr92.Location = new System.Drawing.Point(6, 141);
-            this.checkBoxAr92.Name = "checkBoxAr92";
-            this.checkBoxAr92.Size = new System.Drawing.Size(86, 19);
-            this.checkBoxAr92.TabIndex = 121;
-            this.checkBoxAr92.Text = "スリープゴール";
-            this.checkBoxAr92.UseVisualStyleBackColor = true;
+            checkBoxAr92.AutoSize = true;
+            checkBoxAr92.Location = new System.Drawing.Point(6, 141);
+            checkBoxAr92.Name = "checkBoxAr92";
+            checkBoxAr92.Size = new System.Drawing.Size(86, 19);
+            checkBoxAr92.TabIndex = 121;
+            checkBoxAr92.Text = "スリープゴール";
+            checkBoxAr92.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.checkBoxTr27);
-            this.tabPage2.Controls.Add(this.checkBoxTr100);
-            this.tabPage2.Controls.Add(this.checkBoxTr63);
-            this.tabPage2.Controls.Add(this.checkBoxTr114);
-            this.tabPage2.Controls.Add(this.checkBoxTr115);
-            this.tabPage2.Controls.Add(this.checkBoxTr113);
-            this.tabPage2.Controls.Add(this.checkBoxTr116);
-            this.tabPage2.Controls.Add(this.checkBoxTr118);
-            this.tabPage2.Controls.Add(this.checkBoxTr106);
-            this.tabPage2.Controls.Add(this.checkBoxTr110);
-            this.tabPage2.Controls.Add(this.checkBoxTr111);
-            this.tabPage2.Controls.Add(this.checkBoxTr109);
-            this.tabPage2.Controls.Add(this.checkBoxTr12);
-            this.tabPage2.Controls.Add(this.checkBoxTr78);
-            this.tabPage2.Controls.Add(this.checkBoxTr77);
-            this.tabPage2.Controls.Add(this.checkBoxTr112);
-            this.tabPage2.Controls.Add(this.checkBoxTr96);
-            this.tabPage2.Controls.Add(this.checkBoxTr11);
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(472, 852);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Top Ride";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            tabPage2.Controls.Add(checkBoxTr27);
+            tabPage2.Controls.Add(checkBoxTr100);
+            tabPage2.Controls.Add(checkBoxTr63);
+            tabPage2.Controls.Add(checkBoxTr114);
+            tabPage2.Controls.Add(checkBoxTr115);
+            tabPage2.Controls.Add(checkBoxTr113);
+            tabPage2.Controls.Add(checkBoxTr116);
+            tabPage2.Controls.Add(checkBoxTr118);
+            tabPage2.Controls.Add(checkBoxTr106);
+            tabPage2.Controls.Add(checkBoxTr110);
+            tabPage2.Controls.Add(checkBoxTr111);
+            tabPage2.Controls.Add(checkBoxTr109);
+            tabPage2.Controls.Add(checkBoxTr12);
+            tabPage2.Controls.Add(checkBoxTr78);
+            tabPage2.Controls.Add(checkBoxTr77);
+            tabPage2.Controls.Add(checkBoxTr112);
+            tabPage2.Controls.Add(checkBoxTr96);
+            tabPage2.Controls.Add(checkBoxTr11);
+            tabPage2.Controls.Add(label2);
+            tabPage2.Location = new System.Drawing.Point(4, 24);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            tabPage2.Size = new System.Drawing.Size(472, 852);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Top Ride";
+            tabPage2.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr27
             // 
-            this.checkBoxTr27.AutoSize = true;
-            this.checkBoxTr27.Location = new System.Drawing.Point(195, 243);
-            this.checkBoxTr27.Name = "checkBoxTr27";
-            this.checkBoxTr27.Size = new System.Drawing.Size(92, 19);
-            this.checkBoxTr27.TabIndex = 21;
-            this.checkBoxTr27.Text = "ありじごく50回";
-            this.checkBoxTr27.UseVisualStyleBackColor = true;
+            checkBoxTr27.AutoSize = true;
+            checkBoxTr27.Location = new System.Drawing.Point(195, 243);
+            checkBoxTr27.Name = "checkBoxTr27";
+            checkBoxTr27.Size = new System.Drawing.Size(92, 19);
+            checkBoxTr27.TabIndex = 21;
+            checkBoxTr27.Text = "ありじごく50回";
+            checkBoxTr27.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr100
             // 
-            this.checkBoxTr100.AutoSize = true;
-            this.checkBoxTr100.Location = new System.Drawing.Point(195, 167);
-            this.checkBoxTr100.Name = "checkBoxTr100";
-            this.checkBoxTr100.Size = new System.Drawing.Size(80, 19);
-            this.checkBoxTr100.TabIndex = 20;
-            this.checkBoxTr100.Text = "総計300周";
-            this.checkBoxTr100.UseVisualStyleBackColor = true;
+            checkBoxTr100.AutoSize = true;
+            checkBoxTr100.Location = new System.Drawing.Point(195, 167);
+            checkBoxTr100.Name = "checkBoxTr100";
+            checkBoxTr100.Size = new System.Drawing.Size(80, 19);
+            checkBoxTr100.TabIndex = 20;
+            checkBoxTr100.Text = "総計300周";
+            checkBoxTr100.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr63
             // 
-            this.checkBoxTr63.AutoSize = true;
-            this.checkBoxTr63.Location = new System.Drawing.Point(195, 141);
-            this.checkBoxTr63.Name = "checkBoxTr63";
-            this.checkBoxTr63.Size = new System.Drawing.Size(77, 19);
-            this.checkBoxTr63.TabIndex = 19;
-            this.checkBoxTr63.Text = "レール50回";
-            this.checkBoxTr63.UseVisualStyleBackColor = true;
+            checkBoxTr63.AutoSize = true;
+            checkBoxTr63.Location = new System.Drawing.Point(195, 141);
+            checkBoxTr63.Name = "checkBoxTr63";
+            checkBoxTr63.Size = new System.Drawing.Size(77, 19);
+            checkBoxTr63.TabIndex = 19;
+            checkBoxTr63.Text = "レール50回";
+            checkBoxTr63.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr114
             // 
-            this.checkBoxTr114.AutoSize = true;
-            this.checkBoxTr114.Location = new System.Drawing.Point(120, 244);
-            this.checkBoxTr114.Name = "checkBoxTr114";
-            this.checkBoxTr114.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxTr114.TabIndex = 18;
-            this.checkBoxTr114.Text = "砂100周";
-            this.checkBoxTr114.UseVisualStyleBackColor = true;
+            checkBoxTr114.AutoSize = true;
+            checkBoxTr114.Location = new System.Drawing.Point(120, 244);
+            checkBoxTr114.Name = "checkBoxTr114";
+            checkBoxTr114.Size = new System.Drawing.Size(68, 19);
+            checkBoxTr114.TabIndex = 18;
+            checkBoxTr114.Text = "砂100周";
+            checkBoxTr114.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr115
             // 
-            this.checkBoxTr115.AutoSize = true;
-            this.checkBoxTr115.Location = new System.Drawing.Point(120, 218);
-            this.checkBoxTr115.Name = "checkBoxTr115";
-            this.checkBoxTr115.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxTr115.TabIndex = 17;
-            this.checkBoxTr115.Text = "空100周";
-            this.checkBoxTr115.UseVisualStyleBackColor = true;
+            checkBoxTr115.AutoSize = true;
+            checkBoxTr115.Location = new System.Drawing.Point(120, 218);
+            checkBoxTr115.Name = "checkBoxTr115";
+            checkBoxTr115.Size = new System.Drawing.Size(68, 19);
+            checkBoxTr115.TabIndex = 17;
+            checkBoxTr115.Text = "空100周";
+            checkBoxTr115.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr113
             // 
-            this.checkBoxTr113.AutoSize = true;
-            this.checkBoxTr113.Location = new System.Drawing.Point(120, 193);
-            this.checkBoxTr113.Name = "checkBoxTr113";
-            this.checkBoxTr113.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxTr113.TabIndex = 16;
-            this.checkBoxTr113.Text = "草100周";
-            this.checkBoxTr113.UseVisualStyleBackColor = true;
+            checkBoxTr113.AutoSize = true;
+            checkBoxTr113.Location = new System.Drawing.Point(120, 193);
+            checkBoxTr113.Name = "checkBoxTr113";
+            checkBoxTr113.Size = new System.Drawing.Size(68, 19);
+            checkBoxTr113.TabIndex = 16;
+            checkBoxTr113.Text = "草100周";
+            checkBoxTr113.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr116
             // 
-            this.checkBoxTr116.AutoSize = true;
-            this.checkBoxTr116.Location = new System.Drawing.Point(120, 167);
-            this.checkBoxTr116.Name = "checkBoxTr116";
-            this.checkBoxTr116.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxTr116.TabIndex = 15;
-            this.checkBoxTr116.Text = "炎100周";
-            this.checkBoxTr116.UseVisualStyleBackColor = true;
+            checkBoxTr116.AutoSize = true;
+            checkBoxTr116.Location = new System.Drawing.Point(120, 167);
+            checkBoxTr116.Name = "checkBoxTr116";
+            checkBoxTr116.Size = new System.Drawing.Size(68, 19);
+            checkBoxTr116.TabIndex = 15;
+            checkBoxTr116.Text = "炎100周";
+            checkBoxTr116.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr118
             // 
-            this.checkBoxTr118.AutoSize = true;
-            this.checkBoxTr118.Location = new System.Drawing.Point(120, 141);
-            this.checkBoxTr118.Name = "checkBoxTr118";
-            this.checkBoxTr118.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxTr118.TabIndex = 14;
-            this.checkBoxTr118.Text = "光100周";
-            this.checkBoxTr118.UseVisualStyleBackColor = true;
+            checkBoxTr118.AutoSize = true;
+            checkBoxTr118.Location = new System.Drawing.Point(120, 141);
+            checkBoxTr118.Name = "checkBoxTr118";
+            checkBoxTr118.Size = new System.Drawing.Size(68, 19);
+            checkBoxTr118.TabIndex = 14;
+            checkBoxTr118.Text = "光100周";
+            checkBoxTr118.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr106
             // 
-            this.checkBoxTr106.AutoSize = true;
-            this.checkBoxTr106.Location = new System.Drawing.Point(6, 218);
-            this.checkBoxTr106.Name = "checkBoxTr106";
-            this.checkBoxTr106.Size = new System.Drawing.Size(92, 19);
-            this.checkBoxTr106.TabIndex = 13;
-            this.checkBoxTr106.Text = "アイテム500個";
-            this.checkBoxTr106.UseVisualStyleBackColor = true;
+            checkBoxTr106.AutoSize = true;
+            checkBoxTr106.Location = new System.Drawing.Point(6, 218);
+            checkBoxTr106.Name = "checkBoxTr106";
+            checkBoxTr106.Size = new System.Drawing.Size(92, 19);
+            checkBoxTr106.TabIndex = 13;
+            checkBoxTr106.Text = "アイテム500個";
+            checkBoxTr106.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr110
             // 
-            this.checkBoxTr110.AutoSize = true;
-            this.checkBoxTr110.Location = new System.Drawing.Point(6, 368);
-            this.checkBoxTr110.Name = "checkBoxTr110";
-            this.checkBoxTr110.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxTr110.TabIndex = 12;
-            this.checkBoxTr110.Text = "キャンディ";
-            this.checkBoxTr110.UseVisualStyleBackColor = true;
+            checkBoxTr110.AutoSize = true;
+            checkBoxTr110.Location = new System.Drawing.Point(6, 368);
+            checkBoxTr110.Name = "checkBoxTr110";
+            checkBoxTr110.Size = new System.Drawing.Size(68, 19);
+            checkBoxTr110.TabIndex = 12;
+            checkBoxTr110.Text = "キャンディ";
+            checkBoxTr110.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr111
             // 
-            this.checkBoxTr111.AutoSize = true;
-            this.checkBoxTr111.Location = new System.Drawing.Point(6, 343);
-            this.checkBoxTr111.Name = "checkBoxTr111";
-            this.checkBoxTr111.Size = new System.Drawing.Size(53, 19);
-            this.checkBoxTr111.TabIndex = 11;
-            this.checkBoxTr111.Text = "マイク";
-            this.checkBoxTr111.UseVisualStyleBackColor = true;
+            checkBoxTr111.AutoSize = true;
+            checkBoxTr111.Location = new System.Drawing.Point(6, 343);
+            checkBoxTr111.Name = "checkBoxTr111";
+            checkBoxTr111.Size = new System.Drawing.Size(53, 19);
+            checkBoxTr111.TabIndex = 11;
+            checkBoxTr111.Text = "マイク";
+            checkBoxTr111.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr109
             // 
-            this.checkBoxTr109.AutoSize = true;
-            this.checkBoxTr109.Location = new System.Drawing.Point(6, 318);
-            this.checkBoxTr109.Name = "checkBoxTr109";
-            this.checkBoxTr109.Size = new System.Drawing.Size(69, 19);
-            this.checkBoxTr109.TabIndex = 10;
-            this.checkBoxTr109.Text = "フットバス";
-            this.checkBoxTr109.UseVisualStyleBackColor = true;
+            checkBoxTr109.AutoSize = true;
+            checkBoxTr109.Location = new System.Drawing.Point(6, 318);
+            checkBoxTr109.Name = "checkBoxTr109";
+            checkBoxTr109.Size = new System.Drawing.Size(69, 19);
+            checkBoxTr109.TabIndex = 10;
+            checkBoxTr109.Text = "フットバス";
+            checkBoxTr109.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr12
             // 
-            this.checkBoxTr12.AutoSize = true;
-            this.checkBoxTr12.Location = new System.Drawing.Point(6, 293);
-            this.checkBoxTr12.Name = "checkBoxTr12";
-            this.checkBoxTr12.Size = new System.Drawing.Size(45, 19);
-            this.checkBoxTr12.TabIndex = 9;
-            this.checkBoxTr12.Text = "ボム";
-            this.checkBoxTr12.UseVisualStyleBackColor = true;
+            checkBoxTr12.AutoSize = true;
+            checkBoxTr12.Location = new System.Drawing.Point(6, 293);
+            checkBoxTr12.Name = "checkBoxTr12";
+            checkBoxTr12.Size = new System.Drawing.Size(45, 19);
+            checkBoxTr12.TabIndex = 9;
+            checkBoxTr12.Text = "ボム";
+            checkBoxTr12.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr78
             // 
-            this.checkBoxTr78.AutoSize = true;
-            this.checkBoxTr78.Location = new System.Drawing.Point(6, 268);
-            this.checkBoxTr78.Name = "checkBoxTr78";
-            this.checkBoxTr78.Size = new System.Drawing.Size(60, 19);
-            this.checkBoxTr78.TabIndex = 8;
-            this.checkBoxTr78.Text = "ギコノコ";
-            this.checkBoxTr78.UseVisualStyleBackColor = true;
+            checkBoxTr78.AutoSize = true;
+            checkBoxTr78.Location = new System.Drawing.Point(6, 268);
+            checkBoxTr78.Name = "checkBoxTr78";
+            checkBoxTr78.Size = new System.Drawing.Size(60, 19);
+            checkBoxTr78.TabIndex = 8;
+            checkBoxTr78.Text = "ギコノコ";
+            checkBoxTr78.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr77
             // 
-            this.checkBoxTr77.AutoSize = true;
-            this.checkBoxTr77.Location = new System.Drawing.Point(6, 243);
-            this.checkBoxTr77.Name = "checkBoxTr77";
-            this.checkBoxTr77.Size = new System.Drawing.Size(59, 19);
-            this.checkBoxTr77.TabIndex = 7;
-            this.checkBoxTr77.Text = "ファイア";
-            this.checkBoxTr77.UseVisualStyleBackColor = true;
+            checkBoxTr77.AutoSize = true;
+            checkBoxTr77.Location = new System.Drawing.Point(6, 243);
+            checkBoxTr77.Name = "checkBoxTr77";
+            checkBoxTr77.Size = new System.Drawing.Size(59, 19);
+            checkBoxTr77.TabIndex = 7;
+            checkBoxTr77.Text = "ファイア";
+            checkBoxTr77.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr112
             // 
-            this.checkBoxTr112.AutoSize = true;
-            this.checkBoxTr112.Location = new System.Drawing.Point(6, 193);
-            this.checkBoxTr112.Name = "checkBoxTr112";
-            this.checkBoxTr112.Size = new System.Drawing.Size(98, 19);
-            this.checkBoxTr112.TabIndex = 6;
-            this.checkBoxTr112.Text = "アイテム18種類";
-            this.checkBoxTr112.UseVisualStyleBackColor = true;
+            checkBoxTr112.AutoSize = true;
+            checkBoxTr112.Location = new System.Drawing.Point(6, 193);
+            checkBoxTr112.Name = "checkBoxTr112";
+            checkBoxTr112.Size = new System.Drawing.Size(98, 19);
+            checkBoxTr112.TabIndex = 6;
+            checkBoxTr112.Text = "アイテム18種類";
+            checkBoxTr112.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr96
             // 
-            this.checkBoxTr96.AutoSize = true;
-            this.checkBoxTr96.Location = new System.Drawing.Point(6, 167);
-            this.checkBoxTr96.Name = "checkBoxTr96";
-            this.checkBoxTr96.Size = new System.Drawing.Size(101, 19);
-            this.checkBoxTr96.TabIndex = 5;
-            this.checkBoxTr96.Text = "同じアイテム3個";
-            this.checkBoxTr96.UseVisualStyleBackColor = true;
+            checkBoxTr96.AutoSize = true;
+            checkBoxTr96.Location = new System.Drawing.Point(6, 167);
+            checkBoxTr96.Name = "checkBoxTr96";
+            checkBoxTr96.Size = new System.Drawing.Size(101, 19);
+            checkBoxTr96.TabIndex = 5;
+            checkBoxTr96.Text = "同じアイテム3個";
+            checkBoxTr96.UseVisualStyleBackColor = true;
             // 
             // checkBoxTr11
             // 
-            this.checkBoxTr11.AutoSize = true;
-            this.checkBoxTr11.Location = new System.Drawing.Point(6, 141);
-            this.checkBoxTr11.Name = "checkBoxTr11";
-            this.checkBoxTr11.Size = new System.Drawing.Size(61, 19);
-            this.checkBoxTr11.TabIndex = 4;
-            this.checkBoxTr11.Text = "ハンマー";
-            this.checkBoxTr11.UseVisualStyleBackColor = true;
+            checkBoxTr11.AutoSize = true;
+            checkBoxTr11.Location = new System.Drawing.Point(6, 141);
+            checkBoxTr11.Name = "checkBoxTr11";
+            checkBoxTr11.Size = new System.Drawing.Size(61, 19);
+            checkBoxTr11.TabIndex = 4;
+            checkBoxTr11.Text = "ハンマー";
+            checkBoxTr11.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(433, 107);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(13, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "0";
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(433, 107);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(13, 15);
+            label2.TabIndex = 3;
+            label2.Text = "0";
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.pictureBox27);
-            this.tabPage3.Controls.Add(this.checkBoxCt105);
-            this.tabPage3.Controls.Add(this.checkBoxCt108);
-            this.tabPage3.Controls.Add(this.checkBoxCt109);
-            this.tabPage3.Controls.Add(this.checkBoxCt106);
-            this.tabPage3.Controls.Add(this.checkBox15);
-            this.tabPage3.Controls.Add(this.checkBox14);
-            this.tabPage3.Controls.Add(this.checkBox13);
-            this.tabPage3.Controls.Add(this.checkBox12);
-            this.tabPage3.Controls.Add(this.checkBox11);
-            this.tabPage3.Controls.Add(this.checkBox10);
-            this.tabPage3.Controls.Add(this.checkBox9);
-            this.tabPage3.Controls.Add(this.checkBox8);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.checkBoxCt68);
-            this.tabPage3.Controls.Add(this.checkBoxCt65);
-            this.tabPage3.Controls.Add(this.checkBoxCt86);
-            this.tabPage3.Controls.Add(this.checkBoxCt81);
-            this.tabPage3.Controls.Add(this.checkBoxCt80);
-            this.tabPage3.Controls.Add(this.checkBoxCt84);
-            this.tabPage3.Controls.Add(this.checkBoxCt83);
-            this.tabPage3.Controls.Add(this.checkBoxCt95);
-            this.tabPage3.Controls.Add(this.checkBoxCt96);
-            this.tabPage3.Controls.Add(this.checkBoxCt3);
-            this.tabPage3.Controls.Add(this.checkBoxCt22);
-            this.tabPage3.Controls.Add(this.checkBoxCt94);
-            this.tabPage3.Controls.Add(this.checkBoxCt41);
-            this.tabPage3.Controls.Add(this.checkBoxCt39);
-            this.tabPage3.Controls.Add(this.checkBoxCt40);
-            this.tabPage3.Controls.Add(this.checkBoxCt30);
-            this.tabPage3.Controls.Add(this.checkBoxCt29);
-            this.tabPage3.Controls.Add(this.checkBoxCt1);
-            this.tabPage3.Controls.Add(this.checkBoxCt2);
-            this.tabPage3.Controls.Add(this.checkBoxCt5);
-            this.tabPage3.Controls.Add(this.checkBoxCt24);
-            this.tabPage3.Controls.Add(this.checkBoxCt23);
-            this.tabPage3.Controls.Add(this.checkBoxCt25);
-            this.tabPage3.Controls.Add(this.checkBoxCt21);
-            this.tabPage3.Controls.Add(this.checkBoxCt20);
-            this.tabPage3.Controls.Add(this.checkBoxCt8);
-            this.tabPage3.Controls.Add(this.checkBoxCt7);
-            this.tabPage3.Controls.Add(this.checkBoxCt6);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.checkBox7);
-            this.tabPage3.Controls.Add(this.checkBox6);
-            this.tabPage3.Controls.Add(this.checkBox5);
-            this.tabPage3.Controls.Add(this.checkBox4);
-            this.tabPage3.Controls.Add(this.checkBox3);
-            this.tabPage3.Controls.Add(this.checkBox2);
-            this.tabPage3.Controls.Add(this.checkBox1);
-            this.tabPage3.Controls.Add(this.pictureBox26);
-            this.tabPage3.Controls.Add(this.checkBoxCt28);
-            this.tabPage3.Controls.Add(this.pictureBox25);
-            this.tabPage3.Controls.Add(this.checkBoxCt26);
-            this.tabPage3.Controls.Add(this.pictureBox24);
-            this.tabPage3.Controls.Add(this.checkBoxCt27);
-            this.tabPage3.Controls.Add(this.checkBoxCt98);
-            this.tabPage3.Controls.Add(this.checkBoxCt43);
-            this.tabPage3.Controls.Add(this.checkBoxCt44);
-            this.tabPage3.Controls.Add(this.checkBoxCt47);
-            this.tabPage3.Controls.Add(this.checkBoxCt97);
-            this.tabPage3.Controls.Add(this.checkBoxCt46);
-            this.tabPage3.Controls.Add(this.checkBoxCt45);
-            this.tabPage3.Controls.Add(this.checkBoxCt99);
-            this.tabPage3.Controls.Add(this.checkBoxCt104);
-            this.tabPage3.Controls.Add(this.checkBoxCt103);
-            this.tabPage3.Controls.Add(this.pictureBox23);
-            this.tabPage3.Controls.Add(this.checkBoxCt100);
-            this.tabPage3.Controls.Add(this.pictureBox22);
-            this.tabPage3.Controls.Add(this.pictureBox21);
-            this.tabPage3.Controls.Add(this.checkBoxCt42);
-            this.tabPage3.Controls.Add(this.pictureBox20);
-            this.tabPage3.Controls.Add(this.checkBoxCt37);
-            this.tabPage3.Controls.Add(this.pictureBox19);
-            this.tabPage3.Controls.Add(this.checkBoxCt36);
-            this.tabPage3.Controls.Add(this.checkBoxCt38);
-            this.tabPage3.Controls.Add(this.checkBoxCt35);
-            this.tabPage3.Controls.Add(this.pictureBox18);
-            this.tabPage3.Controls.Add(this.pictureBox17);
-            this.tabPage3.Controls.Add(this.checkBoxCt33);
-            this.tabPage3.Controls.Add(this.pictureBox16);
-            this.tabPage3.Controls.Add(this.checkBoxCt34);
-            this.tabPage3.Controls.Add(this.pictureBox15);
-            this.tabPage3.Controls.Add(this.checkBoxCt32);
-            this.tabPage3.Controls.Add(this.pictureBox14);
-            this.tabPage3.Controls.Add(this.pictureBox13);
-            this.tabPage3.Controls.Add(this.checkBoxCt31);
-            this.tabPage3.Controls.Add(this.pictureBox12);
-            this.tabPage3.Controls.Add(this.pictureBox11);
-            this.tabPage3.Controls.Add(this.pictureBox10);
-            this.tabPage3.Controls.Add(this.pictureBox9);
-            this.tabPage3.Controls.Add(this.pictureBox8);
-            this.tabPage3.Controls.Add(this.pictureBox7);
-            this.tabPage3.Controls.Add(this.pictureBox6);
-            this.tabPage3.Controls.Add(this.pictureBox5);
-            this.tabPage3.Controls.Add(this.pictureBox4);
-            this.tabPage3.Controls.Add(this.pictureBox3);
-            this.tabPage3.Controls.Add(this.pictureBox2);
-            this.tabPage3.Controls.Add(this.pictureBox1);
-            this.tabPage3.Controls.Add(this.checkBoxCt19);
-            this.tabPage3.Controls.Add(this.checkBoxCt18);
-            this.tabPage3.Controls.Add(this.checkBoxCt17);
-            this.tabPage3.Controls.Add(this.checkBoxCt16);
-            this.tabPage3.Controls.Add(this.checkBoxCt14);
-            this.tabPage3.Controls.Add(this.checkBoxCt15);
-            this.tabPage3.Controls.Add(this.checkBoxCt13);
-            this.tabPage3.Controls.Add(this.checkBoxCt12);
-            this.tabPage3.Controls.Add(this.checkBoxCt11);
-            this.tabPage3.Controls.Add(this.checkBoxCt10);
-            this.tabPage3.Controls.Add(this.checkBoxCt9);
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(472, 852);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "City Trial";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            tabPage3.Controls.Add(button7);
+            tabPage3.Controls.Add(button5);
+            tabPage3.Controls.Add(numericUpDown9);
+            tabPage3.Controls.Add(numericUpDown8);
+            tabPage3.Controls.Add(numericUpDown7);
+            tabPage3.Controls.Add(numericUpDown6);
+            tabPage3.Controls.Add(numericUpDown5);
+            tabPage3.Controls.Add(numericUpDown4);
+            tabPage3.Controls.Add(numericUpDown3);
+            tabPage3.Controls.Add(numericUpDown2);
+            tabPage3.Controls.Add(numericUpDown1);
+            tabPage3.Controls.Add(pictureBox27);
+            tabPage3.Controls.Add(checkBoxCt105);
+            tabPage3.Controls.Add(checkBoxCt108);
+            tabPage3.Controls.Add(checkBoxCt109);
+            tabPage3.Controls.Add(checkBoxCt106);
+            tabPage3.Controls.Add(checkBox15);
+            tabPage3.Controls.Add(checkBox14);
+            tabPage3.Controls.Add(checkBox13);
+            tabPage3.Controls.Add(checkBox12);
+            tabPage3.Controls.Add(checkBox11);
+            tabPage3.Controls.Add(checkBox10);
+            tabPage3.Controls.Add(checkBox9);
+            tabPage3.Controls.Add(checkBox8);
+            tabPage3.Controls.Add(label5);
+            tabPage3.Controls.Add(checkBoxCt68);
+            tabPage3.Controls.Add(checkBoxCt65);
+            tabPage3.Controls.Add(checkBoxCt86);
+            tabPage3.Controls.Add(checkBoxCt81);
+            tabPage3.Controls.Add(checkBoxCt80);
+            tabPage3.Controls.Add(checkBoxCt84);
+            tabPage3.Controls.Add(checkBoxCt83);
+            tabPage3.Controls.Add(checkBoxCt95);
+            tabPage3.Controls.Add(checkBoxCt96);
+            tabPage3.Controls.Add(checkBoxCt3);
+            tabPage3.Controls.Add(checkBoxCt22);
+            tabPage3.Controls.Add(checkBoxCt94);
+            tabPage3.Controls.Add(checkBoxCt41);
+            tabPage3.Controls.Add(checkBoxCt39);
+            tabPage3.Controls.Add(checkBoxCt40);
+            tabPage3.Controls.Add(checkBoxCt30);
+            tabPage3.Controls.Add(checkBoxCt29);
+            tabPage3.Controls.Add(checkBoxCt1);
+            tabPage3.Controls.Add(checkBoxCt2);
+            tabPage3.Controls.Add(checkBoxCt5);
+            tabPage3.Controls.Add(checkBoxCt24);
+            tabPage3.Controls.Add(checkBoxCt23);
+            tabPage3.Controls.Add(checkBoxCt25);
+            tabPage3.Controls.Add(checkBoxCt21);
+            tabPage3.Controls.Add(checkBoxCt20);
+            tabPage3.Controls.Add(checkBoxCt8);
+            tabPage3.Controls.Add(checkBoxCt7);
+            tabPage3.Controls.Add(checkBoxCt6);
+            tabPage3.Controls.Add(label4);
+            tabPage3.Controls.Add(checkBox7);
+            tabPage3.Controls.Add(checkBox6);
+            tabPage3.Controls.Add(checkBox5);
+            tabPage3.Controls.Add(checkBox4);
+            tabPage3.Controls.Add(checkBox3);
+            tabPage3.Controls.Add(checkBox2);
+            tabPage3.Controls.Add(checkBox1);
+            tabPage3.Controls.Add(pictureBox26);
+            tabPage3.Controls.Add(checkBoxCt28);
+            tabPage3.Controls.Add(pictureBox25);
+            tabPage3.Controls.Add(checkBoxCt26);
+            tabPage3.Controls.Add(pictureBox24);
+            tabPage3.Controls.Add(checkBoxCt27);
+            tabPage3.Controls.Add(checkBoxCt98);
+            tabPage3.Controls.Add(checkBoxCt43);
+            tabPage3.Controls.Add(checkBoxCt44);
+            tabPage3.Controls.Add(checkBoxCt47);
+            tabPage3.Controls.Add(checkBoxCt97);
+            tabPage3.Controls.Add(checkBoxCt46);
+            tabPage3.Controls.Add(checkBoxCt45);
+            tabPage3.Controls.Add(checkBoxCt99);
+            tabPage3.Controls.Add(checkBoxCt104);
+            tabPage3.Controls.Add(checkBoxCt103);
+            tabPage3.Controls.Add(pictureBox23);
+            tabPage3.Controls.Add(checkBoxCt100);
+            tabPage3.Controls.Add(pictureBox22);
+            tabPage3.Controls.Add(pictureBox21);
+            tabPage3.Controls.Add(checkBoxCt42);
+            tabPage3.Controls.Add(pictureBox20);
+            tabPage3.Controls.Add(checkBoxCt37);
+            tabPage3.Controls.Add(pictureBox19);
+            tabPage3.Controls.Add(checkBoxCt36);
+            tabPage3.Controls.Add(checkBoxCt38);
+            tabPage3.Controls.Add(checkBoxCt35);
+            tabPage3.Controls.Add(pictureBox18);
+            tabPage3.Controls.Add(pictureBox17);
+            tabPage3.Controls.Add(checkBoxCt33);
+            tabPage3.Controls.Add(pictureBox16);
+            tabPage3.Controls.Add(checkBoxCt34);
+            tabPage3.Controls.Add(pictureBox15);
+            tabPage3.Controls.Add(checkBoxCt32);
+            tabPage3.Controls.Add(pictureBox14);
+            tabPage3.Controls.Add(pictureBox13);
+            tabPage3.Controls.Add(checkBoxCt31);
+            tabPage3.Controls.Add(pictureBox12);
+            tabPage3.Controls.Add(pictureBox11);
+            tabPage3.Controls.Add(pictureBox10);
+            tabPage3.Controls.Add(pictureBox9);
+            tabPage3.Controls.Add(pictureBox8);
+            tabPage3.Controls.Add(pictureBox36);
+            tabPage3.Controls.Add(pictureBox35);
+            tabPage3.Controls.Add(pictureBox7);
+            tabPage3.Controls.Add(pictureBox34);
+            tabPage3.Controls.Add(pictureBox33);
+            tabPage3.Controls.Add(pictureBox6);
+            tabPage3.Controls.Add(pictureBox32);
+            tabPage3.Controls.Add(pictureBox5);
+            tabPage3.Controls.Add(pictureBox31);
+            tabPage3.Controls.Add(pictureBox4);
+            tabPage3.Controls.Add(pictureBox30);
+            tabPage3.Controls.Add(pictureBox3);
+            tabPage3.Controls.Add(pictureBox28);
+            tabPage3.Controls.Add(pictureBox2);
+            tabPage3.Controls.Add(pictureBox29);
+            tabPage3.Controls.Add(pictureBox1);
+            tabPage3.Controls.Add(checkBoxCt19);
+            tabPage3.Controls.Add(checkBoxCt18);
+            tabPage3.Controls.Add(checkBoxCt17);
+            tabPage3.Controls.Add(checkBoxCt16);
+            tabPage3.Controls.Add(checkBoxCt14);
+            tabPage3.Controls.Add(checkBoxCt15);
+            tabPage3.Controls.Add(checkBoxCt13);
+            tabPage3.Controls.Add(checkBoxCt12);
+            tabPage3.Controls.Add(checkBoxCt11);
+            tabPage3.Controls.Add(checkBoxCt10);
+            tabPage3.Controls.Add(checkBoxCt9);
+            tabPage3.Controls.Add(label3);
+            tabPage3.Location = new System.Drawing.Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            tabPage3.Size = new System.Drawing.Size(472, 852);
+            tabPage3.TabIndex = 2;
+            tabPage3.Text = "City Trial";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.Location = new System.Drawing.Point(179, 638);
+            button7.Name = "button7";
+            button7.Size = new System.Drawing.Size(75, 23);
+            button7.TabIndex = 471;
+            button7.Text = "Delete";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += Delete_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new System.Drawing.Point(98, 638);
+            button5.Name = "button5";
+            button5.Size = new System.Drawing.Size(75, 23);
+            button5.TabIndex = 471;
+            button5.Text = "All Up";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += AllUp_Click;
+            // 
+            // numericUpDown9
+            // 
+            numericUpDown9.Location = new System.Drawing.Point(354, 606);
+            numericUpDown9.Name = "numericUpDown9";
+            numericUpDown9.Size = new System.Drawing.Size(26, 23);
+            numericUpDown9.TabIndex = 470;
+            // 
+            // numericUpDown8
+            // 
+            numericUpDown8.Location = new System.Drawing.Point(322, 606);
+            numericUpDown8.Name = "numericUpDown8";
+            numericUpDown8.Size = new System.Drawing.Size(26, 23);
+            numericUpDown8.TabIndex = 470;
+            // 
+            // numericUpDown7
+            // 
+            numericUpDown7.Location = new System.Drawing.Point(290, 606);
+            numericUpDown7.Name = "numericUpDown7";
+            numericUpDown7.Size = new System.Drawing.Size(26, 23);
+            numericUpDown7.TabIndex = 470;
+            // 
+            // numericUpDown6
+            // 
+            numericUpDown6.Location = new System.Drawing.Point(258, 606);
+            numericUpDown6.Name = "numericUpDown6";
+            numericUpDown6.Size = new System.Drawing.Size(26, 23);
+            numericUpDown6.TabIndex = 470;
+            // 
+            // numericUpDown5
+            // 
+            numericUpDown5.Location = new System.Drawing.Point(226, 606);
+            numericUpDown5.Name = "numericUpDown5";
+            numericUpDown5.Size = new System.Drawing.Size(26, 23);
+            numericUpDown5.TabIndex = 470;
+            // 
+            // numericUpDown4
+            // 
+            numericUpDown4.Location = new System.Drawing.Point(194, 606);
+            numericUpDown4.Name = "numericUpDown4";
+            numericUpDown4.Size = new System.Drawing.Size(26, 23);
+            numericUpDown4.TabIndex = 470;
+            // 
+            // numericUpDown3
+            // 
+            numericUpDown3.Location = new System.Drawing.Point(162, 606);
+            numericUpDown3.Name = "numericUpDown3";
+            numericUpDown3.Size = new System.Drawing.Size(26, 23);
+            numericUpDown3.TabIndex = 470;
+            // 
+            // numericUpDown2
+            // 
+            numericUpDown2.Location = new System.Drawing.Point(130, 606);
+            numericUpDown2.Name = "numericUpDown2";
+            numericUpDown2.Size = new System.Drawing.Size(26, 23);
+            numericUpDown2.TabIndex = 470;
+            // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new System.Drawing.Point(98, 606);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new System.Drawing.Size(26, 23);
+            numericUpDown1.TabIndex = 470;
             // 
             // pictureBox27
             // 
-            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
-            this.pictureBox27.Location = new System.Drawing.Point(38, 339);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox27.TabIndex = 469;
-            this.pictureBox27.TabStop = false;
+            pictureBox27.Image = (System.Drawing.Image)resources.GetObject("pictureBox27.Image");
+            pictureBox27.Location = new System.Drawing.Point(38, 339);
+            pictureBox27.Name = "pictureBox27";
+            pictureBox27.Size = new System.Drawing.Size(19, 19);
+            pictureBox27.TabIndex = 469;
+            pictureBox27.TabStop = false;
             // 
             // checkBoxCt105
             // 
-            this.checkBoxCt105.AutoSize = true;
-            this.checkBoxCt105.Location = new System.Drawing.Point(59, 325);
-            this.checkBoxCt105.Name = "checkBoxCt105";
-            this.checkBoxCt105.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt105.TabIndex = 468;
-            this.checkBoxCt105.UseVisualStyleBackColor = true;
-            this.checkBoxCt105.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt105.AutoSize = true;
+            checkBoxCt105.Location = new System.Drawing.Point(59, 325);
+            checkBoxCt105.Name = "checkBoxCt105";
+            checkBoxCt105.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt105.TabIndex = 468;
+            checkBoxCt105.UseVisualStyleBackColor = true;
+            checkBoxCt105.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt108
             // 
-            this.checkBoxCt108.AutoSize = true;
-            this.checkBoxCt108.Location = new System.Drawing.Point(218, 709);
-            this.checkBoxCt108.Name = "checkBoxCt108";
-            this.checkBoxCt108.Size = new System.Drawing.Size(81, 19);
-            this.checkBoxCt108.TabIndex = 467;
-            this.checkBoxCt108.Text = "100km走る";
-            this.checkBoxCt108.UseVisualStyleBackColor = true;
+            checkBoxCt108.AutoSize = true;
+            checkBoxCt108.Location = new System.Drawing.Point(218, 709);
+            checkBoxCt108.Name = "checkBoxCt108";
+            checkBoxCt108.Size = new System.Drawing.Size(81, 19);
+            checkBoxCt108.TabIndex = 467;
+            checkBoxCt108.Text = "100km走る";
+            checkBoxCt108.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt109
             // 
-            this.checkBoxCt109.AutoSize = true;
-            this.checkBoxCt109.Location = new System.Drawing.Point(218, 729);
-            this.checkBoxCt109.Name = "checkBoxCt109";
-            this.checkBoxCt109.Size = new System.Drawing.Size(81, 19);
-            this.checkBoxCt109.TabIndex = 467;
-            this.checkBoxCt109.Text = "300km走る";
-            this.checkBoxCt109.UseVisualStyleBackColor = true;
+            checkBoxCt109.AutoSize = true;
+            checkBoxCt109.Location = new System.Drawing.Point(218, 729);
+            checkBoxCt109.Name = "checkBoxCt109";
+            checkBoxCt109.Size = new System.Drawing.Size(81, 19);
+            checkBoxCt109.TabIndex = 467;
+            checkBoxCt109.Text = "300km走る";
+            checkBoxCt109.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt106
             // 
-            this.checkBoxCt106.AutoSize = true;
-            this.checkBoxCt106.Location = new System.Drawing.Point(218, 689);
-            this.checkBoxCt106.Name = "checkBoxCt106";
-            this.checkBoxCt106.Size = new System.Drawing.Size(115, 19);
-            this.checkBoxCt106.TabIndex = 466;
-            this.checkBoxCt106.Text = "コンテナ500個破壊";
-            this.checkBoxCt106.UseVisualStyleBackColor = true;
+            checkBoxCt106.AutoSize = true;
+            checkBoxCt106.Location = new System.Drawing.Point(218, 689);
+            checkBoxCt106.Name = "checkBoxCt106";
+            checkBoxCt106.Size = new System.Drawing.Size(115, 19);
+            checkBoxCt106.TabIndex = 466;
+            checkBoxCt106.Text = "コンテナ500個破壊";
+            checkBoxCt106.UseVisualStyleBackColor = true;
             // 
             // checkBox15
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(98, 829);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(85, 19);
-            this.checkBox15.TabIndex = 465;
-            this.checkBox15.Text = "チェックナイト";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            checkBox15.AutoSize = true;
+            checkBox15.Location = new System.Drawing.Point(98, 829);
+            checkBox15.Name = "checkBox15";
+            checkBox15.Size = new System.Drawing.Size(85, 19);
+            checkBox15.TabIndex = 465;
+            checkBox15.Text = "チェックナイト";
+            checkBox15.UseVisualStyleBackColor = true;
             // 
             // checkBox14
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(98, 809);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(98, 19);
-            this.checkBox14.TabIndex = 464;
-            this.checkBox14.Text = "スチールオーガン";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            checkBox14.AutoSize = true;
+            checkBox14.Location = new System.Drawing.Point(98, 809);
+            checkBox14.Name = "checkBox14";
+            checkBox14.Size = new System.Drawing.Size(98, 19);
+            checkBox14.TabIndex = 464;
+            checkBox14.Text = "スチールオーガン";
+            checkBox14.UseVisualStyleBackColor = true;
             // 
             // checkBox13
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(98, 789);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(71, 19);
-            this.checkBox13.TabIndex = 463;
-            this.checkBox13.Text = "アイルーン";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            checkBox13.AutoSize = true;
+            checkBox13.Location = new System.Drawing.Point(98, 789);
+            checkBox13.Name = "checkBox13";
+            checkBox13.Size = new System.Drawing.Size(71, 19);
+            checkBox13.TabIndex = 463;
+            checkBox13.Text = "アイルーン";
+            checkBox13.UseVisualStyleBackColor = true;
             // 
             // checkBox12
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(98, 769);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(68, 19);
-            this.checkBox12.TabIndex = 462;
-            this.checkBox12.Text = "マグヒート";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            checkBox12.AutoSize = true;
+            checkBox12.Location = new System.Drawing.Point(98, 769);
+            checkBox12.Name = "checkBox12";
+            checkBox12.Size = new System.Drawing.Size(68, 19);
+            checkBox12.TabIndex = 462;
+            checkBox12.Text = "マグヒート";
+            checkBox12.UseVisualStyleBackColor = true;
             // 
             // checkBox11
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(98, 749);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(53, 19);
-            this.checkBox11.TabIndex = 461;
-            this.checkBox11.Text = "コルダ";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            checkBox11.AutoSize = true;
+            checkBox11.Location = new System.Drawing.Point(98, 749);
+            checkBox11.Name = "checkBox11";
+            checkBox11.Size = new System.Drawing.Size(53, 19);
+            checkBox11.TabIndex = 461;
+            checkBox11.Text = "コルダ";
+            checkBox11.UseVisualStyleBackColor = true;
             // 
             // checkBox10
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(98, 729);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(69, 19);
-            this.checkBox10.TabIndex = 460;
-            this.checkBox10.Text = "サンドーラ";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            checkBox10.AutoSize = true;
+            checkBox10.Location = new System.Drawing.Point(98, 729);
+            checkBox10.Name = "checkBox10";
+            checkBox10.Size = new System.Drawing.Size(69, 19);
+            checkBox10.TabIndex = 460;
+            checkBox10.Text = "サンドーラ";
+            checkBox10.UseVisualStyleBackColor = true;
             // 
             // checkBox9
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(98, 709);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(77, 19);
-            this.checkBox9.TabIndex = 459;
-            this.checkBox9.Text = "ヴァレリオン";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            checkBox9.AutoSize = true;
+            checkBox9.Location = new System.Drawing.Point(98, 709);
+            checkBox9.Name = "checkBox9";
+            checkBox9.Size = new System.Drawing.Size(77, 19);
+            checkBox9.TabIndex = 459;
+            checkBox9.Text = "ヴァレリオン";
+            checkBox9.UseVisualStyleBackColor = true;
             // 
             // checkBox8
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(98, 689);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(70, 19);
-            this.checkBox8.TabIndex = 458;
-            this.checkBox8.Text = "プランテス";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            checkBox8.AutoSize = true;
+            checkBox8.Location = new System.Drawing.Point(98, 689);
+            checkBox8.Name = "checkBox8";
+            checkBox8.Size = new System.Drawing.Size(70, 19);
+            checkBox8.TabIndex = 458;
+            checkBox8.Text = "プランテス";
+            checkBox8.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(245, 311);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(154, 255);
-            this.label5.TabIndex = 457;
-            this.label5.Text = resources.GetString("label5.Text");
+            label5.AutoSize = true;
+            label5.Location = new System.Drawing.Point(245, 311);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(154, 255);
+            label5.TabIndex = 457;
+            label5.Text = resources.GetString("label5.Text");
             // 
             // checkBoxCt68
             // 
-            this.checkBoxCt68.AutoSize = true;
-            this.checkBoxCt68.Location = new System.Drawing.Point(90, 538);
-            this.checkBoxCt68.Name = "checkBoxCt68";
-            this.checkBoxCt68.Size = new System.Drawing.Size(127, 19);
-            this.checkBoxCt68.TabIndex = 456;
-            this.checkBoxCt68.Text = "デスマッチ2 10体撃破";
-            this.checkBoxCt68.UseVisualStyleBackColor = true;
+            checkBoxCt68.AutoSize = true;
+            checkBoxCt68.Location = new System.Drawing.Point(90, 538);
+            checkBoxCt68.Name = "checkBoxCt68";
+            checkBoxCt68.Size = new System.Drawing.Size(127, 19);
+            checkBoxCt68.TabIndex = 456;
+            checkBoxCt68.Text = "デスマッチ2 10体撃破";
+            checkBoxCt68.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt65
             // 
-            this.checkBoxCt65.AutoSize = true;
-            this.checkBoxCt65.Location = new System.Drawing.Point(90, 518);
-            this.checkBoxCt65.Name = "checkBoxCt65";
-            this.checkBoxCt65.Size = new System.Drawing.Size(127, 19);
-            this.checkBoxCt65.TabIndex = 455;
-            this.checkBoxCt65.Text = "デスマッチ1 10体撃破";
-            this.checkBoxCt65.UseVisualStyleBackColor = true;
+            checkBoxCt65.AutoSize = true;
+            checkBoxCt65.Location = new System.Drawing.Point(90, 518);
+            checkBoxCt65.Name = "checkBoxCt65";
+            checkBoxCt65.Size = new System.Drawing.Size(127, 19);
+            checkBoxCt65.TabIndex = 455;
+            checkBoxCt65.Text = "デスマッチ1 10体撃破";
+            checkBoxCt65.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt86
             // 
-            this.checkBoxCt86.AutoSize = true;
-            this.checkBoxCt86.Location = new System.Drawing.Point(90, 498);
-            this.checkBoxCt86.Name = "checkBoxCt86";
-            this.checkBoxCt86.Size = new System.Drawing.Size(149, 19);
-            this.checkBoxCt86.TabIndex = 454;
-            this.checkBoxCt86.Text = "バトルロイヤル1 75体撃破";
-            this.checkBoxCt86.UseVisualStyleBackColor = true;
+            checkBoxCt86.AutoSize = true;
+            checkBoxCt86.Location = new System.Drawing.Point(90, 498);
+            checkBoxCt86.Name = "checkBoxCt86";
+            checkBoxCt86.Size = new System.Drawing.Size(149, 19);
+            checkBoxCt86.TabIndex = 454;
+            checkBoxCt86.Text = "バトルロイヤル1 75体撃破";
+            checkBoxCt86.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt81
             // 
-            this.checkBoxCt81.AutoSize = true;
-            this.checkBoxCt81.Location = new System.Drawing.Point(90, 478);
-            this.checkBoxCt81.Name = "checkBoxCt81";
-            this.checkBoxCt81.Size = new System.Drawing.Size(135, 19);
-            this.checkBoxCt81.TabIndex = 453;
-            this.checkBoxCt81.Text = "エアグライダー30秒滑空";
-            this.checkBoxCt81.UseVisualStyleBackColor = true;
+            checkBoxCt81.AutoSize = true;
+            checkBoxCt81.Location = new System.Drawing.Point(90, 478);
+            checkBoxCt81.Name = "checkBoxCt81";
+            checkBoxCt81.Size = new System.Drawing.Size(135, 19);
+            checkBoxCt81.TabIndex = 453;
+            checkBoxCt81.Text = "エアグライダー30秒滑空";
+            checkBoxCt81.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt80
             // 
-            this.checkBoxCt80.AutoSize = true;
-            this.checkBoxCt80.Location = new System.Drawing.Point(90, 458);
-            this.checkBoxCt80.Name = "checkBoxCt80";
-            this.checkBoxCt80.Size = new System.Drawing.Size(139, 19);
-            this.checkBoxCt80.TabIndex = 452;
-            this.checkBoxCt80.Text = "エアグライダー400メートル";
-            this.checkBoxCt80.UseVisualStyleBackColor = true;
+            checkBoxCt80.AutoSize = true;
+            checkBoxCt80.Location = new System.Drawing.Point(90, 458);
+            checkBoxCt80.Name = "checkBoxCt80";
+            checkBoxCt80.Size = new System.Drawing.Size(139, 19);
+            checkBoxCt80.TabIndex = 452;
+            checkBoxCt80.Text = "エアグライダー400メートル";
+            checkBoxCt80.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt84
             // 
-            this.checkBoxCt84.AutoSize = true;
-            this.checkBoxCt84.Location = new System.Drawing.Point(90, 438);
-            this.checkBoxCt84.Name = "checkBoxCt84";
-            this.checkBoxCt84.Size = new System.Drawing.Size(128, 19);
-            this.checkBoxCt84.TabIndex = 451;
-            this.checkBoxCt84.Text = "ハイジャンプ10秒滑空";
-            this.checkBoxCt84.UseVisualStyleBackColor = true;
+            checkBoxCt84.AutoSize = true;
+            checkBoxCt84.Location = new System.Drawing.Point(90, 438);
+            checkBoxCt84.Name = "checkBoxCt84";
+            checkBoxCt84.Size = new System.Drawing.Size(128, 19);
+            checkBoxCt84.TabIndex = 451;
+            checkBoxCt84.Text = "ハイジャンプ10秒滑空";
+            checkBoxCt84.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt83
             // 
-            this.checkBoxCt83.AutoSize = true;
-            this.checkBoxCt83.Location = new System.Drawing.Point(90, 418);
-            this.checkBoxCt83.Name = "checkBoxCt83";
-            this.checkBoxCt83.Size = new System.Drawing.Size(132, 19);
-            this.checkBoxCt83.TabIndex = 450;
-            this.checkBoxCt83.Text = "ハイジャンプ300メートル";
-            this.checkBoxCt83.UseVisualStyleBackColor = true;
+            checkBoxCt83.AutoSize = true;
+            checkBoxCt83.Location = new System.Drawing.Point(90, 418);
+            checkBoxCt83.Name = "checkBoxCt83";
+            checkBoxCt83.Size = new System.Drawing.Size(132, 19);
+            checkBoxCt83.TabIndex = 450;
+            checkBoxCt83.Text = "ハイジャンプ300メートル";
+            checkBoxCt83.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt95
             // 
-            this.checkBoxCt95.AutoSize = true;
-            this.checkBoxCt95.Location = new System.Drawing.Point(201, 279);
-            this.checkBoxCt95.Name = "checkBoxCt95";
-            this.checkBoxCt95.Size = new System.Drawing.Size(110, 19);
-            this.checkBoxCt95.TabIndex = 449;
-            this.checkBoxCt95.Text = "火山のふもとの穴";
-            this.checkBoxCt95.UseVisualStyleBackColor = true;
+            checkBoxCt95.AutoSize = true;
+            checkBoxCt95.Location = new System.Drawing.Point(201, 279);
+            checkBoxCt95.Name = "checkBoxCt95";
+            checkBoxCt95.Size = new System.Drawing.Size(110, 19);
+            checkBoxCt95.TabIndex = 449;
+            checkBoxCt95.Text = "火山のふもとの穴";
+            checkBoxCt95.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt96
             // 
-            this.checkBoxCt96.AutoSize = true;
-            this.checkBoxCt96.Location = new System.Drawing.Point(201, 259);
-            this.checkBoxCt96.Name = "checkBoxCt96";
-            this.checkBoxCt96.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxCt96.TabIndex = 448;
-            this.checkBoxCt96.Text = "水車";
-            this.checkBoxCt96.UseVisualStyleBackColor = true;
+            checkBoxCt96.AutoSize = true;
+            checkBoxCt96.Location = new System.Drawing.Point(201, 259);
+            checkBoxCt96.Name = "checkBoxCt96";
+            checkBoxCt96.Size = new System.Drawing.Size(50, 19);
+            checkBoxCt96.TabIndex = 448;
+            checkBoxCt96.Text = "水車";
+            checkBoxCt96.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt3
             // 
-            this.checkBoxCt3.AutoSize = true;
-            this.checkBoxCt3.Location = new System.Drawing.Point(201, 239);
-            this.checkBoxCt3.Name = "checkBoxCt3";
-            this.checkBoxCt3.Size = new System.Drawing.Size(109, 19);
-            this.checkBoxCt3.TabIndex = 447;
-            this.checkBoxCt3.Text = "スーパージャンプ台";
-            this.checkBoxCt3.UseVisualStyleBackColor = true;
+            checkBoxCt3.AutoSize = true;
+            checkBoxCt3.Location = new System.Drawing.Point(201, 239);
+            checkBoxCt3.Name = "checkBoxCt3";
+            checkBoxCt3.Size = new System.Drawing.Size(109, 19);
+            checkBoxCt3.TabIndex = 447;
+            checkBoxCt3.Text = "スーパージャンプ台";
+            checkBoxCt3.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt22
             // 
-            this.checkBoxCt22.AutoSize = true;
-            this.checkBoxCt22.Location = new System.Drawing.Point(201, 219);
-            this.checkBoxCt22.Name = "checkBoxCt22";
-            this.checkBoxCt22.Size = new System.Drawing.Size(74, 19);
-            this.checkBoxCt22.TabIndex = 446;
-            this.checkBoxCt22.Text = "空中庭園";
-            this.checkBoxCt22.UseVisualStyleBackColor = true;
+            checkBoxCt22.AutoSize = true;
+            checkBoxCt22.Location = new System.Drawing.Point(201, 219);
+            checkBoxCt22.Name = "checkBoxCt22";
+            checkBoxCt22.Size = new System.Drawing.Size(74, 19);
+            checkBoxCt22.TabIndex = 446;
+            checkBoxCt22.Text = "空中庭園";
+            checkBoxCt22.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt94
             // 
-            this.checkBoxCt94.AutoSize = true;
-            this.checkBoxCt94.Location = new System.Drawing.Point(201, 199);
-            this.checkBoxCt94.Name = "checkBoxCt94";
-            this.checkBoxCt94.Size = new System.Drawing.Size(67, 19);
-            this.checkBoxCt94.TabIndex = 445;
-            this.checkBoxCt94.Text = "落とし穴";
-            this.checkBoxCt94.UseVisualStyleBackColor = true;
+            checkBoxCt94.AutoSize = true;
+            checkBoxCt94.Location = new System.Drawing.Point(201, 199);
+            checkBoxCt94.Name = "checkBoxCt94";
+            checkBoxCt94.Size = new System.Drawing.Size(67, 19);
+            checkBoxCt94.TabIndex = 445;
+            checkBoxCt94.Text = "落とし穴";
+            checkBoxCt94.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt41
             // 
-            this.checkBoxCt41.AutoSize = true;
-            this.checkBoxCt41.Location = new System.Drawing.Point(201, 179);
-            this.checkBoxCt41.Name = "checkBoxCt41";
-            this.checkBoxCt41.Size = new System.Drawing.Size(151, 19);
-            this.checkBoxCt41.TabIndex = 444;
-            this.checkBoxCt41.Text = "タイムアップ時に全員レール";
-            this.checkBoxCt41.UseVisualStyleBackColor = true;
+            checkBoxCt41.AutoSize = true;
+            checkBoxCt41.Location = new System.Drawing.Point(201, 179);
+            checkBoxCt41.Name = "checkBoxCt41";
+            checkBoxCt41.Size = new System.Drawing.Size(151, 19);
+            checkBoxCt41.TabIndex = 444;
+            checkBoxCt41.Text = "タイムアップ時に全員レール";
+            checkBoxCt41.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt39
             // 
-            this.checkBoxCt39.AutoSize = true;
-            this.checkBoxCt39.Location = new System.Drawing.Point(201, 159);
-            this.checkBoxCt39.Name = "checkBoxCt39";
-            this.checkBoxCt39.Size = new System.Drawing.Size(162, 19);
-            this.checkBoxCt39.TabIndex = 443;
-            this.checkBoxCt39.Text = "タイムアップ時に全員降りてる";
-            this.checkBoxCt39.UseVisualStyleBackColor = true;
+            checkBoxCt39.AutoSize = true;
+            checkBoxCt39.Location = new System.Drawing.Point(201, 159);
+            checkBoxCt39.Name = "checkBoxCt39";
+            checkBoxCt39.Size = new System.Drawing.Size(162, 19);
+            checkBoxCt39.TabIndex = 443;
+            checkBoxCt39.Text = "タイムアップ時に全員降りてる";
+            checkBoxCt39.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt40
             // 
-            this.checkBoxCt40.AutoSize = true;
-            this.checkBoxCt40.Location = new System.Drawing.Point(201, 139);
-            this.checkBoxCt40.Name = "checkBoxCt40";
-            this.checkBoxCt40.Size = new System.Drawing.Size(116, 19);
-            this.checkBoxCt40.TabIndex = 442;
-            this.checkBoxCt40.Text = "同時にマシン降りる";
-            this.checkBoxCt40.UseVisualStyleBackColor = true;
+            checkBoxCt40.AutoSize = true;
+            checkBoxCt40.Location = new System.Drawing.Point(201, 139);
+            checkBoxCt40.Name = "checkBoxCt40";
+            checkBoxCt40.Size = new System.Drawing.Size(116, 19);
+            checkBoxCt40.TabIndex = 442;
+            checkBoxCt40.Text = "同時にマシン降りる";
+            checkBoxCt40.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt30
             // 
-            this.checkBoxCt30.AutoSize = true;
-            this.checkBoxCt30.Location = new System.Drawing.Point(90, 379);
-            this.checkBoxCt30.Name = "checkBoxCt30";
-            this.checkBoxCt30.Size = new System.Drawing.Size(99, 19);
-            this.checkBoxCt30.TabIndex = 441;
-            this.checkBoxCt30.Text = "CPU3人に攻撃";
-            this.checkBoxCt30.UseVisualStyleBackColor = true;
+            checkBoxCt30.AutoSize = true;
+            checkBoxCt30.Location = new System.Drawing.Point(90, 379);
+            checkBoxCt30.Name = "checkBoxCt30";
+            checkBoxCt30.Size = new System.Drawing.Size(99, 19);
+            checkBoxCt30.TabIndex = 441;
+            checkBoxCt30.Text = "CPU3人に攻撃";
+            checkBoxCt30.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt29
             // 
-            this.checkBoxCt29.AutoSize = true;
-            this.checkBoxCt29.Location = new System.Drawing.Point(90, 359);
-            this.checkBoxCt29.Name = "checkBoxCt29";
-            this.checkBoxCt29.Size = new System.Drawing.Size(90, 19);
-            this.checkBoxCt29.TabIndex = 440;
-            this.checkBoxCt29.Text = "CPU5体撃破";
-            this.checkBoxCt29.UseVisualStyleBackColor = true;
+            checkBoxCt29.AutoSize = true;
+            checkBoxCt29.Location = new System.Drawing.Point(90, 359);
+            checkBoxCt29.Name = "checkBoxCt29";
+            checkBoxCt29.Size = new System.Drawing.Size(90, 19);
+            checkBoxCt29.TabIndex = 440;
+            checkBoxCt29.Text = "CPU5体撃破";
+            checkBoxCt29.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt1
             // 
-            this.checkBoxCt1.AutoSize = true;
-            this.checkBoxCt1.Location = new System.Drawing.Point(90, 139);
-            this.checkBoxCt1.Name = "checkBoxCt1";
-            this.checkBoxCt1.Size = new System.Drawing.Size(95, 19);
-            this.checkBoxCt1.TabIndex = 439;
-            this.checkBoxCt1.Text = "10秒チャレンジ";
-            this.checkBoxCt1.UseVisualStyleBackColor = true;
+            checkBoxCt1.AutoSize = true;
+            checkBoxCt1.Location = new System.Drawing.Point(90, 139);
+            checkBoxCt1.Name = "checkBoxCt1";
+            checkBoxCt1.Size = new System.Drawing.Size(95, 19);
+            checkBoxCt1.TabIndex = 439;
+            checkBoxCt1.Text = "10秒チャレンジ";
+            checkBoxCt1.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt2
             // 
-            this.checkBoxCt2.AutoSize = true;
-            this.checkBoxCt2.Location = new System.Drawing.Point(90, 159);
-            this.checkBoxCt2.Name = "checkBoxCt2";
-            this.checkBoxCt2.Size = new System.Drawing.Size(95, 19);
-            this.checkBoxCt2.TabIndex = 438;
-            this.checkBoxCt2.Text = "20秒チャレンジ";
-            this.checkBoxCt2.UseVisualStyleBackColor = true;
+            checkBoxCt2.AutoSize = true;
+            checkBoxCt2.Location = new System.Drawing.Point(90, 159);
+            checkBoxCt2.Name = "checkBoxCt2";
+            checkBoxCt2.Size = new System.Drawing.Size(95, 19);
+            checkBoxCt2.TabIndex = 438;
+            checkBoxCt2.Text = "20秒チャレンジ";
+            checkBoxCt2.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt5
             // 
-            this.checkBoxCt5.AutoSize = true;
-            this.checkBoxCt5.Location = new System.Drawing.Point(90, 339);
-            this.checkBoxCt5.Name = "checkBoxCt5";
-            this.checkBoxCt5.Size = new System.Drawing.Size(92, 19);
-            this.checkBoxCt5.TabIndex = 437;
-            this.checkBoxCt5.Text = "スターポール10";
-            this.checkBoxCt5.UseVisualStyleBackColor = true;
+            checkBoxCt5.AutoSize = true;
+            checkBoxCt5.Location = new System.Drawing.Point(90, 339);
+            checkBoxCt5.Name = "checkBoxCt5";
+            checkBoxCt5.Size = new System.Drawing.Size(92, 19);
+            checkBoxCt5.TabIndex = 437;
+            checkBoxCt5.Text = "スターポール10";
+            checkBoxCt5.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt24
             // 
-            this.checkBoxCt24.AutoSize = true;
-            this.checkBoxCt24.Location = new System.Drawing.Point(90, 319);
-            this.checkBoxCt24.Name = "checkBoxCt24";
-            this.checkBoxCt24.Size = new System.Drawing.Size(38, 19);
-            this.checkBoxCt24.TabIndex = 436;
-            this.checkBoxCt24.Text = "岩";
-            this.checkBoxCt24.UseVisualStyleBackColor = true;
+            checkBoxCt24.AutoSize = true;
+            checkBoxCt24.Location = new System.Drawing.Point(90, 319);
+            checkBoxCt24.Name = "checkBoxCt24";
+            checkBoxCt24.Size = new System.Drawing.Size(38, 19);
+            checkBoxCt24.TabIndex = 436;
+            checkBoxCt24.Text = "岩";
+            checkBoxCt24.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt23
             // 
-            this.checkBoxCt23.AutoSize = true;
-            this.checkBoxCt23.Location = new System.Drawing.Point(90, 299);
-            this.checkBoxCt23.Name = "checkBoxCt23";
-            this.checkBoxCt23.Size = new System.Drawing.Size(38, 19);
-            this.checkBoxCt23.TabIndex = 435;
-            this.checkBoxCt23.Text = "木";
-            this.checkBoxCt23.UseVisualStyleBackColor = true;
+            checkBoxCt23.AutoSize = true;
+            checkBoxCt23.Location = new System.Drawing.Point(90, 299);
+            checkBoxCt23.Name = "checkBoxCt23";
+            checkBoxCt23.Size = new System.Drawing.Size(38, 19);
+            checkBoxCt23.TabIndex = 435;
+            checkBoxCt23.Text = "木";
+            checkBoxCt23.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt25
             // 
-            this.checkBoxCt25.AutoSize = true;
-            this.checkBoxCt25.Location = new System.Drawing.Point(90, 279);
-            this.checkBoxCt25.Name = "checkBoxCt25";
-            this.checkBoxCt25.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxCt25.TabIndex = 434;
-            this.checkBoxCt25.Text = "廃屋";
-            this.checkBoxCt25.UseVisualStyleBackColor = true;
+            checkBoxCt25.AutoSize = true;
+            checkBoxCt25.Location = new System.Drawing.Point(90, 279);
+            checkBoxCt25.Name = "checkBoxCt25";
+            checkBoxCt25.Size = new System.Drawing.Size(50, 19);
+            checkBoxCt25.TabIndex = 434;
+            checkBoxCt25.Text = "廃屋";
+            checkBoxCt25.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt21
             // 
-            this.checkBoxCt21.AutoSize = true;
-            this.checkBoxCt21.Location = new System.Drawing.Point(90, 259);
-            this.checkBoxCt21.Name = "checkBoxCt21";
-            this.checkBoxCt21.Size = new System.Drawing.Size(87, 19);
-            this.checkBoxCt21.TabIndex = 433;
-            this.checkBoxCt21.Text = "火山のレール";
-            this.checkBoxCt21.UseVisualStyleBackColor = true;
+            checkBoxCt21.AutoSize = true;
+            checkBoxCt21.Location = new System.Drawing.Point(90, 259);
+            checkBoxCt21.Name = "checkBoxCt21";
+            checkBoxCt21.Size = new System.Drawing.Size(87, 19);
+            checkBoxCt21.TabIndex = 433;
+            checkBoxCt21.Text = "火山のレール";
+            checkBoxCt21.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt20
             // 
-            this.checkBoxCt20.AutoSize = true;
-            this.checkBoxCt20.Location = new System.Drawing.Point(90, 239);
-            this.checkBoxCt20.Name = "checkBoxCt20";
-            this.checkBoxCt20.Size = new System.Drawing.Size(52, 19);
-            this.checkBoxCt20.TabIndex = 432;
-            this.checkBoxCt20.Text = "カップ";
-            this.checkBoxCt20.UseVisualStyleBackColor = true;
+            checkBoxCt20.AutoSize = true;
+            checkBoxCt20.Location = new System.Drawing.Point(90, 239);
+            checkBoxCt20.Name = "checkBoxCt20";
+            checkBoxCt20.Size = new System.Drawing.Size(52, 19);
+            checkBoxCt20.TabIndex = 432;
+            checkBoxCt20.Text = "カップ";
+            checkBoxCt20.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt8
             // 
-            this.checkBoxCt8.AutoSize = true;
-            this.checkBoxCt8.Location = new System.Drawing.Point(90, 219);
-            this.checkBoxCt8.Name = "checkBoxCt8";
-            this.checkBoxCt8.Size = new System.Drawing.Size(103, 19);
-            this.checkBoxCt8.TabIndex = 431;
-            this.checkBoxCt8.Text = "ルーレットスリープ";
-            this.checkBoxCt8.UseVisualStyleBackColor = true;
+            checkBoxCt8.AutoSize = true;
+            checkBoxCt8.Location = new System.Drawing.Point(90, 219);
+            checkBoxCt8.Name = "checkBoxCt8";
+            checkBoxCt8.Size = new System.Drawing.Size(103, 19);
+            checkBoxCt8.TabIndex = 431;
+            checkBoxCt8.Text = "ルーレットスリープ";
+            checkBoxCt8.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt7
             // 
-            this.checkBoxCt7.AutoSize = true;
-            this.checkBoxCt7.Location = new System.Drawing.Point(90, 199);
-            this.checkBoxCt7.Name = "checkBoxCt7";
-            this.checkBoxCt7.Size = new System.Drawing.Size(88, 19);
-            this.checkBoxCt7.TabIndex = 430;
-            this.checkBoxCt7.Text = "ルーレットボム";
-            this.checkBoxCt7.UseVisualStyleBackColor = true;
+            checkBoxCt7.AutoSize = true;
+            checkBoxCt7.Location = new System.Drawing.Point(90, 199);
+            checkBoxCt7.Name = "checkBoxCt7";
+            checkBoxCt7.Size = new System.Drawing.Size(88, 19);
+            checkBoxCt7.TabIndex = 430;
+            checkBoxCt7.Text = "ルーレットボム";
+            checkBoxCt7.UseVisualStyleBackColor = true;
             // 
             // checkBoxCt6
             // 
-            this.checkBoxCt6.AutoSize = true;
-            this.checkBoxCt6.Location = new System.Drawing.Point(90, 179);
-            this.checkBoxCt6.Name = "checkBoxCt6";
-            this.checkBoxCt6.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxCt6.TabIndex = 429;
-            this.checkBoxCt6.Text = "空中リング";
-            this.checkBoxCt6.UseVisualStyleBackColor = true;
+            checkBoxCt6.AutoSize = true;
+            checkBoxCt6.Location = new System.Drawing.Point(90, 179);
+            checkBoxCt6.Name = "checkBoxCt6";
+            checkBoxCt6.Size = new System.Drawing.Size(76, 19);
+            checkBoxCt6.TabIndex = 429;
+            checkBoxCt6.Text = "空中リング";
+            checkBoxCt6.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 688);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 15);
-            this.label4.TabIndex = 428;
-            this.label4.Text = "0";
+            label4.AutoSize = true;
+            label4.Location = new System.Drawing.Point(6, 688);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(13, 15);
+            label4.TabIndex = 428;
+            label4.Text = "0";
             // 
             // checkBox7
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(6, 829);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(66, 19);
-            this.checkBox7.TabIndex = 427;
-            this.checkBox7.Text = "VSデデデ";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            checkBox7.AutoSize = true;
+            checkBox7.Location = new System.Drawing.Point(6, 829);
+            checkBox7.Name = "checkBox7";
+            checkBox7.Size = new System.Drawing.Size(66, 19);
+            checkBox7.TabIndex = 427;
+            checkBox7.Text = "VSデデデ";
+            checkBox7.UseVisualStyleBackColor = true;
             // 
             // checkBox6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(6, 809);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(76, 19);
-            this.checkBox6.TabIndex = 426;
-            this.checkBox6.Text = "デスマッチ2";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            checkBox6.AutoSize = true;
+            checkBox6.Location = new System.Drawing.Point(6, 809);
+            checkBox6.Name = "checkBox6";
+            checkBox6.Size = new System.Drawing.Size(76, 19);
+            checkBox6.TabIndex = 426;
+            checkBox6.Text = "デスマッチ2";
+            checkBox6.UseVisualStyleBackColor = true;
             // 
             // checkBox5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(6, 789);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(68, 19);
-            this.checkBox5.TabIndex = 425;
-            this.checkBox5.Text = "バトロイ1";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            checkBox5.AutoSize = true;
+            checkBox5.Location = new System.Drawing.Point(6, 789);
+            checkBox5.Name = "checkBox5";
+            checkBox5.Size = new System.Drawing.Size(68, 19);
+            checkBox5.TabIndex = 425;
+            checkBox5.Text = "バトロイ1";
+            checkBox5.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(6, 769);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 19);
-            this.checkBox4.TabIndex = 424;
-            this.checkBox4.Text = "ハイジャンプ";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            checkBox4.AutoSize = true;
+            checkBox4.Location = new System.Drawing.Point(6, 769);
+            checkBox4.Name = "checkBox4";
+            checkBox4.Size = new System.Drawing.Size(80, 19);
+            checkBox4.TabIndex = 424;
+            checkBox4.Text = "ハイジャンプ";
+            checkBox4.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(6, 749);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(87, 19);
-            this.checkBox3.TabIndex = 423;
-            this.checkBox3.Text = "エアグライダー";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new System.Drawing.Point(6, 749);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new System.Drawing.Size(87, 19);
+            checkBox3.TabIndex = 423;
+            checkBox3.Text = "エアグライダー";
+            checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 729);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(68, 19);
-            this.checkBox2.TabIndex = 422;
-            this.checkBox2.Text = "ゼロヨン3";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new System.Drawing.Point(6, 729);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new System.Drawing.Size(68, 19);
+            checkBox2.TabIndex = 422;
+            checkBox2.Text = "ゼロヨン3";
+            checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 709);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(68, 19);
-            this.checkBox1.TabIndex = 421;
-            this.checkBox1.Text = "ゼロヨン2";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new System.Drawing.Point(6, 709);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new System.Drawing.Size(68, 19);
+            checkBox1.TabIndex = 421;
+            checkBox1.Text = "ゼロヨン2";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // pictureBox26
             // 
-            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
-            this.pictureBox26.Location = new System.Drawing.Point(20, 661);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox26.TabIndex = 420;
-            this.pictureBox26.TabStop = false;
+            pictureBox26.Image = (System.Drawing.Image)resources.GetObject("pictureBox26.Image");
+            pictureBox26.Location = new System.Drawing.Point(20, 661);
+            pictureBox26.Name = "pictureBox26";
+            pictureBox26.Size = new System.Drawing.Size(19, 19);
+            pictureBox26.TabIndex = 420;
+            pictureBox26.TabStop = false;
             // 
             // checkBoxCt28
             // 
-            this.checkBoxCt28.AutoSize = true;
-            this.checkBoxCt28.Location = new System.Drawing.Point(6, 663);
-            this.checkBoxCt28.Name = "checkBoxCt28";
-            this.checkBoxCt28.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt28.TabIndex = 419;
-            this.checkBoxCt28.UseVisualStyleBackColor = true;
-            this.checkBoxCt28.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt28.AutoSize = true;
+            checkBoxCt28.Location = new System.Drawing.Point(6, 663);
+            checkBoxCt28.Name = "checkBoxCt28";
+            checkBoxCt28.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt28.TabIndex = 419;
+            checkBoxCt28.UseVisualStyleBackColor = true;
+            checkBoxCt28.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
-            this.pictureBox25.Location = new System.Drawing.Point(20, 641);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox25.TabIndex = 418;
-            this.pictureBox25.TabStop = false;
+            pictureBox25.Image = (System.Drawing.Image)resources.GetObject("pictureBox25.Image");
+            pictureBox25.Location = new System.Drawing.Point(20, 641);
+            pictureBox25.Name = "pictureBox25";
+            pictureBox25.Size = new System.Drawing.Size(19, 19);
+            pictureBox25.TabIndex = 418;
+            pictureBox25.TabStop = false;
             // 
             // checkBoxCt26
             // 
-            this.checkBoxCt26.AutoSize = true;
-            this.checkBoxCt26.Location = new System.Drawing.Point(6, 643);
-            this.checkBoxCt26.Name = "checkBoxCt26";
-            this.checkBoxCt26.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt26.TabIndex = 417;
-            this.checkBoxCt26.UseVisualStyleBackColor = true;
-            this.checkBoxCt26.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt26.AutoSize = true;
+            checkBoxCt26.Location = new System.Drawing.Point(6, 643);
+            checkBoxCt26.Name = "checkBoxCt26";
+            checkBoxCt26.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt26.TabIndex = 417;
+            checkBoxCt26.UseVisualStyleBackColor = true;
+            checkBoxCt26.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(20, 621);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox24.TabIndex = 416;
-            this.pictureBox24.TabStop = false;
+            pictureBox24.Image = (System.Drawing.Image)resources.GetObject("pictureBox24.Image");
+            pictureBox24.Location = new System.Drawing.Point(20, 621);
+            pictureBox24.Name = "pictureBox24";
+            pictureBox24.Size = new System.Drawing.Size(19, 19);
+            pictureBox24.TabIndex = 416;
+            pictureBox24.TabStop = false;
             // 
             // checkBoxCt27
             // 
-            this.checkBoxCt27.AutoSize = true;
-            this.checkBoxCt27.Location = new System.Drawing.Point(6, 623);
-            this.checkBoxCt27.Name = "checkBoxCt27";
-            this.checkBoxCt27.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt27.TabIndex = 415;
-            this.checkBoxCt27.UseVisualStyleBackColor = true;
-            this.checkBoxCt27.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt27.AutoSize = true;
+            checkBoxCt27.Location = new System.Drawing.Point(6, 623);
+            checkBoxCt27.Name = "checkBoxCt27";
+            checkBoxCt27.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt27.TabIndex = 415;
+            checkBoxCt27.UseVisualStyleBackColor = true;
+            checkBoxCt27.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt98
             // 
-            this.checkBoxCt98.AutoSize = true;
-            this.checkBoxCt98.Location = new System.Drawing.Point(6, 601);
-            this.checkBoxCt98.Name = "checkBoxCt98";
-            this.checkBoxCt98.Size = new System.Drawing.Size(52, 19);
-            this.checkBoxCt98.TabIndex = 414;
-            this.checkBoxCt98.Text = "メテオ";
-            this.checkBoxCt98.UseVisualStyleBackColor = true;
-            this.checkBoxCt98.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt98.AutoSize = true;
+            checkBoxCt98.Location = new System.Drawing.Point(6, 601);
+            checkBoxCt98.Name = "checkBoxCt98";
+            checkBoxCt98.Size = new System.Drawing.Size(52, 19);
+            checkBoxCt98.TabIndex = 414;
+            checkBoxCt98.Text = "メテオ";
+            checkBoxCt98.UseVisualStyleBackColor = true;
+            checkBoxCt98.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt43
             // 
-            this.checkBoxCt43.AutoSize = true;
-            this.checkBoxCt43.Location = new System.Drawing.Point(6, 581);
-            this.checkBoxCt43.Name = "checkBoxCt43";
-            this.checkBoxCt43.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxCt43.TabIndex = 413;
-            this.checkBoxCt43.Text = "回復エリア";
-            this.checkBoxCt43.UseVisualStyleBackColor = true;
-            this.checkBoxCt43.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt43.AutoSize = true;
+            checkBoxCt43.Location = new System.Drawing.Point(6, 581);
+            checkBoxCt43.Name = "checkBoxCt43";
+            checkBoxCt43.Size = new System.Drawing.Size(76, 19);
+            checkBoxCt43.TabIndex = 413;
+            checkBoxCt43.Text = "回復エリア";
+            checkBoxCt43.UseVisualStyleBackColor = true;
+            checkBoxCt43.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt44
             // 
-            this.checkBoxCt44.AutoSize = true;
-            this.checkBoxCt44.Location = new System.Drawing.Point(6, 561);
-            this.checkBoxCt44.Name = "checkBoxCt44";
-            this.checkBoxCt44.Size = new System.Drawing.Size(52, 19);
-            this.checkBoxCt44.TabIndex = 412;
-            this.checkBoxCt44.Text = "タック";
-            this.checkBoxCt44.UseVisualStyleBackColor = true;
-            this.checkBoxCt44.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt44.AutoSize = true;
+            checkBoxCt44.Location = new System.Drawing.Point(6, 561);
+            checkBoxCt44.Name = "checkBoxCt44";
+            checkBoxCt44.Size = new System.Drawing.Size(52, 19);
+            checkBoxCt44.TabIndex = 412;
+            checkBoxCt44.Text = "タック";
+            checkBoxCt44.UseVisualStyleBackColor = true;
+            checkBoxCt44.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt47
             // 
-            this.checkBoxCt47.AutoSize = true;
-            this.checkBoxCt47.Location = new System.Drawing.Point(56, 543);
-            this.checkBoxCt47.Name = "checkBoxCt47";
-            this.checkBoxCt47.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt47.TabIndex = 411;
-            this.checkBoxCt47.UseVisualStyleBackColor = true;
-            this.checkBoxCt47.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt47.AutoSize = true;
+            checkBoxCt47.Location = new System.Drawing.Point(56, 543);
+            checkBoxCt47.Name = "checkBoxCt47";
+            checkBoxCt47.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt47.TabIndex = 411;
+            checkBoxCt47.UseVisualStyleBackColor = true;
+            checkBoxCt47.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt97
             // 
-            this.checkBoxCt97.AutoSize = true;
-            this.checkBoxCt97.Location = new System.Drawing.Point(56, 523);
-            this.checkBoxCt97.Name = "checkBoxCt97";
-            this.checkBoxCt97.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt97.TabIndex = 410;
-            this.checkBoxCt97.UseVisualStyleBackColor = true;
-            this.checkBoxCt97.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt97.AutoSize = true;
+            checkBoxCt97.Location = new System.Drawing.Point(56, 523);
+            checkBoxCt97.Name = "checkBoxCt97";
+            checkBoxCt97.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt97.TabIndex = 410;
+            checkBoxCt97.UseVisualStyleBackColor = true;
+            checkBoxCt97.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt46
             // 
-            this.checkBoxCt46.AutoSize = true;
-            this.checkBoxCt46.Location = new System.Drawing.Point(6, 541);
-            this.checkBoxCt46.Name = "checkBoxCt46";
-            this.checkBoxCt46.Size = new System.Drawing.Size(52, 19);
-            this.checkBoxCt46.TabIndex = 409;
-            this.checkBoxCt46.Text = "ダイナ";
-            this.checkBoxCt46.UseVisualStyleBackColor = true;
-            this.checkBoxCt46.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt46.AutoSize = true;
+            checkBoxCt46.Location = new System.Drawing.Point(6, 541);
+            checkBoxCt46.Name = "checkBoxCt46";
+            checkBoxCt46.Size = new System.Drawing.Size(52, 19);
+            checkBoxCt46.TabIndex = 409;
+            checkBoxCt46.Text = "ダイナ";
+            checkBoxCt46.UseVisualStyleBackColor = true;
+            checkBoxCt46.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt45
             // 
-            this.checkBoxCt45.AutoSize = true;
-            this.checkBoxCt45.Location = new System.Drawing.Point(6, 521);
-            this.checkBoxCt45.Name = "checkBoxCt45";
-            this.checkBoxCt45.Size = new System.Drawing.Size(50, 19);
-            this.checkBoxCt45.TabIndex = 408;
-            this.checkBoxCt45.Text = "巨岩";
-            this.checkBoxCt45.UseVisualStyleBackColor = true;
-            this.checkBoxCt45.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt45.AutoSize = true;
+            checkBoxCt45.Location = new System.Drawing.Point(6, 521);
+            checkBoxCt45.Name = "checkBoxCt45";
+            checkBoxCt45.Size = new System.Drawing.Size(50, 19);
+            checkBoxCt45.TabIndex = 408;
+            checkBoxCt45.Text = "巨岩";
+            checkBoxCt45.UseVisualStyleBackColor = true;
+            checkBoxCt45.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt99
             // 
-            this.checkBoxCt99.AutoSize = true;
-            this.checkBoxCt99.Location = new System.Drawing.Point(6, 501);
-            this.checkBoxCt99.Name = "checkBoxCt99";
-            this.checkBoxCt99.Size = new System.Drawing.Size(69, 19);
-            this.checkBoxCt99.TabIndex = 407;
-            this.checkBoxCt99.Text = "シャッター";
-            this.checkBoxCt99.UseVisualStyleBackColor = true;
-            this.checkBoxCt99.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt99.AutoSize = true;
+            checkBoxCt99.Location = new System.Drawing.Point(6, 501);
+            checkBoxCt99.Name = "checkBoxCt99";
+            checkBoxCt99.Size = new System.Drawing.Size(69, 19);
+            checkBoxCt99.TabIndex = 407;
+            checkBoxCt99.Text = "シャッター";
+            checkBoxCt99.UseVisualStyleBackColor = true;
+            checkBoxCt99.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt104
             // 
-            this.checkBoxCt104.AutoSize = true;
-            this.checkBoxCt104.Location = new System.Drawing.Point(59, 312);
-            this.checkBoxCt104.Name = "checkBoxCt104";
-            this.checkBoxCt104.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt104.TabIndex = 406;
-            this.checkBoxCt104.UseVisualStyleBackColor = true;
-            this.checkBoxCt104.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt104.AutoSize = true;
+            checkBoxCt104.Location = new System.Drawing.Point(59, 312);
+            checkBoxCt104.Name = "checkBoxCt104";
+            checkBoxCt104.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt104.TabIndex = 406;
+            checkBoxCt104.UseVisualStyleBackColor = true;
+            checkBoxCt104.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt103
             // 
-            this.checkBoxCt103.AutoSize = true;
-            this.checkBoxCt103.Location = new System.Drawing.Point(59, 299);
-            this.checkBoxCt103.Name = "checkBoxCt103";
-            this.checkBoxCt103.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt103.TabIndex = 405;
-            this.checkBoxCt103.UseVisualStyleBackColor = true;
-            this.checkBoxCt103.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt103.AutoSize = true;
+            checkBoxCt103.Location = new System.Drawing.Point(59, 299);
+            checkBoxCt103.Name = "checkBoxCt103";
+            checkBoxCt103.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt103.TabIndex = 405;
+            checkBoxCt103.UseVisualStyleBackColor = true;
+            checkBoxCt103.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(56, 279);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox23.TabIndex = 404;
-            this.pictureBox23.TabStop = false;
+            pictureBox23.Image = (System.Drawing.Image)resources.GetObject("pictureBox23.Image");
+            pictureBox23.Location = new System.Drawing.Point(56, 279);
+            pictureBox23.Name = "pictureBox23";
+            pictureBox23.Size = new System.Drawing.Size(19, 19);
+            pictureBox23.TabIndex = 404;
+            pictureBox23.TabStop = false;
             // 
             // checkBoxCt100
             // 
-            this.checkBoxCt100.AutoSize = true;
-            this.checkBoxCt100.Location = new System.Drawing.Point(42, 221);
-            this.checkBoxCt100.Name = "checkBoxCt100";
-            this.checkBoxCt100.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt100.TabIndex = 403;
-            this.checkBoxCt100.UseVisualStyleBackColor = true;
-            this.checkBoxCt100.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt100.AutoSize = true;
+            checkBoxCt100.Location = new System.Drawing.Point(42, 221);
+            checkBoxCt100.Name = "checkBoxCt100";
+            checkBoxCt100.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt100.TabIndex = 403;
+            checkBoxCt100.UseVisualStyleBackColor = true;
+            checkBoxCt100.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox22
             // 
-            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(39, 479);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox22.TabIndex = 402;
-            this.pictureBox22.TabStop = false;
+            pictureBox22.Image = (System.Drawing.Image)resources.GetObject("pictureBox22.Image");
+            pictureBox22.Location = new System.Drawing.Point(39, 479);
+            pictureBox22.Name = "pictureBox22";
+            pictureBox22.Size = new System.Drawing.Size(19, 19);
+            pictureBox22.TabIndex = 402;
+            pictureBox22.TabStop = false;
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(20, 479);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox21.TabIndex = 401;
-            this.pictureBox21.TabStop = false;
+            pictureBox21.Image = (System.Drawing.Image)resources.GetObject("pictureBox21.Image");
+            pictureBox21.Location = new System.Drawing.Point(20, 479);
+            pictureBox21.Name = "pictureBox21";
+            pictureBox21.Size = new System.Drawing.Size(19, 19);
+            pictureBox21.TabIndex = 401;
+            pictureBox21.TabStop = false;
             // 
             // checkBoxCt42
             // 
-            this.checkBoxCt42.AutoSize = true;
-            this.checkBoxCt42.Location = new System.Drawing.Point(6, 481);
-            this.checkBoxCt42.Name = "checkBoxCt42";
-            this.checkBoxCt42.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt42.TabIndex = 400;
-            this.checkBoxCt42.UseVisualStyleBackColor = true;
-            this.checkBoxCt42.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt42.AutoSize = true;
+            checkBoxCt42.Location = new System.Drawing.Point(6, 481);
+            checkBoxCt42.Name = "checkBoxCt42";
+            checkBoxCt42.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt42.TabIndex = 400;
+            checkBoxCt42.UseVisualStyleBackColor = true;
+            checkBoxCt42.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(45, 456);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox20.TabIndex = 399;
-            this.pictureBox20.TabStop = false;
+            pictureBox20.Image = (System.Drawing.Image)resources.GetObject("pictureBox20.Image");
+            pictureBox20.Location = new System.Drawing.Point(45, 456);
+            pictureBox20.Name = "pictureBox20";
+            pictureBox20.Size = new System.Drawing.Size(19, 19);
+            pictureBox20.TabIndex = 399;
+            pictureBox20.TabStop = false;
             // 
             // checkBoxCt37
             // 
-            this.checkBoxCt37.AutoSize = true;
-            this.checkBoxCt37.Location = new System.Drawing.Point(28, 459);
-            this.checkBoxCt37.Name = "checkBoxCt37";
-            this.checkBoxCt37.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt37.TabIndex = 398;
-            this.checkBoxCt37.UseVisualStyleBackColor = true;
-            this.checkBoxCt37.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt37.AutoSize = true;
+            checkBoxCt37.Location = new System.Drawing.Point(28, 459);
+            checkBoxCt37.Name = "checkBoxCt37";
+            checkBoxCt37.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt37.TabIndex = 398;
+            checkBoxCt37.UseVisualStyleBackColor = true;
+            checkBoxCt37.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(6, 456);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox19.TabIndex = 397;
-            this.pictureBox19.TabStop = false;
+            pictureBox19.Image = (System.Drawing.Image)resources.GetObject("pictureBox19.Image");
+            pictureBox19.Location = new System.Drawing.Point(6, 456);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new System.Drawing.Size(19, 19);
+            pictureBox19.TabIndex = 397;
+            pictureBox19.TabStop = false;
             // 
             // checkBoxCt36
             // 
-            this.checkBoxCt36.AutoSize = true;
-            this.checkBoxCt36.Location = new System.Drawing.Point(48, 441);
-            this.checkBoxCt36.Name = "checkBoxCt36";
-            this.checkBoxCt36.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt36.TabIndex = 396;
-            this.checkBoxCt36.UseVisualStyleBackColor = true;
-            this.checkBoxCt36.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt36.AutoSize = true;
+            checkBoxCt36.Location = new System.Drawing.Point(48, 441);
+            checkBoxCt36.Name = "checkBoxCt36";
+            checkBoxCt36.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt36.TabIndex = 396;
+            checkBoxCt36.UseVisualStyleBackColor = true;
+            checkBoxCt36.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt38
             // 
-            this.checkBoxCt38.AutoSize = true;
-            this.checkBoxCt38.Location = new System.Drawing.Point(9, 441);
-            this.checkBoxCt38.Name = "checkBoxCt38";
-            this.checkBoxCt38.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt38.TabIndex = 395;
-            this.checkBoxCt38.UseVisualStyleBackColor = true;
-            this.checkBoxCt38.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt38.AutoSize = true;
+            checkBoxCt38.Location = new System.Drawing.Point(9, 441);
+            checkBoxCt38.Name = "checkBoxCt38";
+            checkBoxCt38.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt38.TabIndex = 395;
+            checkBoxCt38.UseVisualStyleBackColor = true;
+            checkBoxCt38.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt35
             // 
-            this.checkBoxCt35.AutoSize = true;
-            this.checkBoxCt35.Location = new System.Drawing.Point(28, 423);
-            this.checkBoxCt35.Name = "checkBoxCt35";
-            this.checkBoxCt35.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt35.TabIndex = 394;
-            this.checkBoxCt35.UseVisualStyleBackColor = true;
-            this.checkBoxCt35.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt35.AutoSize = true;
+            checkBoxCt35.Location = new System.Drawing.Point(28, 423);
+            checkBoxCt35.Name = "checkBoxCt35";
+            checkBoxCt35.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt35.TabIndex = 394;
+            checkBoxCt35.UseVisualStyleBackColor = true;
+            checkBoxCt35.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(45, 420);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox18.TabIndex = 393;
-            this.pictureBox18.TabStop = false;
+            pictureBox18.Image = (System.Drawing.Image)resources.GetObject("pictureBox18.Image");
+            pictureBox18.Location = new System.Drawing.Point(45, 420);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new System.Drawing.Size(19, 19);
+            pictureBox18.TabIndex = 393;
+            pictureBox18.TabStop = false;
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(6, 420);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox17.TabIndex = 392;
-            this.pictureBox17.TabStop = false;
+            pictureBox17.Image = (System.Drawing.Image)resources.GetObject("pictureBox17.Image");
+            pictureBox17.Location = new System.Drawing.Point(6, 420);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new System.Drawing.Size(19, 19);
+            pictureBox17.TabIndex = 392;
+            pictureBox17.TabStop = false;
             // 
             // checkBoxCt33
             // 
-            this.checkBoxCt33.AutoSize = true;
-            this.checkBoxCt33.Location = new System.Drawing.Point(48, 403);
-            this.checkBoxCt33.Name = "checkBoxCt33";
-            this.checkBoxCt33.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt33.TabIndex = 391;
-            this.checkBoxCt33.UseVisualStyleBackColor = true;
-            this.checkBoxCt33.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt33.AutoSize = true;
+            checkBoxCt33.Location = new System.Drawing.Point(48, 403);
+            checkBoxCt33.Name = "checkBoxCt33";
+            checkBoxCt33.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt33.TabIndex = 391;
+            checkBoxCt33.UseVisualStyleBackColor = true;
+            checkBoxCt33.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(26, 400);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox16.TabIndex = 390;
-            this.pictureBox16.TabStop = false;
+            pictureBox16.Image = (System.Drawing.Image)resources.GetObject("pictureBox16.Image");
+            pictureBox16.Location = new System.Drawing.Point(26, 400);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new System.Drawing.Size(19, 19);
+            pictureBox16.TabIndex = 390;
+            pictureBox16.TabStop = false;
             // 
             // checkBoxCt34
             // 
-            this.checkBoxCt34.AutoSize = true;
-            this.checkBoxCt34.Location = new System.Drawing.Point(9, 403);
-            this.checkBoxCt34.Name = "checkBoxCt34";
-            this.checkBoxCt34.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt34.TabIndex = 389;
-            this.checkBoxCt34.UseVisualStyleBackColor = true;
-            this.checkBoxCt34.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt34.AutoSize = true;
+            checkBoxCt34.Location = new System.Drawing.Point(9, 403);
+            checkBoxCt34.Name = "checkBoxCt34";
+            checkBoxCt34.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt34.TabIndex = 389;
+            checkBoxCt34.UseVisualStyleBackColor = true;
+            checkBoxCt34.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(45, 381);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox15.TabIndex = 388;
-            this.pictureBox15.TabStop = false;
+            pictureBox15.Image = (System.Drawing.Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new System.Drawing.Point(45, 381);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new System.Drawing.Size(19, 19);
+            pictureBox15.TabIndex = 388;
+            pictureBox15.TabStop = false;
             // 
             // checkBoxCt32
             // 
-            this.checkBoxCt32.AutoSize = true;
-            this.checkBoxCt32.Location = new System.Drawing.Point(28, 384);
-            this.checkBoxCt32.Name = "checkBoxCt32";
-            this.checkBoxCt32.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt32.TabIndex = 387;
-            this.checkBoxCt32.UseVisualStyleBackColor = true;
-            this.checkBoxCt32.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt32.AutoSize = true;
+            checkBoxCt32.Location = new System.Drawing.Point(28, 384);
+            checkBoxCt32.Name = "checkBoxCt32";
+            checkBoxCt32.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt32.TabIndex = 387;
+            checkBoxCt32.UseVisualStyleBackColor = true;
+            checkBoxCt32.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(6, 381);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox14.TabIndex = 386;
-            this.pictureBox14.TabStop = false;
+            pictureBox14.Image = (System.Drawing.Image)resources.GetObject("pictureBox14.Image");
+            pictureBox14.Location = new System.Drawing.Point(6, 381);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new System.Drawing.Size(19, 19);
+            pictureBox14.TabIndex = 386;
+            pictureBox14.TabStop = false;
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(45, 361);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox13.TabIndex = 385;
-            this.pictureBox13.TabStop = false;
+            pictureBox13.Image = (System.Drawing.Image)resources.GetObject("pictureBox13.Image");
+            pictureBox13.Location = new System.Drawing.Point(45, 361);
+            pictureBox13.Name = "pictureBox13";
+            pictureBox13.Size = new System.Drawing.Size(19, 19);
+            pictureBox13.TabIndex = 385;
+            pictureBox13.TabStop = false;
             // 
             // checkBoxCt31
             // 
-            this.checkBoxCt31.AutoSize = true;
-            this.checkBoxCt31.Location = new System.Drawing.Point(28, 364);
-            this.checkBoxCt31.Name = "checkBoxCt31";
-            this.checkBoxCt31.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt31.TabIndex = 384;
-            this.checkBoxCt31.UseVisualStyleBackColor = true;
-            this.checkBoxCt31.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt31.AutoSize = true;
+            checkBoxCt31.Location = new System.Drawing.Point(28, 364);
+            checkBoxCt31.Name = "checkBoxCt31";
+            checkBoxCt31.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt31.TabIndex = 384;
+            checkBoxCt31.UseVisualStyleBackColor = true;
+            checkBoxCt31.CheckedChanged += ListedCheckBoxCount;
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(6, 361);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox12.TabIndex = 383;
-            this.pictureBox12.TabStop = false;
+            pictureBox12.Image = (System.Drawing.Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new System.Drawing.Point(6, 361);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new System.Drawing.Size(19, 19);
+            pictureBox12.TabIndex = 383;
+            pictureBox12.TabStop = false;
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(20, 319);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox11.TabIndex = 382;
-            this.pictureBox11.TabStop = false;
+            pictureBox11.Image = (System.Drawing.Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new System.Drawing.Point(20, 319);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new System.Drawing.Size(19, 19);
+            pictureBox11.TabIndex = 382;
+            pictureBox11.TabStop = false;
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(20, 339);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox10.TabIndex = 381;
-            this.pictureBox10.TabStop = false;
+            pictureBox10.Image = (System.Drawing.Image)resources.GetObject("pictureBox10.Image");
+            pictureBox10.Location = new System.Drawing.Point(20, 339);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new System.Drawing.Size(19, 19);
+            pictureBox10.TabIndex = 381;
+            pictureBox10.TabStop = false;
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(20, 299);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox9.TabIndex = 380;
-            this.pictureBox9.TabStop = false;
+            pictureBox9.Image = (System.Drawing.Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new System.Drawing.Point(20, 299);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new System.Drawing.Size(19, 19);
+            pictureBox9.TabIndex = 380;
+            pictureBox9.TabStop = false;
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(20, 279);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox8.TabIndex = 379;
-            this.pictureBox8.TabStop = false;
+            pictureBox8.Image = (System.Drawing.Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new System.Drawing.Point(20, 279);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new System.Drawing.Size(19, 19);
+            pictureBox8.TabIndex = 379;
+            pictureBox8.TabStop = false;
+            // 
+            // pictureBox36
+            // 
+            pictureBox36.Image = (System.Drawing.Image)resources.GetObject("pictureBox36.Image");
+            pictureBox36.Location = new System.Drawing.Point(354, 581);
+            pictureBox36.Name = "pictureBox36";
+            pictureBox36.Size = new System.Drawing.Size(19, 19);
+            pictureBox36.TabIndex = 378;
+            pictureBox36.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            pictureBox35.Image = (System.Drawing.Image)resources.GetObject("pictureBox35.Image");
+            pictureBox35.Location = new System.Drawing.Point(322, 581);
+            pictureBox35.Name = "pictureBox35";
+            pictureBox35.Size = new System.Drawing.Size(19, 19);
+            pictureBox35.TabIndex = 378;
+            pictureBox35.TabStop = false;
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(20, 259);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox7.TabIndex = 378;
-            this.pictureBox7.TabStop = false;
+            pictureBox7.Image = (System.Drawing.Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new System.Drawing.Point(20, 259);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new System.Drawing.Size(19, 19);
+            pictureBox7.TabIndex = 378;
+            pictureBox7.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            pictureBox34.Image = (System.Drawing.Image)resources.GetObject("pictureBox34.Image");
+            pictureBox34.Location = new System.Drawing.Point(290, 581);
+            pictureBox34.Name = "pictureBox34";
+            pictureBox34.Size = new System.Drawing.Size(19, 19);
+            pictureBox34.TabIndex = 377;
+            pictureBox34.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            pictureBox33.Image = (System.Drawing.Image)resources.GetObject("pictureBox33.Image");
+            pictureBox33.Location = new System.Drawing.Point(258, 581);
+            pictureBox33.Name = "pictureBox33";
+            pictureBox33.Size = new System.Drawing.Size(19, 19);
+            pictureBox33.TabIndex = 377;
+            pictureBox33.TabStop = false;
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(20, 239);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox6.TabIndex = 377;
-            this.pictureBox6.TabStop = false;
+            pictureBox6.Image = (System.Drawing.Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new System.Drawing.Point(20, 239);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new System.Drawing.Size(19, 19);
+            pictureBox6.TabIndex = 377;
+            pictureBox6.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            pictureBox32.Image = (System.Drawing.Image)resources.GetObject("pictureBox32.Image");
+            pictureBox32.Location = new System.Drawing.Point(226, 581);
+            pictureBox32.Name = "pictureBox32";
+            pictureBox32.Size = new System.Drawing.Size(19, 19);
+            pictureBox32.TabIndex = 376;
+            pictureBox32.TabStop = false;
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(20, 219);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox5.TabIndex = 376;
-            this.pictureBox5.TabStop = false;
+            pictureBox5.Image = (System.Drawing.Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new System.Drawing.Point(20, 219);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new System.Drawing.Size(19, 19);
+            pictureBox5.TabIndex = 376;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            pictureBox31.Image = (System.Drawing.Image)resources.GetObject("pictureBox31.Image");
+            pictureBox31.Location = new System.Drawing.Point(194, 581);
+            pictureBox31.Name = "pictureBox31";
+            pictureBox31.Size = new System.Drawing.Size(19, 19);
+            pictureBox31.TabIndex = 375;
+            pictureBox31.TabStop = false;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(20, 199);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox4.TabIndex = 375;
-            this.pictureBox4.TabStop = false;
+            pictureBox4.Image = (System.Drawing.Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new System.Drawing.Point(20, 199);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new System.Drawing.Size(19, 19);
+            pictureBox4.TabIndex = 375;
+            pictureBox4.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            pictureBox30.Image = (System.Drawing.Image)resources.GetObject("pictureBox30.Image");
+            pictureBox30.Location = new System.Drawing.Point(162, 581);
+            pictureBox30.Name = "pictureBox30";
+            pictureBox30.Size = new System.Drawing.Size(19, 19);
+            pictureBox30.TabIndex = 374;
+            pictureBox30.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(20, 179);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox3.TabIndex = 374;
-            this.pictureBox3.TabStop = false;
+            pictureBox3.Image = (System.Drawing.Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new System.Drawing.Point(20, 179);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new System.Drawing.Size(19, 19);
+            pictureBox3.TabIndex = 374;
+            pictureBox3.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            pictureBox28.Image = (System.Drawing.Image)resources.GetObject("pictureBox28.Image");
+            pictureBox28.Location = new System.Drawing.Point(130, 581);
+            pictureBox28.Name = "pictureBox28";
+            pictureBox28.Size = new System.Drawing.Size(19, 19);
+            pictureBox28.TabIndex = 373;
+            pictureBox28.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(20, 159);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox2.TabIndex = 373;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new System.Drawing.Point(20, 159);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(19, 19);
+            pictureBox2.TabIndex = 373;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            pictureBox29.Image = (System.Drawing.Image)resources.GetObject("pictureBox29.Image");
+            pictureBox29.Location = new System.Drawing.Point(98, 581);
+            pictureBox29.Name = "pictureBox29";
+            pictureBox29.Size = new System.Drawing.Size(19, 19);
+            pictureBox29.TabIndex = 372;
+            pictureBox29.TabStop = false;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 138);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(19, 19);
-            this.pictureBox1.TabIndex = 372;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new System.Drawing.Point(20, 138);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(19, 19);
+            pictureBox1.TabIndex = 372;
+            pictureBox1.TabStop = false;
             // 
             // checkBoxCt19
             // 
-            this.checkBoxCt19.AutoSize = true;
-            this.checkBoxCt19.Location = new System.Drawing.Point(6, 321);
-            this.checkBoxCt19.Name = "checkBoxCt19";
-            this.checkBoxCt19.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt19.TabIndex = 371;
-            this.checkBoxCt19.UseVisualStyleBackColor = true;
-            this.checkBoxCt19.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt19.AutoSize = true;
+            checkBoxCt19.Location = new System.Drawing.Point(6, 321);
+            checkBoxCt19.Name = "checkBoxCt19";
+            checkBoxCt19.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt19.TabIndex = 371;
+            checkBoxCt19.UseVisualStyleBackColor = true;
+            checkBoxCt19.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt18
             // 
-            this.checkBoxCt18.AutoSize = true;
-            this.checkBoxCt18.Location = new System.Drawing.Point(6, 341);
-            this.checkBoxCt18.Name = "checkBoxCt18";
-            this.checkBoxCt18.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt18.TabIndex = 370;
-            this.checkBoxCt18.UseVisualStyleBackColor = true;
-            this.checkBoxCt18.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt18.AutoSize = true;
+            checkBoxCt18.Location = new System.Drawing.Point(6, 341);
+            checkBoxCt18.Name = "checkBoxCt18";
+            checkBoxCt18.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt18.TabIndex = 370;
+            checkBoxCt18.UseVisualStyleBackColor = true;
+            checkBoxCt18.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt17
             // 
-            this.checkBoxCt17.AutoSize = true;
-            this.checkBoxCt17.Location = new System.Drawing.Point(6, 301);
-            this.checkBoxCt17.Name = "checkBoxCt17";
-            this.checkBoxCt17.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt17.TabIndex = 369;
-            this.checkBoxCt17.UseVisualStyleBackColor = true;
-            this.checkBoxCt17.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt17.AutoSize = true;
+            checkBoxCt17.Location = new System.Drawing.Point(6, 301);
+            checkBoxCt17.Name = "checkBoxCt17";
+            checkBoxCt17.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt17.TabIndex = 369;
+            checkBoxCt17.UseVisualStyleBackColor = true;
+            checkBoxCt17.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt16
             // 
-            this.checkBoxCt16.AutoSize = true;
-            this.checkBoxCt16.Location = new System.Drawing.Point(6, 281);
-            this.checkBoxCt16.Name = "checkBoxCt16";
-            this.checkBoxCt16.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt16.TabIndex = 368;
-            this.checkBoxCt16.UseVisualStyleBackColor = true;
-            this.checkBoxCt16.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt16.AutoSize = true;
+            checkBoxCt16.Location = new System.Drawing.Point(6, 281);
+            checkBoxCt16.Name = "checkBoxCt16";
+            checkBoxCt16.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt16.TabIndex = 368;
+            checkBoxCt16.UseVisualStyleBackColor = true;
+            checkBoxCt16.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt14
             // 
-            this.checkBoxCt14.AutoSize = true;
-            this.checkBoxCt14.Location = new System.Drawing.Point(6, 261);
-            this.checkBoxCt14.Name = "checkBoxCt14";
-            this.checkBoxCt14.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt14.TabIndex = 367;
-            this.checkBoxCt14.UseVisualStyleBackColor = true;
-            this.checkBoxCt14.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt14.AutoSize = true;
+            checkBoxCt14.Location = new System.Drawing.Point(6, 261);
+            checkBoxCt14.Name = "checkBoxCt14";
+            checkBoxCt14.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt14.TabIndex = 367;
+            checkBoxCt14.UseVisualStyleBackColor = true;
+            checkBoxCt14.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt15
             // 
-            this.checkBoxCt15.AutoSize = true;
-            this.checkBoxCt15.Location = new System.Drawing.Point(6, 221);
-            this.checkBoxCt15.Name = "checkBoxCt15";
-            this.checkBoxCt15.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt15.TabIndex = 365;
-            this.checkBoxCt15.UseVisualStyleBackColor = true;
-            this.checkBoxCt15.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt15.AutoSize = true;
+            checkBoxCt15.Location = new System.Drawing.Point(6, 221);
+            checkBoxCt15.Name = "checkBoxCt15";
+            checkBoxCt15.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt15.TabIndex = 365;
+            checkBoxCt15.UseVisualStyleBackColor = true;
+            checkBoxCt15.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt13
             // 
-            this.checkBoxCt13.AutoSize = true;
-            this.checkBoxCt13.Location = new System.Drawing.Point(6, 241);
-            this.checkBoxCt13.Name = "checkBoxCt13";
-            this.checkBoxCt13.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt13.TabIndex = 366;
-            this.checkBoxCt13.UseVisualStyleBackColor = true;
-            this.checkBoxCt13.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt13.AutoSize = true;
+            checkBoxCt13.Location = new System.Drawing.Point(6, 241);
+            checkBoxCt13.Name = "checkBoxCt13";
+            checkBoxCt13.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt13.TabIndex = 366;
+            checkBoxCt13.UseVisualStyleBackColor = true;
+            checkBoxCt13.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt12
             // 
-            this.checkBoxCt12.AutoSize = true;
-            this.checkBoxCt12.Location = new System.Drawing.Point(6, 201);
-            this.checkBoxCt12.Name = "checkBoxCt12";
-            this.checkBoxCt12.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt12.TabIndex = 364;
-            this.checkBoxCt12.UseVisualStyleBackColor = true;
-            this.checkBoxCt12.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt12.AutoSize = true;
+            checkBoxCt12.Location = new System.Drawing.Point(6, 201);
+            checkBoxCt12.Name = "checkBoxCt12";
+            checkBoxCt12.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt12.TabIndex = 364;
+            checkBoxCt12.UseVisualStyleBackColor = true;
+            checkBoxCt12.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt11
             // 
-            this.checkBoxCt11.AutoSize = true;
-            this.checkBoxCt11.Location = new System.Drawing.Point(6, 181);
-            this.checkBoxCt11.Name = "checkBoxCt11";
-            this.checkBoxCt11.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt11.TabIndex = 363;
-            this.checkBoxCt11.UseVisualStyleBackColor = true;
-            this.checkBoxCt11.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt11.AutoSize = true;
+            checkBoxCt11.Location = new System.Drawing.Point(6, 181);
+            checkBoxCt11.Name = "checkBoxCt11";
+            checkBoxCt11.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt11.TabIndex = 363;
+            checkBoxCt11.UseVisualStyleBackColor = true;
+            checkBoxCt11.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt10
             // 
-            this.checkBoxCt10.AutoSize = true;
-            this.checkBoxCt10.Location = new System.Drawing.Point(6, 161);
-            this.checkBoxCt10.Name = "checkBoxCt10";
-            this.checkBoxCt10.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt10.TabIndex = 362;
-            this.checkBoxCt10.UseVisualStyleBackColor = true;
-            this.checkBoxCt10.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt10.AutoSize = true;
+            checkBoxCt10.Location = new System.Drawing.Point(6, 161);
+            checkBoxCt10.Name = "checkBoxCt10";
+            checkBoxCt10.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt10.TabIndex = 362;
+            checkBoxCt10.UseVisualStyleBackColor = true;
+            checkBoxCt10.CheckedChanged += ListedCheckBoxCount;
             // 
             // checkBoxCt9
             // 
-            this.checkBoxCt9.AutoSize = true;
-            this.checkBoxCt9.Location = new System.Drawing.Point(6, 141);
-            this.checkBoxCt9.Name = "checkBoxCt9";
-            this.checkBoxCt9.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCt9.TabIndex = 361;
-            this.checkBoxCt9.UseVisualStyleBackColor = true;
-            this.checkBoxCt9.CheckedChanged += new System.EventHandler(this.ListedCheckBoxCount);
+            checkBoxCt9.AutoSize = true;
+            checkBoxCt9.Location = new System.Drawing.Point(6, 141);
+            checkBoxCt9.Name = "checkBoxCt9";
+            checkBoxCt9.Size = new System.Drawing.Size(15, 14);
+            checkBoxCt9.TabIndex = 361;
+            checkBoxCt9.UseVisualStyleBackColor = true;
+            checkBoxCt9.CheckedChanged += ListedCheckBoxCount;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(433, 107);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 15);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "0";
+            label3.AutoSize = true;
+            label3.Location = new System.Drawing.Point(433, 107);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(13, 15);
+            label3.TabIndex = 4;
+            label3.Text = "0";
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.ClearMachine_id);
-            this.tabPage4.Controls.Add(this.Rex);
-            this.tabPage4.Controls.Add(this.Scooter);
-            this.tabPage4.Controls.Add(this.Bike);
-            this.tabPage4.Controls.Add(this.Slick);
-            this.tabPage4.Controls.Add(this.Bulk);
-            this.tabPage4.Controls.Add(this.Turbo);
-            this.tabPage4.Controls.Add(this.Rocket);
-            this.tabPage4.Controls.Add(this.Swerve);
-            this.tabPage4.Controls.Add(this.Wagon);
-            this.tabPage4.Controls.Add(this.Shadow);
-            this.tabPage4.Controls.Add(this.Compact);
-            this.tabPage4.Controls.Add(this.Warp);
-            this.tabPage4.Controls.Add(this.Winged);
-            this.tabPage4.Controls.Add(this.Formula);
-            this.tabPage4.Controls.Add(this.Jet);
-            this.tabPage4.Controls.Add(this.button6);
-            this.tabPage4.Controls.Add(this.button4);
-            this.tabPage4.Controls.Add(this.button3);
-            this.tabPage4.Controls.Add(this.buttonStadiumSr);
-            this.tabPage4.Controls.Add(this.buttonStadiumKm);
-            this.tabPage4.Controls.Add(this.buttonStadiumDd);
-            this.tabPage4.Controls.Add(this.buttonStadiumDr);
-            this.tabPage4.Controls.Add(this.label7);
-            this.tabPage4.Controls.Add(this.label6);
-            this.tabPage4.Controls.Add(this.listBox1);
-            this.tabPage4.Controls.Add(this.Seed);
-            this.tabPage4.Controls.Add(this.Machine_id);
-            this.tabPage4.Controls.Add(this.buttonStadiumReset);
-            this.tabPage4.Controls.Add(this.checkBoxStadium24);
-            this.tabPage4.Controls.Add(this.checkBoxStadium16);
-            this.tabPage4.Controls.Add(this.checkBoxStadium8);
-            this.tabPage4.Controls.Add(this.checkBoxStadium23);
-            this.tabPage4.Controls.Add(this.checkBoxStadium15);
-            this.tabPage4.Controls.Add(this.checkBoxStadium7);
-            this.tabPage4.Controls.Add(this.checkBoxStadium22);
-            this.tabPage4.Controls.Add(this.checkBoxStadium14);
-            this.tabPage4.Controls.Add(this.checkBoxStadium21);
-            this.tabPage4.Controls.Add(this.checkBoxStadium13);
-            this.tabPage4.Controls.Add(this.checkBoxStadium6);
-            this.tabPage4.Controls.Add(this.checkBoxStadium20);
-            this.tabPage4.Controls.Add(this.checkBoxStadium12);
-            this.tabPage4.Controls.Add(this.checkBoxStadium5);
-            this.tabPage4.Controls.Add(this.checkBoxStadium19);
-            this.tabPage4.Controls.Add(this.checkBoxStadium11);
-            this.tabPage4.Controls.Add(this.checkBoxStadium4);
-            this.tabPage4.Controls.Add(this.checkBoxStadium18);
-            this.tabPage4.Controls.Add(this.checkBoxStadium10);
-            this.tabPage4.Controls.Add(this.checkBoxStadium3);
-            this.tabPage4.Controls.Add(this.checkBoxStadium17);
-            this.tabPage4.Controls.Add(this.checkBoxStadium9);
-            this.tabPage4.Controls.Add(this.checkBoxStadium2);
-            this.tabPage4.Controls.Add(this.checkBoxStadium1);
-            this.tabPage4.Controls.Add(this.label8);
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(472, 852);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "RNG manip";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // Rex
-            // 
-            this.Rex.Image = ((System.Drawing.Image)(resources.GetObject("Rex.Image")));
-            this.Rex.Location = new System.Drawing.Point(368, 80);
-            this.Rex.Name = "Rex";
-            this.Rex.Size = new System.Drawing.Size(46, 46);
-            this.Rex.TabIndex = 31;
-            this.Rex.TabStop = false;
-            this.Rex.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Rex_MouseDown);
-            // 
-            // Scooter
-            // 
-            this.Scooter.Image = ((System.Drawing.Image)(resources.GetObject("Scooter.Image")));
-            this.Scooter.Location = new System.Drawing.Point(316, 80);
-            this.Scooter.Name = "Scooter";
-            this.Scooter.Size = new System.Drawing.Size(46, 46);
-            this.Scooter.TabIndex = 30;
-            this.Scooter.TabStop = false;
-            this.Scooter.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Scooter_MouseDown);
-            // 
-            // Bike
-            // 
-            this.Bike.Image = ((System.Drawing.Image)(resources.GetObject("Bike.Image")));
-            this.Bike.Location = new System.Drawing.Point(264, 80);
-            this.Bike.Name = "Bike";
-            this.Bike.Size = new System.Drawing.Size(46, 46);
-            this.Bike.TabIndex = 29;
-            this.Bike.TabStop = false;
-            this.Bike.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Bike_MouseDown);
-            // 
-            // Slick
-            // 
-            this.Slick.Image = ((System.Drawing.Image)(resources.GetObject("Slick.Image")));
-            this.Slick.Location = new System.Drawing.Point(212, 80);
-            this.Slick.Name = "Slick";
-            this.Slick.Size = new System.Drawing.Size(46, 46);
-            this.Slick.TabIndex = 28;
-            this.Slick.TabStop = false;
-            this.Slick.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Slick_MouseDown);
-            // 
-            // Bulk
-            // 
-            this.Bulk.Image = ((System.Drawing.Image)(resources.GetObject("Bulk.Image")));
-            this.Bulk.Location = new System.Drawing.Point(160, 80);
-            this.Bulk.Name = "Bulk";
-            this.Bulk.Size = new System.Drawing.Size(46, 46);
-            this.Bulk.TabIndex = 27;
-            this.Bulk.TabStop = false;
-            this.Bulk.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Bulk_MouseDown);
-            // 
-            // Turbo
-            // 
-            this.Turbo.Image = ((System.Drawing.Image)(resources.GetObject("Turbo.Image")));
-            this.Turbo.Location = new System.Drawing.Point(108, 80);
-            this.Turbo.Name = "Turbo";
-            this.Turbo.Size = new System.Drawing.Size(46, 46);
-            this.Turbo.TabIndex = 26;
-            this.Turbo.TabStop = false;
-            this.Turbo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Turbo_MouseDown);
-            // 
-            // Rocket
-            // 
-            this.Rocket.Image = ((System.Drawing.Image)(resources.GetObject("Rocket.Image")));
-            this.Rocket.Location = new System.Drawing.Point(56, 80);
-            this.Rocket.Name = "Rocket";
-            this.Rocket.Size = new System.Drawing.Size(46, 46);
-            this.Rocket.TabIndex = 25;
-            this.Rocket.TabStop = false;
-            this.Rocket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Rocket_MouseDown);
-            // 
-            // Swerve
-            // 
-            this.Swerve.Image = ((System.Drawing.Image)(resources.GetObject("Swerve.Image")));
-            this.Swerve.Location = new System.Drawing.Point(394, 28);
-            this.Swerve.Name = "Swerve";
-            this.Swerve.Size = new System.Drawing.Size(46, 46);
-            this.Swerve.TabIndex = 24;
-            this.Swerve.TabStop = false;
-            this.Swerve.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Swerve_MouseDown);
-            // 
-            // Wagon
-            // 
-            this.Wagon.Image = ((System.Drawing.Image)(resources.GetObject("Wagon.Image")));
-            this.Wagon.Location = new System.Drawing.Point(342, 28);
-            this.Wagon.Name = "Wagon";
-            this.Wagon.Size = new System.Drawing.Size(46, 46);
-            this.Wagon.TabIndex = 23;
-            this.Wagon.TabStop = false;
-            this.Wagon.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Wagon_MouseDown);
-            // 
-            // Shadow
-            // 
-            this.Shadow.Image = ((System.Drawing.Image)(resources.GetObject("Shadow.Image")));
-            this.Shadow.Location = new System.Drawing.Point(290, 28);
-            this.Shadow.Name = "Shadow";
-            this.Shadow.Size = new System.Drawing.Size(46, 46);
-            this.Shadow.TabIndex = 22;
-            this.Shadow.TabStop = false;
-            this.Shadow.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Shadow_MouseDown);
-            // 
-            // Compact
-            // 
-            this.Compact.Image = ((System.Drawing.Image)(resources.GetObject("Compact.Image")));
-            this.Compact.Location = new System.Drawing.Point(238, 28);
-            this.Compact.Name = "Compact";
-            this.Compact.Size = new System.Drawing.Size(46, 46);
-            this.Compact.TabIndex = 21;
-            this.Compact.TabStop = false;
-            this.Compact.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Compact_MouseDown);
-            // 
-            // Warp
-            // 
-            this.Warp.Image = ((System.Drawing.Image)(resources.GetObject("Warp.Image")));
-            this.Warp.Location = new System.Drawing.Point(186, 28);
-            this.Warp.Name = "Warp";
-            this.Warp.Size = new System.Drawing.Size(46, 46);
-            this.Warp.TabIndex = 20;
-            this.Warp.TabStop = false;
-            this.Warp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Warp_MouseDown);
-            // 
-            // Winged
-            // 
-            this.Winged.Image = ((System.Drawing.Image)(resources.GetObject("Winged.Image")));
-            this.Winged.Location = new System.Drawing.Point(134, 28);
-            this.Winged.Name = "Winged";
-            this.Winged.Size = new System.Drawing.Size(46, 46);
-            this.Winged.TabIndex = 19;
-            this.Winged.TabStop = false;
-            this.Winged.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Winged_MouseDown);
-            // 
-            // Formula
-            // 
-            this.Formula.Image = ((System.Drawing.Image)(resources.GetObject("Formula.Image")));
-            this.Formula.Location = new System.Drawing.Point(82, 28);
-            this.Formula.Name = "Formula";
-            this.Formula.Size = new System.Drawing.Size(46, 46);
-            this.Formula.TabIndex = 18;
-            this.Formula.TabStop = false;
-            this.Formula.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Formula_MouseDown);
-            // 
-            // Jet
-            // 
-            this.Jet.Image = ((System.Drawing.Image)(resources.GetObject("Jet.Image")));
-            this.Jet.Location = new System.Drawing.Point(30, 28);
-            this.Jet.Name = "Jet";
-            this.Jet.Size = new System.Drawing.Size(46, 46);
-            this.Jet.TabIndex = 17;
-            this.Jet.TabStop = false;
-            this.Jet.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Jet_MouseDown);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(174, 188);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(96, 23);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "初期Seed計算";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.InitialMachineIdToPrediction);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(174, 804);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(228, 23);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "スタジアム変更して表示";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.SeedToPrediction);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(276, 188);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(126, 23);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Seed計算";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.MachineIdToPrediction);
-            // 
-            // buttonStadiumSr
-            // 
-            this.buttonStadiumSr.Location = new System.Drawing.Point(87, 804);
-            this.buttonStadiumSr.Name = "buttonStadiumSr";
-            this.buttonStadiumSr.Size = new System.Drawing.Size(75, 23);
-            this.buttonStadiumSr.TabIndex = 11;
-            this.buttonStadiumSr.Text = "SR";
-            this.buttonStadiumSr.UseVisualStyleBackColor = true;
-            this.buttonStadiumSr.Click += new System.EventHandler(this.StadiumSr);
-            // 
-            // buttonStadiumKm
-            // 
-            this.buttonStadiumKm.Location = new System.Drawing.Point(6, 805);
-            this.buttonStadiumKm.Name = "buttonStadiumKm";
-            this.buttonStadiumKm.Size = new System.Drawing.Size(75, 23);
-            this.buttonStadiumKm.TabIndex = 10;
-            this.buttonStadiumKm.Text = "バトロイ";
-            this.buttonStadiumKm.UseVisualStyleBackColor = true;
-            this.buttonStadiumKm.Click += new System.EventHandler(this.StadiumKm);
-            // 
-            // buttonStadiumDd
-            // 
-            this.buttonStadiumDd.Location = new System.Drawing.Point(87, 775);
-            this.buttonStadiumDd.Name = "buttonStadiumDd";
-            this.buttonStadiumDd.Size = new System.Drawing.Size(75, 23);
-            this.buttonStadiumDd.TabIndex = 9;
-            this.buttonStadiumDd.Text = "デスマッチ";
-            this.buttonStadiumDd.UseVisualStyleBackColor = true;
-            this.buttonStadiumDd.Click += new System.EventHandler(this.StadiumDd);
-            // 
-            // buttonStadiumDr
-            // 
-            this.buttonStadiumDr.Location = new System.Drawing.Point(6, 775);
-            this.buttonStadiumDr.Name = "buttonStadiumDr";
-            this.buttonStadiumDr.Size = new System.Drawing.Size(75, 23);
-            this.buttonStadiumDr.TabIndex = 8;
-            this.buttonStadiumDr.Text = "ゼロヨン";
-            this.buttonStadiumDr.UseVisualStyleBackColor = true;
-            this.buttonStadiumDr.Click += new System.EventHandler(this.StadiumDr);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(170, 221);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(32, 15);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Seed";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(170, 162);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 15);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Machine ID";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(174, 246);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(228, 544);
-            this.listBox1.TabIndex = 4;
-            // 
-            // Seed
-            // 
-            this.Seed.Location = new System.Drawing.Point(208, 217);
-            this.Seed.Name = "Seed";
-            this.Seed.Size = new System.Drawing.Size(194, 23);
-            this.Seed.TabIndex = 3;
-            this.Seed.Text = "0";
-            // 
-            // Machine_id
-            // 
-            this.Machine_id.Location = new System.Drawing.Point(243, 159);
-            this.Machine_id.Name = "Machine_id";
-            this.Machine_id.Size = new System.Drawing.Size(108, 23);
-            this.Machine_id.TabIndex = 2;
-            // 
-            // buttonStadiumReset
-            // 
-            this.buttonStadiumReset.Location = new System.Drawing.Point(6, 746);
-            this.buttonStadiumReset.Name = "buttonStadiumReset";
-            this.buttonStadiumReset.Size = new System.Drawing.Size(156, 23);
-            this.buttonStadiumReset.TabIndex = 1;
-            this.buttonStadiumReset.Text = "Reset";
-            this.buttonStadiumReset.UseVisualStyleBackColor = true;
-            this.buttonStadiumReset.Click += new System.EventHandler(this.StadiumReset);
-            // 
-            // checkBoxStadium24
-            // 
-            this.checkBoxStadium24.AutoSize = true;
-            this.checkBoxStadium24.Checked = true;
-            this.checkBoxStadium24.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium24.Location = new System.Drawing.Point(39, 721);
-            this.checkBoxStadium24.Name = "checkBoxStadium24";
-            this.checkBoxStadium24.Size = new System.Drawing.Size(66, 19);
-            this.checkBoxStadium24.TabIndex = 0;
-            this.checkBoxStadium24.Text = "VSデデデ";
-            this.checkBoxStadium24.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium16
-            // 
-            this.checkBoxStadium16.AutoSize = true;
-            this.checkBoxStadium16.Checked = true;
-            this.checkBoxStadium16.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium16.Location = new System.Drawing.Point(39, 521);
-            this.checkBoxStadium16.Name = "checkBoxStadium16";
-            this.checkBoxStadium16.Size = new System.Drawing.Size(68, 19);
-            this.checkBoxStadium16.TabIndex = 0;
-            this.checkBoxStadium16.Text = "マグヒート";
-            this.checkBoxStadium16.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium8
-            // 
-            this.checkBoxStadium8.AutoSize = true;
-            this.checkBoxStadium8.Checked = true;
-            this.checkBoxStadium8.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium8.Location = new System.Drawing.Point(39, 321);
-            this.checkBoxStadium8.Name = "checkBoxStadium8";
-            this.checkBoxStadium8.Size = new System.Drawing.Size(98, 19);
-            this.checkBoxStadium8.TabIndex = 0;
-            this.checkBoxStadium8.Text = "バトルロイヤル1";
-            this.checkBoxStadium8.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium23
-            // 
-            this.checkBoxStadium23.AutoSize = true;
-            this.checkBoxStadium23.Location = new System.Drawing.Point(39, 696);
-            this.checkBoxStadium23.Name = "checkBoxStadium23";
-            this.checkBoxStadium23.Size = new System.Drawing.Size(78, 19);
-            this.checkBoxStadium23.TabIndex = 0;
-            this.checkBoxStadium23.Text = "ギャラックス";
-            this.checkBoxStadium23.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium15
-            // 
-            this.checkBoxStadium15.AutoSize = true;
-            this.checkBoxStadium15.Checked = true;
-            this.checkBoxStadium15.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium15.Location = new System.Drawing.Point(39, 496);
-            this.checkBoxStadium15.Name = "checkBoxStadium15";
-            this.checkBoxStadium15.Size = new System.Drawing.Size(70, 19);
-            this.checkBoxStadium15.TabIndex = 0;
-            this.checkBoxStadium15.Text = "プランテス";
-            this.checkBoxStadium15.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium7
-            // 
-            this.checkBoxStadium7.AutoSize = true;
-            this.checkBoxStadium7.Checked = true;
-            this.checkBoxStadium7.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium7.Location = new System.Drawing.Point(39, 296);
-            this.checkBoxStadium7.Name = "checkBoxStadium7";
-            this.checkBoxStadium7.Size = new System.Drawing.Size(80, 19);
-            this.checkBoxStadium7.TabIndex = 0;
-            this.checkBoxStadium7.Text = "ハイジャンプ";
-            this.checkBoxStadium7.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium22
-            // 
-            this.checkBoxStadium22.AutoSize = true;
-            this.checkBoxStadium22.Checked = true;
-            this.checkBoxStadium22.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium22.Location = new System.Drawing.Point(39, 671);
-            this.checkBoxStadium22.Name = "checkBoxStadium22";
-            this.checkBoxStadium22.Size = new System.Drawing.Size(85, 19);
-            this.checkBoxStadium22.TabIndex = 0;
-            this.checkBoxStadium22.Text = "チェックナイト";
-            this.checkBoxStadium22.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium14
-            // 
-            this.checkBoxStadium14.AutoSize = true;
-            this.checkBoxStadium14.Location = new System.Drawing.Point(39, 471);
-            this.checkBoxStadium14.Name = "checkBoxStadium14";
-            this.checkBoxStadium14.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxStadium14.TabIndex = 0;
-            this.checkBoxStadium14.Text = "デスマッチ5";
-            this.checkBoxStadium14.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium21
-            // 
-            this.checkBoxStadium21.AutoSize = true;
-            this.checkBoxStadium21.Checked = true;
-            this.checkBoxStadium21.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium21.Location = new System.Drawing.Point(39, 646);
-            this.checkBoxStadium21.Name = "checkBoxStadium21";
-            this.checkBoxStadium21.Size = new System.Drawing.Size(98, 19);
-            this.checkBoxStadium21.TabIndex = 0;
-            this.checkBoxStadium21.Text = "スチールオーガン";
-            this.checkBoxStadium21.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium13
-            // 
-            this.checkBoxStadium13.AutoSize = true;
-            this.checkBoxStadium13.Location = new System.Drawing.Point(39, 446);
-            this.checkBoxStadium13.Name = "checkBoxStadium13";
-            this.checkBoxStadium13.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxStadium13.TabIndex = 0;
-            this.checkBoxStadium13.Text = "デスマッチ4";
-            this.checkBoxStadium13.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium6
-            // 
-            this.checkBoxStadium6.AutoSize = true;
-            this.checkBoxStadium6.Checked = true;
-            this.checkBoxStadium6.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium6.Location = new System.Drawing.Point(39, 271);
-            this.checkBoxStadium6.Name = "checkBoxStadium6";
-            this.checkBoxStadium6.Size = new System.Drawing.Size(105, 19);
-            this.checkBoxStadium6.TabIndex = 0;
-            this.checkBoxStadium6.Text = "ポイントストライク";
-            this.checkBoxStadium6.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium20
-            // 
-            this.checkBoxStadium20.AutoSize = true;
-            this.checkBoxStadium20.Checked = true;
-            this.checkBoxStadium20.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium20.Location = new System.Drawing.Point(39, 621);
-            this.checkBoxStadium20.Name = "checkBoxStadium20";
-            this.checkBoxStadium20.Size = new System.Drawing.Size(77, 19);
-            this.checkBoxStadium20.TabIndex = 0;
-            this.checkBoxStadium20.Text = "ヴァレリオン";
-            this.checkBoxStadium20.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium12
-            // 
-            this.checkBoxStadium12.AutoSize = true;
-            this.checkBoxStadium12.Location = new System.Drawing.Point(39, 421);
-            this.checkBoxStadium12.Name = "checkBoxStadium12";
-            this.checkBoxStadium12.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxStadium12.TabIndex = 0;
-            this.checkBoxStadium12.Text = "デスマッチ3";
-            this.checkBoxStadium12.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium5
-            // 
-            this.checkBoxStadium5.AutoSize = true;
-            this.checkBoxStadium5.Checked = true;
-            this.checkBoxStadium5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium5.Location = new System.Drawing.Point(39, 246);
-            this.checkBoxStadium5.Name = "checkBoxStadium5";
-            this.checkBoxStadium5.Size = new System.Drawing.Size(87, 19);
-            this.checkBoxStadium5.TabIndex = 0;
-            this.checkBoxStadium5.Text = "エアグライダー";
-            this.checkBoxStadium5.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium19
-            // 
-            this.checkBoxStadium19.AutoSize = true;
-            this.checkBoxStadium19.Checked = true;
-            this.checkBoxStadium19.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium19.Location = new System.Drawing.Point(39, 596);
-            this.checkBoxStadium19.Name = "checkBoxStadium19";
-            this.checkBoxStadium19.Size = new System.Drawing.Size(71, 19);
-            this.checkBoxStadium19.TabIndex = 0;
-            this.checkBoxStadium19.Text = "アイルーン";
-            this.checkBoxStadium19.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium11
-            // 
-            this.checkBoxStadium11.AutoSize = true;
-            this.checkBoxStadium11.Checked = true;
-            this.checkBoxStadium11.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium11.Location = new System.Drawing.Point(39, 396);
-            this.checkBoxStadium11.Name = "checkBoxStadium11";
-            this.checkBoxStadium11.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxStadium11.TabIndex = 0;
-            this.checkBoxStadium11.Text = "デスマッチ2";
-            this.checkBoxStadium11.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium4
-            // 
-            this.checkBoxStadium4.AutoSize = true;
-            this.checkBoxStadium4.Location = new System.Drawing.Point(39, 221);
-            this.checkBoxStadium4.Name = "checkBoxStadium4";
-            this.checkBoxStadium4.Size = new System.Drawing.Size(103, 19);
-            this.checkBoxStadium4.TabIndex = 0;
-            this.checkBoxStadium4.Text = "ゼロヨンアタック4";
-            this.checkBoxStadium4.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium18
-            // 
-            this.checkBoxStadium18.AutoSize = true;
-            this.checkBoxStadium18.Checked = true;
-            this.checkBoxStadium18.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium18.Location = new System.Drawing.Point(39, 571);
-            this.checkBoxStadium18.Name = "checkBoxStadium18";
-            this.checkBoxStadium18.Size = new System.Drawing.Size(53, 19);
-            this.checkBoxStadium18.TabIndex = 0;
-            this.checkBoxStadium18.Text = "コルダ";
-            this.checkBoxStadium18.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium10
-            // 
-            this.checkBoxStadium10.AutoSize = true;
-            this.checkBoxStadium10.Checked = true;
-            this.checkBoxStadium10.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium10.Location = new System.Drawing.Point(39, 371);
-            this.checkBoxStadium10.Name = "checkBoxStadium10";
-            this.checkBoxStadium10.Size = new System.Drawing.Size(76, 19);
-            this.checkBoxStadium10.TabIndex = 0;
-            this.checkBoxStadium10.Text = "デスマッチ1";
-            this.checkBoxStadium10.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium3
-            // 
-            this.checkBoxStadium3.AutoSize = true;
-            this.checkBoxStadium3.Checked = true;
-            this.checkBoxStadium3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium3.Location = new System.Drawing.Point(39, 196);
-            this.checkBoxStadium3.Name = "checkBoxStadium3";
-            this.checkBoxStadium3.Size = new System.Drawing.Size(103, 19);
-            this.checkBoxStadium3.TabIndex = 0;
-            this.checkBoxStadium3.Text = "ゼロヨンアタック3";
-            this.checkBoxStadium3.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium17
-            // 
-            this.checkBoxStadium17.AutoSize = true;
-            this.checkBoxStadium17.Checked = true;
-            this.checkBoxStadium17.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium17.Location = new System.Drawing.Point(39, 546);
-            this.checkBoxStadium17.Name = "checkBoxStadium17";
-            this.checkBoxStadium17.Size = new System.Drawing.Size(69, 19);
-            this.checkBoxStadium17.TabIndex = 0;
-            this.checkBoxStadium17.Text = "サンドーラ";
-            this.checkBoxStadium17.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium9
-            // 
-            this.checkBoxStadium9.AutoSize = true;
-            this.checkBoxStadium9.Location = new System.Drawing.Point(39, 346);
-            this.checkBoxStadium9.Name = "checkBoxStadium9";
-            this.checkBoxStadium9.Size = new System.Drawing.Size(98, 19);
-            this.checkBoxStadium9.TabIndex = 0;
-            this.checkBoxStadium9.Text = "バトルロイヤル2";
-            this.checkBoxStadium9.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium2
-            // 
-            this.checkBoxStadium2.AutoSize = true;
-            this.checkBoxStadium2.Checked = true;
-            this.checkBoxStadium2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium2.Location = new System.Drawing.Point(39, 171);
-            this.checkBoxStadium2.Name = "checkBoxStadium2";
-            this.checkBoxStadium2.Size = new System.Drawing.Size(103, 19);
-            this.checkBoxStadium2.TabIndex = 0;
-            this.checkBoxStadium2.Text = "ゼロヨンアタック2";
-            this.checkBoxStadium2.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxStadium1
-            // 
-            this.checkBoxStadium1.AutoSize = true;
-            this.checkBoxStadium1.Checked = true;
-            this.checkBoxStadium1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxStadium1.Location = new System.Drawing.Point(39, 146);
-            this.checkBoxStadium1.Name = "checkBoxStadium1";
-            this.checkBoxStadium1.Size = new System.Drawing.Size(103, 19);
-            this.checkBoxStadium1.TabIndex = 0;
-            this.checkBoxStadium1.Text = "ゼロヨンアタック1";
-            this.checkBoxStadium1.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(231, 220);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(13, 15);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "0";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(16, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(459, 23);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TabStop = false;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem7});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(504, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(57, 20);
-            this.toolStripMenuItem1.Text = "Version";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Checked = true;
-            this.toolStripMenuItem2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
-            this.toolStripMenuItem2.Text = "Japanese";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.VersionSelect);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
-            this.toolStripMenuItem3.Text = "English";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.VersionSelect);
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem5,
-            this.toolStripMenuItem6});
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(71, 20);
-            this.toolStripMenuItem4.Text = "Language";
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Checked = true;
-            this.toolStripMenuItem5.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(121, 22);
-            this.toolStripMenuItem5.Text = "Japanese";
-            this.toolStripMenuItem5.Click += new System.EventHandler(this.LanguageSelect);
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(121, 22);
-            this.toolStripMenuItem6.Text = "English";
-            this.toolStripMenuItem6.Click += new System.EventHandler(this.LanguageSelect);
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem8,
-            this.toolStripMenuItem9,
-            this.toolStripMenuItem10,
-            this.toolStripMenuItem11});
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(74, 20);
-            this.toolStripMenuItem7.Text = "Run Mode";
-            // 
-            // toolStripMenuItem8
-            // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(119, 22);
-            this.toolStripMenuItem8.Text = "Air Ride";
-            this.toolStripMenuItem8.Click += new System.EventHandler(this.RunModeSelect);
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(119, 22);
-            this.toolStripMenuItem9.Text = "Top Ride";
-            this.toolStripMenuItem9.Click += new System.EventHandler(this.RunModeSelect);
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(119, 22);
-            this.toolStripMenuItem10.Text = "City Trial";
-            this.toolStripMenuItem10.Click += new System.EventHandler(this.RunModeSelect);
-            // 
-            // toolStripMenuItem11
-            // 
-            this.toolStripMenuItem11.Checked = true;
-            this.toolStripMenuItem11.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(119, 22);
-            this.toolStripMenuItem11.Text = "100%";
-            this.toolStripMenuItem11.Click += new System.EventHandler(this.RunModeSelect);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(400, 66);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Reset);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(319, 66);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Check";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Check);
+            tabPage4.Controls.Add(ClearMachine_id);
+            tabPage4.Controls.Add(Rex);
+            tabPage4.Controls.Add(Scooter);
+            tabPage4.Controls.Add(Bike);
+            tabPage4.Controls.Add(Slick);
+            tabPage4.Controls.Add(Bulk);
+            tabPage4.Controls.Add(Turbo);
+            tabPage4.Controls.Add(Rocket);
+            tabPage4.Controls.Add(Swerve);
+            tabPage4.Controls.Add(Wagon);
+            tabPage4.Controls.Add(Shadow);
+            tabPage4.Controls.Add(Compact);
+            tabPage4.Controls.Add(Warp);
+            tabPage4.Controls.Add(Winged);
+            tabPage4.Controls.Add(Formula);
+            tabPage4.Controls.Add(Jet);
+            tabPage4.Controls.Add(button6);
+            tabPage4.Controls.Add(button4);
+            tabPage4.Controls.Add(button3);
+            tabPage4.Controls.Add(buttonStadiumSr);
+            tabPage4.Controls.Add(buttonStadiumKm);
+            tabPage4.Controls.Add(buttonStadiumDd);
+            tabPage4.Controls.Add(buttonStadiumDr);
+            tabPage4.Controls.Add(label7);
+            tabPage4.Controls.Add(label6);
+            tabPage4.Controls.Add(listBox1);
+            tabPage4.Controls.Add(Seed);
+            tabPage4.Controls.Add(Machine_id);
+            tabPage4.Controls.Add(buttonStadiumReset);
+            tabPage4.Controls.Add(checkBoxStadium24);
+            tabPage4.Controls.Add(checkBoxStadium16);
+            tabPage4.Controls.Add(checkBoxStadium8);
+            tabPage4.Controls.Add(checkBoxStadium23);
+            tabPage4.Controls.Add(checkBoxStadium15);
+            tabPage4.Controls.Add(checkBoxStadium7);
+            tabPage4.Controls.Add(checkBoxStadium22);
+            tabPage4.Controls.Add(checkBoxStadium14);
+            tabPage4.Controls.Add(checkBoxStadium21);
+            tabPage4.Controls.Add(checkBoxStadium13);
+            tabPage4.Controls.Add(checkBoxStadium6);
+            tabPage4.Controls.Add(checkBoxStadium20);
+            tabPage4.Controls.Add(checkBoxStadium12);
+            tabPage4.Controls.Add(checkBoxStadium5);
+            tabPage4.Controls.Add(checkBoxStadium19);
+            tabPage4.Controls.Add(checkBoxStadium11);
+            tabPage4.Controls.Add(checkBoxStadium4);
+            tabPage4.Controls.Add(checkBoxStadium18);
+            tabPage4.Controls.Add(checkBoxStadium10);
+            tabPage4.Controls.Add(checkBoxStadium3);
+            tabPage4.Controls.Add(checkBoxStadium17);
+            tabPage4.Controls.Add(checkBoxStadium9);
+            tabPage4.Controls.Add(checkBoxStadium2);
+            tabPage4.Controls.Add(checkBoxStadium1);
+            tabPage4.Controls.Add(label8);
+            tabPage4.Location = new System.Drawing.Point(4, 24);
+            tabPage4.Name = "tabPage4";
+            tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            tabPage4.Size = new System.Drawing.Size(472, 852);
+            tabPage4.TabIndex = 3;
+            tabPage4.Text = "RNG manip";
+            tabPage4.UseVisualStyleBackColor = true;
             // 
             // ClearMachine_id
             // 
-            this.ClearMachine_id.Location = new System.Drawing.Point(357, 159);
-            this.ClearMachine_id.Name = "ClearMachine_id";
-            this.ClearMachine_id.Size = new System.Drawing.Size(45, 23);
-            this.ClearMachine_id.TabIndex = 32;
-            this.ClearMachine_id.Text = "Clear";
-            this.ClearMachine_id.UseVisualStyleBackColor = true;
-            this.ClearMachine_id.Click += new System.EventHandler(this.ClearMachine_id_Click);
+            ClearMachine_id.Location = new System.Drawing.Point(357, 159);
+            ClearMachine_id.Name = "ClearMachine_id";
+            ClearMachine_id.Size = new System.Drawing.Size(45, 23);
+            ClearMachine_id.TabIndex = 32;
+            ClearMachine_id.Text = "Clear";
+            ClearMachine_id.UseVisualStyleBackColor = true;
+            ClearMachine_id.Click += ClearMachine_id_Click;
+            // 
+            // Rex
+            // 
+            Rex.Image = (System.Drawing.Image)resources.GetObject("Rex.Image");
+            Rex.Location = new System.Drawing.Point(368, 80);
+            Rex.Name = "Rex";
+            Rex.Size = new System.Drawing.Size(46, 46);
+            Rex.TabIndex = 31;
+            Rex.TabStop = false;
+            Rex.MouseDown += Rex_MouseDown;
+            // 
+            // Scooter
+            // 
+            Scooter.Image = (System.Drawing.Image)resources.GetObject("Scooter.Image");
+            Scooter.Location = new System.Drawing.Point(316, 80);
+            Scooter.Name = "Scooter";
+            Scooter.Size = new System.Drawing.Size(46, 46);
+            Scooter.TabIndex = 30;
+            Scooter.TabStop = false;
+            Scooter.MouseDown += Scooter_MouseDown;
+            // 
+            // Bike
+            // 
+            Bike.Image = (System.Drawing.Image)resources.GetObject("Bike.Image");
+            Bike.Location = new System.Drawing.Point(264, 80);
+            Bike.Name = "Bike";
+            Bike.Size = new System.Drawing.Size(46, 46);
+            Bike.TabIndex = 29;
+            Bike.TabStop = false;
+            Bike.MouseDown += Bike_MouseDown;
+            // 
+            // Slick
+            // 
+            Slick.Image = (System.Drawing.Image)resources.GetObject("Slick.Image");
+            Slick.Location = new System.Drawing.Point(212, 80);
+            Slick.Name = "Slick";
+            Slick.Size = new System.Drawing.Size(46, 46);
+            Slick.TabIndex = 28;
+            Slick.TabStop = false;
+            Slick.MouseDown += Slick_MouseDown;
+            // 
+            // Bulk
+            // 
+            Bulk.Image = (System.Drawing.Image)resources.GetObject("Bulk.Image");
+            Bulk.Location = new System.Drawing.Point(160, 80);
+            Bulk.Name = "Bulk";
+            Bulk.Size = new System.Drawing.Size(46, 46);
+            Bulk.TabIndex = 27;
+            Bulk.TabStop = false;
+            Bulk.MouseDown += Bulk_MouseDown;
+            // 
+            // Turbo
+            // 
+            Turbo.Image = (System.Drawing.Image)resources.GetObject("Turbo.Image");
+            Turbo.Location = new System.Drawing.Point(108, 80);
+            Turbo.Name = "Turbo";
+            Turbo.Size = new System.Drawing.Size(46, 46);
+            Turbo.TabIndex = 26;
+            Turbo.TabStop = false;
+            Turbo.MouseDown += Turbo_MouseDown;
+            // 
+            // Rocket
+            // 
+            Rocket.Image = (System.Drawing.Image)resources.GetObject("Rocket.Image");
+            Rocket.Location = new System.Drawing.Point(56, 80);
+            Rocket.Name = "Rocket";
+            Rocket.Size = new System.Drawing.Size(46, 46);
+            Rocket.TabIndex = 25;
+            Rocket.TabStop = false;
+            Rocket.MouseDown += Rocket_MouseDown;
+            // 
+            // Swerve
+            // 
+            Swerve.Image = (System.Drawing.Image)resources.GetObject("Swerve.Image");
+            Swerve.Location = new System.Drawing.Point(394, 28);
+            Swerve.Name = "Swerve";
+            Swerve.Size = new System.Drawing.Size(46, 46);
+            Swerve.TabIndex = 24;
+            Swerve.TabStop = false;
+            Swerve.MouseDown += Swerve_MouseDown;
+            // 
+            // Wagon
+            // 
+            Wagon.Image = (System.Drawing.Image)resources.GetObject("Wagon.Image");
+            Wagon.Location = new System.Drawing.Point(342, 28);
+            Wagon.Name = "Wagon";
+            Wagon.Size = new System.Drawing.Size(46, 46);
+            Wagon.TabIndex = 23;
+            Wagon.TabStop = false;
+            Wagon.MouseDown += Wagon_MouseDown;
+            // 
+            // Shadow
+            // 
+            Shadow.Image = (System.Drawing.Image)resources.GetObject("Shadow.Image");
+            Shadow.Location = new System.Drawing.Point(290, 28);
+            Shadow.Name = "Shadow";
+            Shadow.Size = new System.Drawing.Size(46, 46);
+            Shadow.TabIndex = 22;
+            Shadow.TabStop = false;
+            Shadow.MouseDown += Shadow_MouseDown;
+            // 
+            // Compact
+            // 
+            Compact.Image = (System.Drawing.Image)resources.GetObject("Compact.Image");
+            Compact.Location = new System.Drawing.Point(238, 28);
+            Compact.Name = "Compact";
+            Compact.Size = new System.Drawing.Size(46, 46);
+            Compact.TabIndex = 21;
+            Compact.TabStop = false;
+            Compact.MouseDown += Compact_MouseDown;
+            // 
+            // Warp
+            // 
+            Warp.Image = (System.Drawing.Image)resources.GetObject("Warp.Image");
+            Warp.Location = new System.Drawing.Point(186, 28);
+            Warp.Name = "Warp";
+            Warp.Size = new System.Drawing.Size(46, 46);
+            Warp.TabIndex = 20;
+            Warp.TabStop = false;
+            Warp.MouseDown += Warp_MouseDown;
+            // 
+            // Winged
+            // 
+            Winged.Image = (System.Drawing.Image)resources.GetObject("Winged.Image");
+            Winged.Location = new System.Drawing.Point(134, 28);
+            Winged.Name = "Winged";
+            Winged.Size = new System.Drawing.Size(46, 46);
+            Winged.TabIndex = 19;
+            Winged.TabStop = false;
+            Winged.MouseDown += Winged_MouseDown;
+            // 
+            // Formula
+            // 
+            Formula.Image = (System.Drawing.Image)resources.GetObject("Formula.Image");
+            Formula.Location = new System.Drawing.Point(82, 28);
+            Formula.Name = "Formula";
+            Formula.Size = new System.Drawing.Size(46, 46);
+            Formula.TabIndex = 18;
+            Formula.TabStop = false;
+            Formula.MouseDown += Formula_MouseDown;
+            // 
+            // Jet
+            // 
+            Jet.Image = (System.Drawing.Image)resources.GetObject("Jet.Image");
+            Jet.Location = new System.Drawing.Point(30, 28);
+            Jet.Name = "Jet";
+            Jet.Size = new System.Drawing.Size(46, 46);
+            Jet.TabIndex = 17;
+            Jet.TabStop = false;
+            Jet.MouseDown += Jet_MouseDown;
+            // 
+            // button6
+            // 
+            button6.Location = new System.Drawing.Point(174, 188);
+            button6.Name = "button6";
+            button6.Size = new System.Drawing.Size(96, 23);
+            button6.TabIndex = 16;
+            button6.Text = "初期Seed計算";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += InitialMachineIdToPrediction;
+            // 
+            // button4
+            // 
+            button4.Location = new System.Drawing.Point(174, 804);
+            button4.Name = "button4";
+            button4.Size = new System.Drawing.Size(228, 23);
+            button4.TabIndex = 13;
+            button4.Text = "スタジアム変更して表示";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += SeedToPrediction;
+            // 
+            // button3
+            // 
+            button3.Location = new System.Drawing.Point(276, 188);
+            button3.Name = "button3";
+            button3.Size = new System.Drawing.Size(126, 23);
+            button3.TabIndex = 12;
+            button3.Text = "Seed計算";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += MachineIdToPrediction_Click;
+            // 
+            // buttonStadiumSr
+            // 
+            buttonStadiumSr.Location = new System.Drawing.Point(87, 804);
+            buttonStadiumSr.Name = "buttonStadiumSr";
+            buttonStadiumSr.Size = new System.Drawing.Size(75, 23);
+            buttonStadiumSr.TabIndex = 11;
+            buttonStadiumSr.Text = "SR";
+            buttonStadiumSr.UseVisualStyleBackColor = true;
+            buttonStadiumSr.Click += StadiumSr;
+            // 
+            // buttonStadiumKm
+            // 
+            buttonStadiumKm.Location = new System.Drawing.Point(6, 805);
+            buttonStadiumKm.Name = "buttonStadiumKm";
+            buttonStadiumKm.Size = new System.Drawing.Size(75, 23);
+            buttonStadiumKm.TabIndex = 10;
+            buttonStadiumKm.Text = "バトロイ";
+            buttonStadiumKm.UseVisualStyleBackColor = true;
+            buttonStadiumKm.Click += StadiumKm;
+            // 
+            // buttonStadiumDd
+            // 
+            buttonStadiumDd.Location = new System.Drawing.Point(87, 775);
+            buttonStadiumDd.Name = "buttonStadiumDd";
+            buttonStadiumDd.Size = new System.Drawing.Size(75, 23);
+            buttonStadiumDd.TabIndex = 9;
+            buttonStadiumDd.Text = "デスマッチ";
+            buttonStadiumDd.UseVisualStyleBackColor = true;
+            buttonStadiumDd.Click += StadiumDd;
+            // 
+            // buttonStadiumDr
+            // 
+            buttonStadiumDr.Location = new System.Drawing.Point(6, 775);
+            buttonStadiumDr.Name = "buttonStadiumDr";
+            buttonStadiumDr.Size = new System.Drawing.Size(75, 23);
+            buttonStadiumDr.TabIndex = 8;
+            buttonStadiumDr.Text = "ゼロヨン";
+            buttonStadiumDr.UseVisualStyleBackColor = true;
+            buttonStadiumDr.Click += StadiumDr;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new System.Drawing.Point(170, 221);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(32, 15);
+            label7.TabIndex = 6;
+            label7.Text = "Seed";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new System.Drawing.Point(170, 162);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(67, 15);
+            label6.TabIndex = 5;
+            label6.Text = "Machine ID";
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new System.Drawing.Point(174, 246);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new System.Drawing.Size(228, 544);
+            listBox1.TabIndex = 4;
+            // 
+            // Seed
+            // 
+            Seed.Location = new System.Drawing.Point(208, 217);
+            Seed.Name = "Seed";
+            Seed.Size = new System.Drawing.Size(194, 23);
+            Seed.TabIndex = 3;
+            Seed.Text = "0";
+            // 
+            // Machine_id
+            // 
+            Machine_id.Location = new System.Drawing.Point(243, 159);
+            Machine_id.Name = "Machine_id";
+            Machine_id.Size = new System.Drawing.Size(108, 23);
+            Machine_id.TabIndex = 2;
+            // 
+            // buttonStadiumReset
+            // 
+            buttonStadiumReset.Location = new System.Drawing.Point(6, 746);
+            buttonStadiumReset.Name = "buttonStadiumReset";
+            buttonStadiumReset.Size = new System.Drawing.Size(156, 23);
+            buttonStadiumReset.TabIndex = 1;
+            buttonStadiumReset.Text = "Reset";
+            buttonStadiumReset.UseVisualStyleBackColor = true;
+            buttonStadiumReset.Click += StadiumReset;
+            // 
+            // checkBoxStadium24
+            // 
+            checkBoxStadium24.AutoSize = true;
+            checkBoxStadium24.Checked = true;
+            checkBoxStadium24.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium24.Location = new System.Drawing.Point(39, 721);
+            checkBoxStadium24.Name = "checkBoxStadium24";
+            checkBoxStadium24.Size = new System.Drawing.Size(66, 19);
+            checkBoxStadium24.TabIndex = 0;
+            checkBoxStadium24.Text = "VSデデデ";
+            checkBoxStadium24.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium16
+            // 
+            checkBoxStadium16.AutoSize = true;
+            checkBoxStadium16.Checked = true;
+            checkBoxStadium16.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium16.Location = new System.Drawing.Point(39, 521);
+            checkBoxStadium16.Name = "checkBoxStadium16";
+            checkBoxStadium16.Size = new System.Drawing.Size(68, 19);
+            checkBoxStadium16.TabIndex = 0;
+            checkBoxStadium16.Text = "マグヒート";
+            checkBoxStadium16.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium8
+            // 
+            checkBoxStadium8.AutoSize = true;
+            checkBoxStadium8.Checked = true;
+            checkBoxStadium8.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium8.Location = new System.Drawing.Point(39, 321);
+            checkBoxStadium8.Name = "checkBoxStadium8";
+            checkBoxStadium8.Size = new System.Drawing.Size(98, 19);
+            checkBoxStadium8.TabIndex = 0;
+            checkBoxStadium8.Text = "バトルロイヤル1";
+            checkBoxStadium8.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium23
+            // 
+            checkBoxStadium23.AutoSize = true;
+            checkBoxStadium23.Location = new System.Drawing.Point(39, 696);
+            checkBoxStadium23.Name = "checkBoxStadium23";
+            checkBoxStadium23.Size = new System.Drawing.Size(78, 19);
+            checkBoxStadium23.TabIndex = 0;
+            checkBoxStadium23.Text = "ギャラックス";
+            checkBoxStadium23.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium15
+            // 
+            checkBoxStadium15.AutoSize = true;
+            checkBoxStadium15.Checked = true;
+            checkBoxStadium15.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium15.Location = new System.Drawing.Point(39, 496);
+            checkBoxStadium15.Name = "checkBoxStadium15";
+            checkBoxStadium15.Size = new System.Drawing.Size(70, 19);
+            checkBoxStadium15.TabIndex = 0;
+            checkBoxStadium15.Text = "プランテス";
+            checkBoxStadium15.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium7
+            // 
+            checkBoxStadium7.AutoSize = true;
+            checkBoxStadium7.Checked = true;
+            checkBoxStadium7.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium7.Location = new System.Drawing.Point(39, 296);
+            checkBoxStadium7.Name = "checkBoxStadium7";
+            checkBoxStadium7.Size = new System.Drawing.Size(80, 19);
+            checkBoxStadium7.TabIndex = 0;
+            checkBoxStadium7.Text = "ハイジャンプ";
+            checkBoxStadium7.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium22
+            // 
+            checkBoxStadium22.AutoSize = true;
+            checkBoxStadium22.Checked = true;
+            checkBoxStadium22.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium22.Location = new System.Drawing.Point(39, 671);
+            checkBoxStadium22.Name = "checkBoxStadium22";
+            checkBoxStadium22.Size = new System.Drawing.Size(85, 19);
+            checkBoxStadium22.TabIndex = 0;
+            checkBoxStadium22.Text = "チェックナイト";
+            checkBoxStadium22.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium14
+            // 
+            checkBoxStadium14.AutoSize = true;
+            checkBoxStadium14.Location = new System.Drawing.Point(39, 471);
+            checkBoxStadium14.Name = "checkBoxStadium14";
+            checkBoxStadium14.Size = new System.Drawing.Size(76, 19);
+            checkBoxStadium14.TabIndex = 0;
+            checkBoxStadium14.Text = "デスマッチ5";
+            checkBoxStadium14.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium21
+            // 
+            checkBoxStadium21.AutoSize = true;
+            checkBoxStadium21.Checked = true;
+            checkBoxStadium21.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium21.Location = new System.Drawing.Point(39, 646);
+            checkBoxStadium21.Name = "checkBoxStadium21";
+            checkBoxStadium21.Size = new System.Drawing.Size(98, 19);
+            checkBoxStadium21.TabIndex = 0;
+            checkBoxStadium21.Text = "スチールオーガン";
+            checkBoxStadium21.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium13
+            // 
+            checkBoxStadium13.AutoSize = true;
+            checkBoxStadium13.Location = new System.Drawing.Point(39, 446);
+            checkBoxStadium13.Name = "checkBoxStadium13";
+            checkBoxStadium13.Size = new System.Drawing.Size(76, 19);
+            checkBoxStadium13.TabIndex = 0;
+            checkBoxStadium13.Text = "デスマッチ4";
+            checkBoxStadium13.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium6
+            // 
+            checkBoxStadium6.AutoSize = true;
+            checkBoxStadium6.Checked = true;
+            checkBoxStadium6.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium6.Location = new System.Drawing.Point(39, 271);
+            checkBoxStadium6.Name = "checkBoxStadium6";
+            checkBoxStadium6.Size = new System.Drawing.Size(105, 19);
+            checkBoxStadium6.TabIndex = 0;
+            checkBoxStadium6.Text = "ポイントストライク";
+            checkBoxStadium6.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium20
+            // 
+            checkBoxStadium20.AutoSize = true;
+            checkBoxStadium20.Checked = true;
+            checkBoxStadium20.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium20.Location = new System.Drawing.Point(39, 621);
+            checkBoxStadium20.Name = "checkBoxStadium20";
+            checkBoxStadium20.Size = new System.Drawing.Size(77, 19);
+            checkBoxStadium20.TabIndex = 0;
+            checkBoxStadium20.Text = "ヴァレリオン";
+            checkBoxStadium20.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium12
+            // 
+            checkBoxStadium12.AutoSize = true;
+            checkBoxStadium12.Location = new System.Drawing.Point(39, 421);
+            checkBoxStadium12.Name = "checkBoxStadium12";
+            checkBoxStadium12.Size = new System.Drawing.Size(76, 19);
+            checkBoxStadium12.TabIndex = 0;
+            checkBoxStadium12.Text = "デスマッチ3";
+            checkBoxStadium12.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium5
+            // 
+            checkBoxStadium5.AutoSize = true;
+            checkBoxStadium5.Checked = true;
+            checkBoxStadium5.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium5.Location = new System.Drawing.Point(39, 246);
+            checkBoxStadium5.Name = "checkBoxStadium5";
+            checkBoxStadium5.Size = new System.Drawing.Size(87, 19);
+            checkBoxStadium5.TabIndex = 0;
+            checkBoxStadium5.Text = "エアグライダー";
+            checkBoxStadium5.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium19
+            // 
+            checkBoxStadium19.AutoSize = true;
+            checkBoxStadium19.Checked = true;
+            checkBoxStadium19.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium19.Location = new System.Drawing.Point(39, 596);
+            checkBoxStadium19.Name = "checkBoxStadium19";
+            checkBoxStadium19.Size = new System.Drawing.Size(71, 19);
+            checkBoxStadium19.TabIndex = 0;
+            checkBoxStadium19.Text = "アイルーン";
+            checkBoxStadium19.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium11
+            // 
+            checkBoxStadium11.AutoSize = true;
+            checkBoxStadium11.Checked = true;
+            checkBoxStadium11.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium11.Location = new System.Drawing.Point(39, 396);
+            checkBoxStadium11.Name = "checkBoxStadium11";
+            checkBoxStadium11.Size = new System.Drawing.Size(76, 19);
+            checkBoxStadium11.TabIndex = 0;
+            checkBoxStadium11.Text = "デスマッチ2";
+            checkBoxStadium11.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium4
+            // 
+            checkBoxStadium4.AutoSize = true;
+            checkBoxStadium4.Location = new System.Drawing.Point(39, 221);
+            checkBoxStadium4.Name = "checkBoxStadium4";
+            checkBoxStadium4.Size = new System.Drawing.Size(103, 19);
+            checkBoxStadium4.TabIndex = 0;
+            checkBoxStadium4.Text = "ゼロヨンアタック4";
+            checkBoxStadium4.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium18
+            // 
+            checkBoxStadium18.AutoSize = true;
+            checkBoxStadium18.Checked = true;
+            checkBoxStadium18.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium18.Location = new System.Drawing.Point(39, 571);
+            checkBoxStadium18.Name = "checkBoxStadium18";
+            checkBoxStadium18.Size = new System.Drawing.Size(53, 19);
+            checkBoxStadium18.TabIndex = 0;
+            checkBoxStadium18.Text = "コルダ";
+            checkBoxStadium18.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium10
+            // 
+            checkBoxStadium10.AutoSize = true;
+            checkBoxStadium10.Checked = true;
+            checkBoxStadium10.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium10.Location = new System.Drawing.Point(39, 371);
+            checkBoxStadium10.Name = "checkBoxStadium10";
+            checkBoxStadium10.Size = new System.Drawing.Size(76, 19);
+            checkBoxStadium10.TabIndex = 0;
+            checkBoxStadium10.Text = "デスマッチ1";
+            checkBoxStadium10.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium3
+            // 
+            checkBoxStadium3.AutoSize = true;
+            checkBoxStadium3.Checked = true;
+            checkBoxStadium3.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium3.Location = new System.Drawing.Point(39, 196);
+            checkBoxStadium3.Name = "checkBoxStadium3";
+            checkBoxStadium3.Size = new System.Drawing.Size(103, 19);
+            checkBoxStadium3.TabIndex = 0;
+            checkBoxStadium3.Text = "ゼロヨンアタック3";
+            checkBoxStadium3.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium17
+            // 
+            checkBoxStadium17.AutoSize = true;
+            checkBoxStadium17.Checked = true;
+            checkBoxStadium17.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium17.Location = new System.Drawing.Point(39, 546);
+            checkBoxStadium17.Name = "checkBoxStadium17";
+            checkBoxStadium17.Size = new System.Drawing.Size(69, 19);
+            checkBoxStadium17.TabIndex = 0;
+            checkBoxStadium17.Text = "サンドーラ";
+            checkBoxStadium17.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium9
+            // 
+            checkBoxStadium9.AutoSize = true;
+            checkBoxStadium9.Location = new System.Drawing.Point(39, 346);
+            checkBoxStadium9.Name = "checkBoxStadium9";
+            checkBoxStadium9.Size = new System.Drawing.Size(98, 19);
+            checkBoxStadium9.TabIndex = 0;
+            checkBoxStadium9.Text = "バトルロイヤル2";
+            checkBoxStadium9.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium2
+            // 
+            checkBoxStadium2.AutoSize = true;
+            checkBoxStadium2.Checked = true;
+            checkBoxStadium2.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium2.Location = new System.Drawing.Point(39, 171);
+            checkBoxStadium2.Name = "checkBoxStadium2";
+            checkBoxStadium2.Size = new System.Drawing.Size(103, 19);
+            checkBoxStadium2.TabIndex = 0;
+            checkBoxStadium2.Text = "ゼロヨンアタック2";
+            checkBoxStadium2.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxStadium1
+            // 
+            checkBoxStadium1.AutoSize = true;
+            checkBoxStadium1.Checked = true;
+            checkBoxStadium1.CheckState = System.Windows.Forms.CheckState.Checked;
+            checkBoxStadium1.Location = new System.Drawing.Point(39, 146);
+            checkBoxStadium1.Name = "checkBoxStadium1";
+            checkBoxStadium1.Size = new System.Drawing.Size(103, 19);
+            checkBoxStadium1.TabIndex = 0;
+            checkBoxStadium1.Text = "ゼロヨンアタック1";
+            checkBoxStadium1.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new System.Drawing.Point(231, 220);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(13, 15);
+            label8.TabIndex = 15;
+            label8.Text = "0";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new System.Drawing.Point(16, 27);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new System.Drawing.Size(459, 23);
+            textBox1.TabIndex = 1;
+            textBox1.TabStop = false;
+            textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem1, toolStripMenuItem4, toolStripMenuItem7 });
+            menuStrip1.Location = new System.Drawing.Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new System.Drawing.Size(504, 24);
+            menuStrip1.TabIndex = 1;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem2, toolStripMenuItem3 });
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new System.Drawing.Size(57, 20);
+            toolStripMenuItem1.Text = "Version";
+            // 
+            // toolStripMenuItem2
+            // 
+            toolStripMenuItem2.Checked = true;
+            toolStripMenuItem2.CheckState = System.Windows.Forms.CheckState.Checked;
+            toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
+            toolStripMenuItem2.Text = "Japanese";
+            toolStripMenuItem2.Click += VersionSelect;
+            // 
+            // toolStripMenuItem3
+            // 
+            toolStripMenuItem3.Name = "toolStripMenuItem3";
+            toolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
+            toolStripMenuItem3.Text = "English";
+            toolStripMenuItem3.Click += VersionSelect;
+            // 
+            // toolStripMenuItem4
+            // 
+            toolStripMenuItem4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem5, toolStripMenuItem6 });
+            toolStripMenuItem4.Name = "toolStripMenuItem4";
+            toolStripMenuItem4.Size = new System.Drawing.Size(71, 20);
+            toolStripMenuItem4.Text = "Language";
+            // 
+            // toolStripMenuItem5
+            // 
+            toolStripMenuItem5.Checked = true;
+            toolStripMenuItem5.CheckState = System.Windows.Forms.CheckState.Checked;
+            toolStripMenuItem5.Name = "toolStripMenuItem5";
+            toolStripMenuItem5.Size = new System.Drawing.Size(121, 22);
+            toolStripMenuItem5.Text = "Japanese";
+            toolStripMenuItem5.Click += LanguageSelect;
+            // 
+            // toolStripMenuItem6
+            // 
+            toolStripMenuItem6.Name = "toolStripMenuItem6";
+            toolStripMenuItem6.Size = new System.Drawing.Size(121, 22);
+            toolStripMenuItem6.Text = "English";
+            toolStripMenuItem6.Click += LanguageSelect;
+            // 
+            // toolStripMenuItem7
+            // 
+            toolStripMenuItem7.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripMenuItem8, toolStripMenuItem9, toolStripMenuItem10, toolStripMenuItem11 });
+            toolStripMenuItem7.Name = "toolStripMenuItem7";
+            toolStripMenuItem7.Size = new System.Drawing.Size(74, 20);
+            toolStripMenuItem7.Text = "Run Mode";
+            // 
+            // toolStripMenuItem8
+            // 
+            toolStripMenuItem8.Name = "toolStripMenuItem8";
+            toolStripMenuItem8.Size = new System.Drawing.Size(119, 22);
+            toolStripMenuItem8.Text = "Air Ride";
+            toolStripMenuItem8.Click += RunModeSelect;
+            // 
+            // toolStripMenuItem9
+            // 
+            toolStripMenuItem9.Name = "toolStripMenuItem9";
+            toolStripMenuItem9.Size = new System.Drawing.Size(119, 22);
+            toolStripMenuItem9.Text = "Top Ride";
+            toolStripMenuItem9.Click += RunModeSelect;
+            // 
+            // toolStripMenuItem10
+            // 
+            toolStripMenuItem10.Name = "toolStripMenuItem10";
+            toolStripMenuItem10.Size = new System.Drawing.Size(119, 22);
+            toolStripMenuItem10.Text = "City Trial";
+            toolStripMenuItem10.Click += RunModeSelect;
+            // 
+            // toolStripMenuItem11
+            // 
+            toolStripMenuItem11.Checked = true;
+            toolStripMenuItem11.CheckState = System.Windows.Forms.CheckState.Checked;
+            toolStripMenuItem11.Name = "toolStripMenuItem11";
+            toolStripMenuItem11.Size = new System.Drawing.Size(119, 22);
+            toolStripMenuItem11.Text = "100%";
+            toolStripMenuItem11.Click += RunModeSelect;
+            // 
+            // button1
+            // 
+            button1.Location = new System.Drawing.Point(400, 66);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "Reset";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += Reset;
+            // 
+            // button2
+            // 
+            button2.Location = new System.Drawing.Point(319, 66);
+            button2.Name = "button2";
+            button2.Size = new System.Drawing.Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "Check";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += Check;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 961);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.textBox1);
-            this.KeyPreview = true;
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "KarChecklistChecker";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KarChecklistChecker_KeyDown);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Rex)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Scooter)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bike)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Slick)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bulk)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Turbo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Rocket)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Swerve)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Wagon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Shadow)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Compact)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Warp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Winged)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Formula)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Jet)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(504, 961);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(tabControl1);
+            Controls.Add(menuStrip1);
+            Controls.Add(textBox1);
+            KeyPreview = true;
+            MainMenuStrip = menuStrip1;
+            Name = "Form1";
+            Text = "KAR_RTATool";
+            Load += Form1_Load;
+            KeyDown += Hotkeys;
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage1.PerformLayout();
+            tabPage2.ResumeLayout(false);
+            tabPage2.PerformLayout();
+            tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox27).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox26).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox25).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox24).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox36).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox35).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox34).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox33).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox32).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox31).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox30).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox28).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox29).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Rex).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Scooter).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Bike).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Slick).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Bulk).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Turbo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Rocket).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Swerve).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Wagon).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Shadow).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Compact).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Warp).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Winged).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Formula).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Jet).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -3037,6 +3265,26 @@ namespace KAR_RTATool
         private System.Windows.Forms.PictureBox Formula;
         private System.Windows.Forms.PictureBox Jet;
         private System.Windows.Forms.Button ClearMachine_id;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.NumericUpDown numericUpDown9;
+        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button5;
     }
 }
 

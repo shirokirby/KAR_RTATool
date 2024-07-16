@@ -1,10 +1,6 @@
-﻿using System;
+﻿using OpenCvSharp;
+using System;
 using System.Windows.Forms;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using OpenCvSharp;
-using System.Collections.Generic;
 
 namespace KAR_RTATool
 {
@@ -213,22 +209,6 @@ namespace KAR_RTATool
             return;
         }
 
-        private void KarChecklistChecker_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Control && e.KeyCode == Keys.Insert)
-            {
-                Run();
-                ListChecked();
-            }
-            /*
-            if (e.Control && e.KeyCode == Keys.C)
-            {
-                StadiumPrediction();
-            }
-            */
-            return;
-        }
-
         private void Run()
         {
             int checkBoxNumber;
@@ -247,7 +227,7 @@ namespace KAR_RTATool
                 else if (this.toolStripMenuItem10.Checked == true) temps = System.IO.Directory.GetFiles(@".\temp\checkboxes\en\ct", "*.png");
                 else if (this.toolStripMenuItem11.Checked == true) temps = System.IO.Directory.GetFiles(@".\temp\checkboxes\en", "*.png", System.IO.SearchOption.AllDirectories);
             }
-            
+
             string[] files = System.IO.Directory.GetFiles(@".\pic", "*.png");
             for (int i = 0; i < files.Length; i += 1)
             {
@@ -270,7 +250,7 @@ namespace KAR_RTATool
                     {
                         checkBoxNumber = Int32.Parse(System.IO.Path.GetFileName(temps[j]).Replace(".png", ""));
                         if (ValidateNumber(matOrig, checkBoxNumber) <= 0.93) continue;
-                        
+
                         if (checkBoxNumber < 121)
                         {
                             checkBoxes1[checkBoxNumber - 1].Checked = true;
@@ -3440,134 +3420,6 @@ namespace KAR_RTATool
             return;
         }
 
-        /*
-        private void InitialDetectSeed(object sender, EventArgs e)
-        {
-            DetectMachineId();
-            if (this.textBox2.Text.Length == 12)
-            {
-                char[] machine_id = this.textBox2.Text.ToCharArray();
-                long seed = DetectSeed(machine_id, 4294967308, 12);
-                this.textBox3.Text = seed.ToString("X");
-                this.label8.Text = seed.ToString("X");
-                PrintStadium(seed);
-            }
-            return;
-        }
-        */
-
-        /*
-        private void KarStadiumPrediction(object sender, EventArgs e)
-        {
-            StadiumPrediction();
-            return;
-        }
-        */
-
-        /*
-        private void StadiumPrediction()
-        {
-            DetectMachineId();
-            if (this.textBox2.Text.Length == 12)
-            {
-                char[] machine_id = this.textBox2.Text.ToCharArray();
-                long seed = DetectSeed(machine_id, 42949672, 12);
-                this.textBox3.Text = seed.ToString("X");
-                if (seed >= 0) this.label8.Text = seed.ToString("X");
-                PrintStadium(seed);
-            }
-            return;
-        }
-        */
-
-        private void DetectMachineId()
-        {
-            double threshold = 0.93;
-            string machines_id = null;
-            string[] temps = Directory.GetFiles(@".\temp\2p", "*.png");
-            string[] temps2 = Directory.GetFiles(@".\temp\3p", "*.png");
-            string[] temps3 = Directory.GetFiles(@".\temp\4p", "*.png");
-            var files = Directory.GetFiles(@".\pic", "*.png").OrderBy(filePath => File.GetLastWriteTime(filePath).Date).ThenBy(filePath => File.GetLastWriteTime(filePath).TimeOfDay).ToList();
-            for (int i = 0; i < files.Count; i += 1)
-            {
-                Mat mat = new Mat();
-                Mat mat2 = new Mat();
-                Mat mat3 = new Mat();
-                Mat matOrig = new Mat(files[i]);
-                mat = matOrig.Clone(new Rect(54, 307, 116, 85));
-                mat2 = matOrig.Clone(new Rect(538, 67, 116, 85));
-                mat3 = matOrig.Clone(new Rect(538, 311, 116, 85));
-                //Cv2.ImWrite(@".\temp\2p\" + (i+1).ToString() + ".png", mat);
-                for (int j = 0; j < temps.Length; j += 1)
-                {
-                    Mat temp = new Mat(temps[j]);
-                    Mat result = new Mat();
-
-                    Cv2.MatchTemplate(mat, temp, result, TemplateMatchModes.CCoeffNormed);
-                    OpenCvSharp.Point minloc, maxloc;
-                    double minval, maxval;
-                    Cv2.MinMaxLoc(result, out minval, out maxval, out minloc, out maxloc);
-
-                    if (maxval >= threshold)
-                    {
-                        machines_id += System.IO.Path.GetFileName(temps[j]).Replace(".png", "");
-                        // this.listBox1.Items.Add(maxval);
-                        break;
-                    }
-                    temp.Dispose();
-                    result.Dispose();
-                }
-                for (int j = 0; j < temps2.Length; j += 1)
-                {
-                    Mat temp = new Mat(temps2[j]);
-                    Mat result = new Mat();
-
-                    Cv2.MatchTemplate(mat2, temp, result, TemplateMatchModes.CCoeffNormed);
-                    OpenCvSharp.Point minloc, maxloc;
-                    double minval, maxval;
-                    Cv2.MinMaxLoc(result, out minval, out maxval, out minloc, out maxloc);
-
-                    if (maxval >= threshold)
-                    {
-                        machines_id += System.IO.Path.GetFileName(temps2[j]).Replace(".png", "");
-                        break;
-                    }
-                    temp.Dispose();
-                    result.Dispose();
-                }
-                for (int j = 0; j < temps3.Length; j += 1)
-                {
-                    Mat temp = new Mat(temps3[j]);
-                    Mat result = new Mat();
-
-                    Cv2.MatchTemplate(mat3, temp, result, TemplateMatchModes.CCoeffNormed);
-                    OpenCvSharp.Point minloc, maxloc;
-                    double minval, maxval;
-                    Cv2.MinMaxLoc(result, out minval, out maxval, out minloc, out maxloc);
-
-                    if (maxval >= threshold)
-                    {
-                        machines_id += System.IO.Path.GetFileName(temps3[j]).Replace(".png", "");
-                        break;
-                    }
-                    temp.Dispose();
-                    result.Dispose();
-                }
-                mat.Dispose();
-                mat2.Dispose();
-                mat3.Dispose();
-                matOrig.Dispose();
-            }
-            this.Machine_id.Text = machines_id;
-
-            foreach (string pathFrom in System.IO.Directory.EnumerateFiles(@".\pic", "*.png"))
-            {
-                string pathTo = pathFrom.Replace(@".\pic", @".\pic\rm");
-                System.IO.File.Move(pathFrom, pathTo, true);
-            }
-            return;
-        }
-
         private uint[] StadiumRate()
         {
             uint[] stadium = { 5, 5, 5, 5, 10, 20, 10, 10, 10, 4, 4, 4, 4, 4, 2, 2, 2, 2, 2, 2, 2, 2, 2, 5 };
@@ -3598,325 +3450,58 @@ namespace KAR_RTATool
             return stadium;
         }
 
-        private long DetectSeed(char[] machine_id, long calculate, int id_number)
+        private void PrintStadium(uint[] stadium_number)
         {
-            long r0 = Convert.ToInt64(this.label8.Text, 16);
-            long r1 = 0;
-            long rr0 = r0;
-            long rr1 = 0;
-            int machine_number = 0;
-            for (long i = 0; i < calculate; i++)
-            {
-                r1 = (r0 * 214013 + 2531011) % 4294967296;
-                rr0 = r0;
-                for (int j = 0; j < id_number; j++)
-                {
-                    rr1 = (rr0 * 214013 + 2531011) % 4294967296;
-                    switch ((rr1 / 65536 - 1) / 4369)
-                    {
-                        /*
-                        Seedが0x1111FFFF → ジェット
-                              0x11120000 → フォーミュラ
-
-                        0x2222FFFF → フォーミュラ
-                        0x22230000 → ウィング
-
-                        0x3333FFFF → ウィング
-                        0x33340000 → ワープ
-
-                        0x4444FFFF → ワープ
-                        0x44450000 → ライト
-
-                        0x5555FFFF → ライト
-                        0x55560000 → デビル
-                        */
-                        case 0:
-                            if (machine_id[machine_number] == '1') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 1:
-                            if (machine_id[machine_number] == '2') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 2:
-                            if (machine_id[machine_number] == '3') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 3:
-                            if (machine_id[machine_number] == '4') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 4:
-                            if (machine_id[machine_number] == '5') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 5:
-                            if (machine_id[machine_number] == '6') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 6:
-                            if (machine_id[machine_number] == '7') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 7:
-                            if (machine_id[machine_number] == '8') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 8:
-                            if (machine_id[machine_number] == 'A') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 9:
-                            if (machine_id[machine_number] == 'B') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 10:
-                            if (machine_id[machine_number] == 'C') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 11:
-                            if (machine_id[machine_number] == 'D') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 12:
-                            if (machine_id[machine_number] == 'E') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        case 13:
-                            if (machine_id[machine_number] == 'F') machine_number++;
-                            else machine_number = 0;
-                            break;
-                        default:
-                            if (machine_id[machine_number] == 'G') machine_number++;
-                            else machine_number = 0;
-                            break;
-                    }
-                    rr0 = rr1;
-                    if (machine_number == 0) break;
-                    if (machine_number == id_number) return rr1;
-                }
-                r0 = r1;
-            }
-            return -1;
+            this.listBox1.Items.Clear();
+            StadiumDetector detector = new StadiumDetector();
+            for (int i = 0; i < 100; i++) this.listBox1.Items.Add(i + "\t" + detector.ToString(stadium_number[i], this.toolStripMenuItem5.Checked));
+            return;
         }
 
-        private void PrintStadium(long r0)
+        private void MachineIdToPrediction()
         {
-            uint[] stadium = StadiumRate();
-            long r1;
-            uint rate = 0;
-            for (int i = 0; i < 24; i++) rate += stadium[i]; //スタジアムの出現比率の合計
-            uint threshold = 4294967295 / rate;
-            uint true_threshold; //上位4桁（真の境界）を格納
-            uint stadium_number = 0; //出現するスタジアムのIDを格納する変数
-            this.listBox1.Items.Clear();
-
-            for (int i = 0; i < 100; i++)
+            if (this.Machine_id.Text.Length >= 9)
             {
-                uint stadium_threshold = 0;
-                r1 = (r0 * 214013 + 2531011) % 4294967296;
-                
-                for (int j = 0; j < 24; j++)
-                {
-                    stadium_threshold += stadium[j];
-                    if (stadium_threshold == 0) continue;
-                    true_threshold = threshold * stadium_threshold / 65536;
-                    if (r1 / 65536 <= true_threshold)
-                    {
-                        stadium_number = (uint)j;
-                        break;
-                    }
-                }
-                if (this.toolStripMenuItem5.Checked == true)
-                {
-                    switch (stadium_number)
-                    {
-                        case 0:
-                            this.listBox1.Items.Add(i + "\tゼロヨンアタック1");
-                            break;
-                        case 1:
-                            this.listBox1.Items.Add(i + "\tゼロヨンアタック2");
-                            break;
-                        case 2:
-                            this.listBox1.Items.Add(i + "\tゼロヨンアタック3");
-                            break;
-                        case 3:
-                            this.listBox1.Items.Add(i + "\tゼロヨンアタック4");
-                            break;
-                        case 4:
-                            this.listBox1.Items.Add(i + "\tエアグライダー");
-                            break;
-                        case 5:
-                            this.listBox1.Items.Add(i + "\tポイントストライク");
-                            break;
-                        case 6:
-                            this.listBox1.Items.Add(i + "\tハイジャンプ");
-                            break;
-                        case 7:
-                            this.listBox1.Items.Add(i + "\tバトルロイヤル1");
-                            break;
-                        case 8:
-                            this.listBox1.Items.Add(i + "\tバトルロイヤル2");
-                            break;
-                        case 9:
-                            this.listBox1.Items.Add(i + "\tデスマッチ1");
-                            break;
-                        case 10:
-                            this.listBox1.Items.Add(i + "\tデスマッチ2");
-                            break;
-                        case 11:
-                            this.listBox1.Items.Add(i + "\tデスマッチ3");
-                            break;
-                        case 12:
-                            this.listBox1.Items.Add(i + "\tデスマッチ4");
-                            break;
-                        case 13:
-                            this.listBox1.Items.Add(i + "\tデスマッチ5");
-                            break;
-                        case 14:
-                            this.listBox1.Items.Add(i + "\tプランテス");
-                            break;
-                        case 15:
-                            this.listBox1.Items.Add(i + "\tマグヒート");
-                            break;
-                        case 16:
-                            this.listBox1.Items.Add(i + "\tサンドーラ");
-                            break;
-                        case 17:
-                            this.listBox1.Items.Add(i + "\tコルダ");
-                            break;
-                        case 18:
-                            this.listBox1.Items.Add(i + "\tアイルーン");
-                            break;
-                        case 19:
-                            this.listBox1.Items.Add(i + "\tヴァレリオン");
-                            break;
-                        case 20:
-                            this.listBox1.Items.Add(i + "\tスチールオーガン");
-                            break;
-                        case 21:
-                            this.listBox1.Items.Add(i + "\tチェックナイト");
-                            break;
-                        case 22:
-                            this.listBox1.Items.Add(i + "\tギャラックス");
-                            break;
-                        default:
-                            this.listBox1.Items.Add(i + "\tVSデデデ");
-                            break;
-                    }
-                }
-                else if (this.toolStripMenuItem6.Checked == true)
-                {
-                    switch (stadium_number)
-                    {
-                        case 0:
-                            this.listBox1.Items.Add(i + "\tDrag Race 1");
-                            break;
-                        case 1:
-                            this.listBox1.Items.Add(i + "\tDrag Race 2");
-                            break;
-                        case 2:
-                            this.listBox1.Items.Add(i + "\tDrag Race 3");
-                            break;
-                        case 3:
-                            this.listBox1.Items.Add(i + "\tDrag Race 4");
-                            break;
-                        case 4:
-                            this.listBox1.Items.Add(i + "\tAir Glider");
-                            break;
-                        case 5:
-                            this.listBox1.Items.Add(i + "\tTarget Flight");
-                            break;
-                        case 6:
-                            this.listBox1.Items.Add(i + "\tHigh Jump");
-                            break;
-                        case 7:
-                            this.listBox1.Items.Add(i + "\tKirby Malee 1");
-                            break;
-                        case 8:
-                            this.listBox1.Items.Add(i + "\tKirby Melee 2");
-                            break;
-                        case 9:
-                            this.listBox1.Items.Add(i + "\tDestruction Derby 1");
-                            break;
-                        case 10:
-                            this.listBox1.Items.Add(i + "\tDestruction Derby 2");
-                            break;
-                        case 11:
-                            this.listBox1.Items.Add(i + "\tDestruction Derby 3");
-                            break;
-                        case 12:
-                            this.listBox1.Items.Add(i + "\tDestruction Derby 4");
-                            break;
-                        case 13:
-                            this.listBox1.Items.Add(i + "\tDestruction Derby 5");
-                            break;
-                        case 14:
-                            this.listBox1.Items.Add(i + "\tFantasy Meadows");
-                            break;
-                        case 15:
-                            this.listBox1.Items.Add(i + "\tMagma Flows");
-                            break;
-                        case 16:
-                            this.listBox1.Items.Add(i + "\tSky Sands");
-                            break;
-                        case 17:
-                            this.listBox1.Items.Add(i + "\tFrozen Hillside");
-                            break;
-                        case 18:
-                            this.listBox1.Items.Add(i + "\tBeanstalk Park");
-                            break;
-                        case 19:
-                            this.listBox1.Items.Add(i + "\tCelestial Valley");
-                            break;
-                        case 20:
-                            this.listBox1.Items.Add(i + "\tMachine Passage");
-                            break;
-                        case 21:
-                            this.listBox1.Items.Add(i + "\tChecker Knights");
-                            break;
-                        case 22:
-                            this.listBox1.Items.Add(i + "\tNebula Belt");
-                            break;
-                        default:
-                            this.listBox1.Items.Add(i + "\tVS. King Dedede");
-                            break;
-                    }
-                }
-                r0 = r1;
+                SeedDetector detector = new SeedDetector();
+                StadiumDetector detector2 = new StadiumDetector();
+                long r0 = Convert.ToInt64(this.label8.Text, 16);
+                char[] machine_id = this.Machine_id.Text.ToCharArray();
+                long seed = detector.DetectSeed(machine_id, r0, 42949672, this.Machine_id.Text.Length);
+                this.Seed.Text = seed.ToString("X");
+                if (seed >= 0) this.label8.Text = seed.ToString("X");
+                uint[] detect_stadium = detector2.DetectStadium(seed, StadiumRate());
+                PrintStadium(detect_stadium);
             }
             return;
         }
 
-        private void MachineIdToPrediction(object sender, EventArgs e)
+        private void MachineIdToPrediction_Click(object sender, EventArgs e)
         {
-            if (this.Machine_id.Text.Length >= 9)
-            {
-                char[] machine_id = this.Machine_id.Text.ToCharArray();
-                long seed = DetectSeed(machine_id, 42949672, this.Machine_id.Text.Length);
-                this.Seed.Text = seed.ToString("X");
-                if (seed >= 0) this.label8.Text = seed.ToString("X");
-                PrintStadium(seed);
-            }
+            MachineIdToPrediction();
             return;
         }
 
         private void InitialMachineIdToPrediction(object sender, EventArgs e)
         {
-            if (this.Machine_id.Text.Length >= 10)
+            if (this.Machine_id.Text.Length >= 9)
             {
+                AreaSeedDetector detector = new AreaSeedDetector();
+                StadiumDetector detector2 = new StadiumDetector();
                 char[] machine_id = this.Machine_id.Text.ToCharArray();
-                long seed = DetectSeed(machine_id, 4294967308, this.Machine_id.Text.Length);
+                long seed = detector.solve(machine_id);
                 this.Seed.Text = seed.ToString("X");
                 if (seed >= 0) this.label8.Text = seed.ToString("X");
-                PrintStadium(seed);
+                uint[] detect_stadium = detector2.DetectStadium(seed, StadiumRate());
+                PrintStadium(detect_stadium);
             }
             return;
         }
 
         private void SeedToPrediction(object sender, EventArgs e)
         {
-            PrintStadium(Convert.ToInt64(this.label8.Text, 16));
+            StadiumDetector detector = new StadiumDetector();
+            uint[] detect_stadium = detector.DetectStadium(Convert.ToInt64(this.label8.Text, 16), StadiumRate());
+            PrintStadium(detect_stadium);
             return;
         }
 
@@ -4013,6 +3598,87 @@ namespace KAR_RTATool
         private void ClearMachine_id_Click(object sender, EventArgs e)
         {
             this.Machine_id.Text = "";
+            return;
+        }
+
+        private void AllUp_Click(object sender, EventArgs e)
+        {
+            this.numericUpDown1.Value++;
+            this.numericUpDown2.Value++;
+            this.numericUpDown3.Value++;
+            this.numericUpDown4.Value++;
+            this.numericUpDown5.Value++;
+            this.numericUpDown6.Value++;
+            this.numericUpDown7.Value++;
+            this.numericUpDown8.Value++;
+            this.numericUpDown9.Value++;
+            return;
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            this.numericUpDown1.Value = 0;
+            this.numericUpDown2.Value = 0;
+            this.numericUpDown3.Value = 0;
+            this.numericUpDown4.Value = 0;
+            this.numericUpDown5.Value = 0;
+            this.numericUpDown6.Value = 0;
+            this.numericUpDown7.Value = 0;
+            this.numericUpDown8.Value = 0;
+            this.numericUpDown9.Value = 0;
+            return;
+        }
+
+        private void Hotkeys(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1) this.tabControl1.SelectTab(this.tabPage1);
+            if (e.KeyCode == Keys.F2) this.tabControl1.SelectTab(this.tabPage2);
+            if (e.KeyCode == Keys.F3) this.tabControl1.SelectTab(this.tabPage3);
+            if (e.KeyCode == Keys.F4) this.tabControl1.SelectTab(this.tabPage4);
+            if (e.KeyCode == Keys.D1) this.Machine_id.Text += '1';
+            if (e.KeyCode == Keys.D2) this.Machine_id.Text += '2';
+            if (e.KeyCode == Keys.D3) this.Machine_id.Text += '3';
+            if (e.KeyCode == Keys.D4) this.Machine_id.Text += '4';
+            if (e.KeyCode == Keys.D5) this.Machine_id.Text += '5';
+            if (e.KeyCode == Keys.D6) this.Machine_id.Text += '6';
+            if (e.KeyCode == Keys.D7) this.Machine_id.Text += '7';
+            if (e.KeyCode == Keys.D8) this.Machine_id.Text += '8';
+            if (e.KeyCode == Keys.A) this.Machine_id.Text += 'A';
+            if (e.KeyCode == Keys.B) this.Machine_id.Text += 'B';
+            if (e.KeyCode == Keys.C) this.Machine_id.Text += 'C';
+            if (e.KeyCode == Keys.D) this.Machine_id.Text += 'D';
+            if (e.KeyCode == Keys.E) this.Machine_id.Text += 'E';
+            if (e.KeyCode == Keys.F) this.Machine_id.Text += 'F';
+            if (e.KeyCode == Keys.G) this.Machine_id.Text += 'G';
+            if (e.KeyCode == Keys.NumPad1) this.numericUpDown1.Value++;
+            if (e.KeyCode == Keys.NumPad2) this.numericUpDown2.Value++;
+            if (e.KeyCode == Keys.NumPad3) this.numericUpDown3.Value++;
+            if (e.KeyCode == Keys.NumPad4) this.numericUpDown4.Value++;
+            if (e.KeyCode == Keys.NumPad5) this.numericUpDown5.Value++;
+            if (e.KeyCode == Keys.NumPad6) this.numericUpDown6.Value++;
+            if (e.KeyCode == Keys.NumPad7) this.numericUpDown7.Value++;
+            if (e.KeyCode == Keys.NumPad8) this.numericUpDown8.Value++;
+            if (e.KeyCode == Keys.NumPad9) this.numericUpDown9.Value++;
+            if (e.KeyCode == Keys.NumPad0) 
+            {
+                this.numericUpDown1.Value++;
+                this.numericUpDown2.Value++;
+                this.numericUpDown3.Value++;
+                this.numericUpDown4.Value++;
+                this.numericUpDown5.Value++;
+                this.numericUpDown6.Value++;
+                this.numericUpDown7.Value++;
+                this.numericUpDown8.Value++;
+                this.numericUpDown9.Value++;
+            }
+            if (e.KeyCode == Keys.Return) MachineIdToPrediction();
+            if (e.KeyCode == Keys.Back) this.Machine_id.Text = this.Machine_id.Text.Substring(0, this.Machine_id.Text.Length - 1);
+            if (e.KeyCode == Keys.Delete) this.Machine_id.Text = "";
+            if (e.Control && e.KeyCode == Keys.Insert)
+            {
+                Run();
+                ListChecked();
+            }
             return;
         }
     }
