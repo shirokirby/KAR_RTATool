@@ -1,4 +1,4 @@
-Download https://drive.google.com/file/d/1EU0JU1Wz9ZTzBZrCBx_IOulJ_zuJ_PDK/view?usp=drive_link
+Download https://drive.google.com/file/d/1NgUy22Ir9PaNU_MC3U7gPLeF_0U_U0I0/view?usp=drive_link
 
 ## 前提知識
 カービィのエアライドで使われる乱数は、メニュー画面では決められた動作をする際のみ消費します。

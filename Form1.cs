@@ -3601,40 +3601,12 @@ namespace KAR_RTATool
             return;
         }
 
-        private void AllUp_Click(object sender, EventArgs e)
-        {
-            this.numericUpDown1.Value++;
-            this.numericUpDown2.Value++;
-            this.numericUpDown3.Value++;
-            this.numericUpDown4.Value++;
-            this.numericUpDown5.Value++;
-            this.numericUpDown6.Value++;
-            this.numericUpDown7.Value++;
-            this.numericUpDown8.Value++;
-            this.numericUpDown9.Value++;
-            return;
-        }
-
-        private void Delete_Click(object sender, EventArgs e)
-        {
-            this.numericUpDown1.Value = 0;
-            this.numericUpDown2.Value = 0;
-            this.numericUpDown3.Value = 0;
-            this.numericUpDown4.Value = 0;
-            this.numericUpDown5.Value = 0;
-            this.numericUpDown6.Value = 0;
-            this.numericUpDown7.Value = 0;
-            this.numericUpDown8.Value = 0;
-            this.numericUpDown9.Value = 0;
-            return;
-        }
-
         private void Hotkeys(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.F1) this.tabControl1.SelectTab(this.tabPage1);
-            if (e.KeyCode == Keys.F2) this.tabControl1.SelectTab(this.tabPage2);
-            if (e.KeyCode == Keys.F3) this.tabControl1.SelectTab(this.tabPage3);
-            if (e.KeyCode == Keys.F4) this.tabControl1.SelectTab(this.tabPage4);
+            if (e.KeyCode == Keys.F16) this.tabControl1.SelectTab(this.tabPage1);
+            if (e.KeyCode == Keys.F17) this.tabControl1.SelectTab(this.tabPage2);
+            if (e.KeyCode == Keys.F18) this.tabControl1.SelectTab(this.tabPage3);
+            if (e.KeyCode == Keys.F19) this.tabControl1.SelectTab(this.tabPage4);
             if (e.KeyCode == Keys.D1) this.Machine_id.Text += '1';
             if (e.KeyCode == Keys.D2) this.Machine_id.Text += '2';
             if (e.KeyCode == Keys.D3) this.Machine_id.Text += '3';
@@ -3650,30 +3622,9 @@ namespace KAR_RTATool
             if (e.KeyCode == Keys.E) this.Machine_id.Text += 'E';
             if (e.KeyCode == Keys.F) this.Machine_id.Text += 'F';
             if (e.KeyCode == Keys.G) this.Machine_id.Text += 'G';
-            if (e.KeyCode == Keys.NumPad1) this.numericUpDown1.Value++;
-            if (e.KeyCode == Keys.NumPad2) this.numericUpDown2.Value++;
-            if (e.KeyCode == Keys.NumPad3) this.numericUpDown3.Value++;
-            if (e.KeyCode == Keys.NumPad4) this.numericUpDown4.Value++;
-            if (e.KeyCode == Keys.NumPad5) this.numericUpDown5.Value++;
-            if (e.KeyCode == Keys.NumPad6) this.numericUpDown6.Value++;
-            if (e.KeyCode == Keys.NumPad7) this.numericUpDown7.Value++;
-            if (e.KeyCode == Keys.NumPad8) this.numericUpDown8.Value++;
-            if (e.KeyCode == Keys.NumPad9) this.numericUpDown9.Value++;
-            if (e.KeyCode == Keys.NumPad0) 
-            {
-                this.numericUpDown1.Value++;
-                this.numericUpDown2.Value++;
-                this.numericUpDown3.Value++;
-                this.numericUpDown4.Value++;
-                this.numericUpDown5.Value++;
-                this.numericUpDown6.Value++;
-                this.numericUpDown7.Value++;
-                this.numericUpDown8.Value++;
-                this.numericUpDown9.Value++;
-            }
-            if (e.KeyCode == Keys.Return) MachineIdToPrediction();
-            if (e.KeyCode == Keys.Back) this.Machine_id.Text = this.Machine_id.Text.Substring(0, this.Machine_id.Text.Length - 1);
-            if (e.KeyCode == Keys.Delete) this.Machine_id.Text = "";
+            if (e.KeyCode == Keys.F13) MachineIdToPrediction();
+            if (e.KeyCode == Keys.F14) this.Machine_id.Text = this.Machine_id.Text.Substring(0, this.Machine_id.Text.Length - 1);
+            if (e.KeyCode == Keys.F15) this.Machine_id.Text = "";
             if (e.Control && e.KeyCode == Keys.Insert)
             {
                 Run();
